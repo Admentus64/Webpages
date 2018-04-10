@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Pensionat Sjöstugan - Förfrågan om rumsbokning</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="events.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+	<header>
+		<h1>Pensionat Sjöstugan</h1>
+	</header>
+	<main>
+		<h3>Förfrågan om rumsbokning</h3>
+		<form id="booking" method="post">
+			<fieldset id="room">
+				<legend>Val av rum</legend>
+				<label><input type="radio" name="roomType" value="enkelrum,600" checked> Enkelrum (600 kr)</label><br>
+				<label><input type="radio" name="roomType" value="dubbelrum,800"> Dubbelrum (800 kr)</label><br>
+				<label><input type="radio" name="roomType" value="familjerum,950"> Familjerum (950 kr)</label>
+				<label> --- Antal personer 
+					<select name="persons">
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+					</select> (anges endast för famlijerum)
+				</label>
+			</fieldset>
+			<fieldset id="date">
+				<legend>Datum och antal nätter</legend>
+				<label>* Ankomstdatum <span class="contentadvice">(åååå-mm-dd)</span> <input type="date" name="arrivaldate" required></label>
+				<label>* Antal nätter 
+					<select name="nights">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">1 vecka</option>
+						<option value="14">2 veckor</option>
+					</select>
+				</label>
+			</fieldset>
+			<fieldset id="extra">
+				<legend>Tillägg</legend>
+				<label><input type="checkbox" name="addition" value="Internet,40"> Internet (40 kr)</label><br>
+				<label><input type="checkbox" name="addition" value="parkering,80"> Parkering (80 kr)</label><br>
+				<label><input type="checkbox" name="addition" value="sjöutsikt,100"> Sjöutsikt (100 kr) - ej tillgängligt i familjerum</label>
+				<p>Kostnader per dygn.</p>
+			</fieldset>
+			<fieldset id="total">
+				<legend>Total kostnad</legend>
+				<p>Dina val ger en kostnad på <span id="totalCost">0</span> kr.</p>
+			</fieldset>
+			<fieldset id="campaign">
+				<legend>Kampanj</legend>
+				<label>Om du har en kampanjkod, anger du den här <input type="text" name="campaigncode"></label>
+			</fieldset>
+			<fieldset id="customer">
+				<legend>Kund</legend>
+				<p><label><span>* Namn</span><input type="text" name="name" id="name" size="40" required></label></p>
+				<p><label><span>* Gatuadress</span><input type="text" name="street" id="street" size="40" required></label></p>
+				<p><label><span>* Postnummer</span><input type="text" name="zipcode" id="zipcode" size="5" maxlength="5" required></label> <span></span></p>
+				<p><label><span>* Ort</span><input type="text" name="city" id="city" size="40" required></label></p>
+				<p><label><span>Telefon</span><input type="text" name="telephone" id="telephone" size="15"></label> <span></span></p>
+				<p><label><span>* E-post</span><input type="email" name="email" id="email" size="40" required></label></p>
+			</fieldset>
+			<p id="submitbtn"><input type="submit" value="Skicka förfrågan"></p>
+		</form>
+	</main>
+</div>
+</body>
+</html>

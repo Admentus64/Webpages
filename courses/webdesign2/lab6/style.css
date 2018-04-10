@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, header, nav, main, section, footer {margin:0; padding:0;}
+header, nav, main, footer, section {display:block;} /* För webbläsare utan stöd för HTML5 */
+
+body {background-color:#FC6; color:#000; font-family:Tahoma, Geneva, sans-serif; font-size:12px;}
+
+#wrapper {max-width:800px; margin:0 auto; background-color:#FFF;}
+
+header {background-color:#F90; padding:10px;}
+header h1 {margin:10px;}
+
+main {margin:20px;}
+
+#booking {padding:20px;}
+#booking fieldset {background-color:#EEE; margin-bottom:20px;}
+#booking legend {font-style:italic; font-weight:bold;}
+#submitbtn {text-align:right;}
+
+#room label, #extra label {line-height:2em;}
+
+#date label {margin-right:30px;}
+
+#customer span {font-size:80%; color:#F00;}
+#customer span:first-child {display:inline-block; width:100px; text-align:left; font-size:100%; color:#000;}
+
+.contentadvice {font-size:80%; color:#999;}

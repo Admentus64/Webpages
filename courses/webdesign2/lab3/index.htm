@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>1ME322, Laboration 3 - Objekt i JavaScript</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>1ME322, Laboration 3 - Objekt i JavaScript</h1>
+	</header>
+	<main>
+		<h1>Spelet Hänga gubbe</h1>
+		<p>Välkommen till spelet Hänga gubbe. Datorn väljer ett ord slumpmässigt och du gissar ordet genom att trycka på bokstavsknapparna.</p>
+		<p><button type="button" id="startGameBtn">Starta spelet</button></p>
+		<div id="gameBoard">
+			<div id="letterButtons">
+				<button type="button" value="A">A</button>
+				<button type="button" value="B">B</button>
+				<button type="button" value="C">C</button>
+				<button type="button" value="D">D</button>
+				<button type="button" value="E">E</button>
+				<button type="button" value="F">F</button>
+				<button type="button" value="G">G</button>
+				<button type="button" value="H">H</button>
+				<button type="button" value="I">I</button>
+				<button type="button" value="J">J</button>
+				<button type="button" value="K">K</button>
+				<button type="button" value="L">L</button>
+				<button type="button" value="M">M</button>
+				<button type="button" value="N">N</button>
+				<button type="button" value="O">O</button>
+				<button type="button" value="P">P</button>
+				<button type="button" value="Q">Q</button>
+				<button type="button" value="R">R</button>
+				<button type="button" value="S">S</button>
+				<button type="button" value="T">T</button>
+				<button type="button" value="U">U</button>
+				<button type="button" value="V">V</button>
+				<button type="button" value="W">W</button>
+				<button type="button" value="X">X</button>
+				<button type="button" value="Y">Y</button>
+				<button type="button" value="Z">Z</button>
+				<button type="button" value="Å">Å</button>
+				<button type="button" value="Ä">Ä</button>
+				<button type="button" value="Ö">Ö</button>
+			</div>
+			<div id="letterBoxes"></div> <!-- Här lägger programmet en ruta per bokstav -->
+			<img id="hangman" src="pics/h0.png" alt="Galge och gubbe">
+		</div> <!-- End gameBoard -->
+		<div id="message"></div> <!-- Här skriver programmet meddelanden till användaren -->
+	</main>
+	<footer>
+		Laboration i 1ME322 Webbdteknik 2 på Linnéuniversitetet
+	</footer>
+</body>
+</html>

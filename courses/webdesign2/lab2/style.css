@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+html, body, header, nav, main, footer, div {margin:0; padding:0;}
+body {background-color:#FC9; color:#000; font-family:Verdana, Geneva, sans-serif; font-size:12px; max-width:900px; margin:0 auto;}
+
+header {background-color:#C60; color:#FFF; padding:10px;}
+header h1 {margin:0;}
+
+main {padding:10px;}
+
+footer {padding:5px 10px; border-top:1px solid #666; margin-top:20px; color:#333; font-size:0.8em; font-style:italic;}
+
+#inputForm {padding-bottom:10px; border-bottom:1px solid #666;}
+#inputForm:after {content:""; display:block; clear:both;}
+#inputForm button {margin-left:40px;}
+
+#fruitImg {float:right;}
+
+#selectedFruits img {width:70px; margin-right:5px;}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>1ME322, Laboration 4 - Händelser, drag and drop</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="events.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>1ME322, Laboration 4 - Händelser, drag and drop</h1>
+	</header>
+	<main>
+		<h1>Svenska städer</h1>
+		<p>Här ska du känna igen motiv från städer i Sverige. Dra ett stadsnamn i listan till varje bild.<br>
+		Det finns fler namn i listan än bilder, så en del lämnar du kvar.</p>
+		<p><button type="button" id="startGameBtn">Starta spelet</button></p>
+		<div id="gameBoard">
+			<div id="words">
+				<ul>
+					<li>...</li>
+					<li>...</li>
+					<li>...</li>
+					<li>...</li>
+					<li>...</li>
+					<li>...</li>
+					<li>...</li>
+					<li>...</li>
+				</ul>
+			</div>
+			<div id="pics">
+				<div>
+					<img src="pics/empty.png" alt="Stadsbild" id="0">
+					<p><span class="userAnswer"></span><br><span class="correctAnswer"></span></p>
+				</div>
+				<div>
+					<img src="pics/empty.png" alt="Stadsbild" id="1">
+					<p><span class="userAnswer"></span><br><span class="correctAnswer"></span></p>
+				</div>
+				<div>
+					<img src="pics/empty.png" alt="Stadsbild" id="2">
+					<p><span class="userAnswer"></span><br><span class="correctAnswer"></span></p>
+				</div>
+				<div>
+					<img src="pics/empty.png" alt="Stadsbild" id="3">
+					<p><span class="userAnswer"></span><br><span class="correctAnswer"></span></p>
+				</div>
+			</div>
+			<img id="largePict" src="pics/empty.png" alt="Förstorad stadsbild">
+		</div> <!-- End gameBoard -->
+		<p>Dra ett namn till varje bild och klicka sedan på följande knapp. 
+			<button id="checkAnswersBtn">Kontrollera svar</button></p>
+		<div id="message"></div> <!-- Här skriver programmet meddelanden till användaren -->
+	</main>
+	<footer>
+		Laboration i 1ME322 Webbdteknik 2 på Linnéuniversitetet
+	</footer>
+</body>
+</html>

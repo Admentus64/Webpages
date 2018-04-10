@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+html, body, header, nav, main, footer, div {margin:0; padding:0;}
+body {background-color:#FC9; color:#000; font-family:Verdana, Geneva, sans-serif; font-size:12px; max-width:900px; margin:0 auto;}
+
+header {background-color:#C60; color:#FFF; padding:10px;}
+header h1 {margin:0;}
+
+main {padding:10px;}
+
+footer {padding:5px 10px; border-top:1px solid #666; margin-top:20px; color:#333; font-size:0.8em; font-style:italic;}
+
+#userInfo {float:right; width:120px; padding:10px; text-align:right; margin-left:40px; margin-bottom:80px;
+	background-color:#FC6; border:3px solid #666; border-radius:25px;}
+#userInfo span {display:block; font-size:2em;}
+#userMoreInfo {display:none;}
+#userInfo a {font-size:0.8em; font-style:italic; color:#666;} 
+
+#turnInfo {float:left; width:350px;}
+
+#nextBtn {margin:15px; font-size:1.5em; background-color:#69C; border:2px outset #36C; border-radius:10px;}
+#nextBtn:hover {background-color:#06C; border-style:inset;}
+
+#message {padding-top:20px; font-size:1.5em; clear:both;}
+
+#nrOfBricksMenu {margin-right:20px;}
+
+#bricks {width:280px;} /* Elementet där alla brickor finns */
+#bricks:after {content:""; clear:both; display:block;}
+
+#bricks img {float:left; width:60px; height:60px; margin:2px;} /* Varje bricka är en img-tagg */
+
+/* Olika classer för img-taggarna, beroende på hur brickan visas */
+/* Förutom att byta bild i img-taggen, ska du också växla mellan dessa classer. */
+.brickBack {border:3px outset #060; padding:0; cursor:pointer;} /* Stil för brick där baksidan viss */
+.brickFront {border:3px outset #060; background-color:#FFF; padding:0; cursor:default;} /* Stil för bricka där bilden visas */
+.brickEmpty {border:none; padding:3px; cursor:default;} /* Stil för borttagen bricka */
+
+.brickBack:hover {transform:rotate(-5deg);}

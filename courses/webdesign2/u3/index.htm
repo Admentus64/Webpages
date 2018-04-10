@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>1ME322, Uppgift 3 - Memory</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="events.js"></script>
+	<script type="text/javascript" src="cookies.js"></script>
+	<script type="text/javascript" src="setup.js"></script>
+	<script type="text/javascript" src="buttons.js"></script>
+	<script type="text/javascript" src="saveAndLoad.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>1ME322, Uppgift 3 - Memory</h1>
+	</header>
+	<main>
+		<div id="userInfo">
+			<p>Dina poäng:<span id="userTotPoints">0</span></p>
+			<div id="userMoreInfo">
+				<p>Antal spel:<span id="userCountGames">0</span></p>
+				<p>Snittspoäng:<span id="userMeanPoints">0</span></p>
+			</div>
+			<p><a href="#">Visa mer</a></p>
+		</div>
+		<p>Du vänder två brickor i taget, genom att klicka på dem. Då du hittat ett par som är lika, tas de bort. Fortsätt tills du hittat alla par. Under spelplanen anges det hur många gånger du vänt brickorna. Då alla par är funna räknas det ut poäng baserat på hur många gånger du vänt brickorna. Maximal poäng är 20.</p>
+		<p>Du kan spela flera gånger, för att samla ihop fler poäng. Bildernas placering väljs slumpmässigt, så det blir olika vid varje nytt spel.</p>
+		<form>
+			<p>Antal brickor: 
+			<select id="nrOfBricksMenu">
+				<option selected>4x4</option>
+				<option>5x4</option>
+				<option>6x4</option>
+				<option>6x5</option>
+				<option>6x6</option>
+			</select>
+			<button type="button" id="startGameBtn">Starta spelet</button>
+		</form>
+		<div id="bricks">
+			<img src="pics/backside.png" alt="spelbricka" class="brickBack">
+			<img src="pics/backside.png" alt="spelbricka" class="brickBack">
+			<img src="pics/backside.png" alt="spelbricka" class="brickBack">
+			<img src="pics/backside.png" alt="spelbricka" class="brickBack">
+			<img src="pics/backside.png" alt="spelbricka" class="brickBack">
+			<img src="pics/backside.png" alt="spelbricka" class="brickBack">
+			<img src="pics/backside.png" alt="spelbricka" class="brickBack">
+			<img src="pics/backside.png" alt="spelbricka" class="brickBack">
+			<img src="pics/backside.png" alt="spelbricka" class="brickBack">
+			<img src="pics/backside.png" alt="spelbricka" class="brickBack">
+			<img src="pics/backside.png" alt="spelbricka" class="brickBack">
+			<img src="pics/backside.png" alt="spelbricka" class="brickBack">
+			<img src="pics/backside.png" alt="spelbricka" class="brickBack">
+			<img src="pics/backside.png" alt="spelbricka" class="brickBack">
+			<img src="pics/backside.png" alt="spelbricka" class="brickBack">
+			<img src="pics/backside.png" alt="spelbricka" class="brickBack">
+		</div> <!-- End bricks -->
+		<div id="turnInfo">
+			<p>Klicka på två brickor för att vända dem. Klicka sedan på knappen Nästa, för att gå vidare med två nya brickor.</p>
+			<p>Antal gånger ett par brickor vänts: <span id="turnNr">0</span></p>
+		</div>
+		<button type="button" id="nextBtn">Nästa</button>
+		<div id="message"></div> <!-- Här skriver programmet meddelanden till användaren -->
+	</main>
+	<footer>
+		Uppgift 3 i 1ME322 Webbdteknik 2 på Linnéuniversitetet
+	</footer>
+</body>
+</html>
