@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial‐scale=1.0">
+        <title> Fråga E </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        <div id="wrapper">
+            
+            <header>
+                <h1> Fråga E </h1>
+                <h3> HTML och CSS </h3>
+            </header>
+            
+            <nav>
+                <ul>
+                    <li> <a href="question_d.html"> Fråga D </a> </li>
+                    <li> <a href="question_e.html" id="thisPage"> Fråga E </a> </li>
+                    <li> <a href="question_f.html"> Fråga F </a> </li>
+                    <li> <a href="template.html"> Mall </a> </li>
+                </ul>
+            </nav>
+            
+            <main>
+                <div id="questions">
+                    <p> Frågor inför HTML och CSS </p>
+                    <ol>
+                        <li> Fråga E1: Vad menas med kaskad i CSS? Hur fungerar det? </li>
+                        <li> Fråga E2: I HTML-taggarna kan man ha attribut med id och class och sedan referera till dem i CSS-koden. Vad är skillnaden, när ska man använda id och när ska man använda class? </li>
+                    </ol>
+                </div>
+                
+                <h2> Mitt svar </h2>
+                
+                <h3> Svar på E1 </h3>
+                <p> I CSS så är det möjlig att det finns konflikter mellan olika definitioner av samma elementet.
+                Om till exempel en regeln ska bestämmas att H3-taggen ska vara rött och sen en annan regeln bestämmer att H3-taggen ska vara grönt.
+                Vilken regeln vinner då av den andra? Hur ska ett webbläsare veta vilken färg ska väljas om bara en färg kan användas.
+                Därför är kaskad-tekniken introducerats. Kaskad är ett set av interna regler som bestämmer hur en set av motstridiga regler som skrevs i CSS ska lösas.
+                I princip är det den regler som är specifika som vinner av de generella reglar då. </p>
+                
+                <h3> Svar på E2 </h3>
+                <p> Både ID och class (klass i Svenska) används så att det kan refereras mellan HTML-koden och CSS-koden.
+                Skillnaden mellan ID och klass är att ID är unik och en klass är inte unik.
+                Eftersom ID är unik kan varje element bara här ett ID och varje sida kan bara har ett element med detta ID.
+                Klasser däremot kan användas flera gånger på flera element och olika klasser kan använda på samma elementet.
+                En små fakta är att en element kan använda båda typer samtidigt.
+                Klasser oftast användas för information kan återkommer medan information som är bara används en gång ska användas med ID.
+                Till exempel, en sida med flera widgets passar klasser till. </p>
+            </main>
+            
+            <footer>
+                <br> Robert Hallink - 2015-09-24
+                <br> Går tillbaka till hemsida: <a href="../../../index.html"> Hem </a>
+            </footer>
+            
+        </div> <!-- End wrapper -->
+    </body>
+    
+</html>

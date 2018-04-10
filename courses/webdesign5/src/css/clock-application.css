@@ -1,0 +1,63 @@
+* {
+	padding:			0px;
+	margin:				0px;
+}
+
+.clock-window-wrapper {
+	width:				144px;
+	height:				63px;
+	position:			relative;
+	left:				0px;
+	top:				0px;
+	background:			url(../img/clock-bg.png) no-repeat;
+}
+
+.clock-menubar-wrapper {
+	width:				142px;
+	height:				17px;
+	position:			relative;
+	top:				1px;
+	margin-left:		1px;
+}
+
+.clock-menubar-wrapper .close {
+	width:				13px;
+	height:				13px;
+	position:			relative;
+	top:				2px;
+	left:				8px;
+	background-image:	url(../img/window-closebtn.png);
+}
+
+.clock-content-wrapper {
+	width:				133px;
+	margin-left:		3px;
+	margin-top:			4px;
+	height:				34px;
+	padding:			2px;
+}
+
+.clock-digit-wrapper li {
+	width:				20px;
+	height:				34px;
+	background:			url(../img/clock-digits.png) no-repeat;
+	list-style:			none;
+	float:				left;
+}
+
+.clock-menubar-wrapper .close:hover			{ background-position:	0 -13px; }
+.clock-content-wrapper .hour				{ margin-right:			1px; }
+.clock-content-wrapper .minute				{ margin-right:			1px; }
+.clock-digit-wrapper						{ display:				inline-block; }
+.clock-digit-wrapper li:first-child			{ margin-right:			1px; }
+
+.clock-digit-wrapper .clock-digit-zero		{ background-position:	0 0; }
+.clock-digit-wrapper .clock-digit-one		{ background-position:	0 -34px; }
+.clock-digit-wrapper .clock-digit-two		{ background-position:	0 -68px; }
+.clock-digit-wrapper .clock-digit-three		{ background-position:	0 -102px; }
+.clock-digit-wrapper .clock-digit-four		{ background-position:	0 -136px; }
+.clock-digit-wrapper .clock-digit-five		{ background-position:	0 -170px; }
+.clock-digit-wrapper .clock-digit-six		{ background-position:	0 -204px; }
+.clock-digit-wrapper .clock-digit-seven		{ background-position:	0 -238px; }
+.clock-digit-wrapper .clock-digit-eight		{ background-position:	0 -272px; }
+.clock-digit-wrapper .clock-digit-nine		{ background-position:	0 -306px; }

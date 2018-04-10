@@ -1,0 +1,121 @@
+* {
+	padding:			0px;
+	margin:				0px;
+}
+
+.dice-window-wrapper {
+	width:				342px;
+	height:				182px;
+	top:				0px;
+	left:				0px;
+	position:			relative;
+	background:			url(../img/dice-bg.png) no-repeat;
+}
+
+.dice-menubar-wrapper {
+	width:				339px;
+	height:				17px;
+	position:			relative;
+	top:				1px;
+	margin-left:		1px;
+}
+
+.dice-menubar-wrapper .close {
+	width:				13px;
+	height:				13px;
+	position:			relative;
+	top:				2px;
+	left:				8px;
+	background-image:	url(../img/window-closebtn.png);
+}
+
+.dice-toolbar-wrapper {
+	width:				339px;
+	height:				17px;
+	margin-left:		1px;
+	position:			relative;
+	top:				2px;
+	list-style:			none;
+}
+
+.dice-toolbar-wrapper ul li {
+	float:				left;
+	height:				17px;
+	position:			relative;
+}
+
+.dice-toolbar-wrapper .add {
+	width:				18px;
+	height:				17px;
+	background:			url(../img/dice-buttons.png) no-repeat 0 0;
+}
+
+.dice-toolbar-wrapper .remove {
+	height:				17px;
+	width:				18px;
+	background:			url(../img/dice-buttons.png) no-repeat -18px 0;
+}
+
+.dice-toolbar-wrapper .roll {
+	height:				17px;
+	width:				18px;
+	background:			url(../img/dice-buttons.png) no-repeat -36px 0;
+}
+
+.dice-toolbar-counter-wrapper {
+	position:			relative;
+	left:				231px;
+	width:				50px;
+	height:				17px;
+	list-style:			none;
+}
+
+.dice-toolbar-counter-wrapper li {
+	width:				10px;
+	height:				17px;
+	background:			url(../img/number.png) no-repeat;
+}
+
+.dice-content-wrapper {
+	width:				335px;
+	height:				137px;
+	margin:				7px 4px 4px 3px;
+}
+
+.dice-content-wrapper ul {
+	list-style:			none;
+	margin-left:		2px;
+}
+
+.dice {
+	width:				25px;
+	height:				25px;
+	background:			url('../img/dice.png') no-repeat;
+	display:			block;
+	float:				left;
+	margin:				5px 4px 4px;
+}
+
+.dice-menubar-wrapper .close:hover		{ background-position:	0 -13px; }
+.dice-toolbar-wrapper ul				{ list-style:			none; }
+.dice-toolbar-wrapper .add:hover		{ background-position:	0 -17px; }
+.dice-toolbar-wrapper .remove:hover		{ background-position:	-18px -17px; }
+.dice-toolbar-wrapper .roll:hover		{ background-position:	-36px -17px; }
+
+.dice-toolbar-counter-wrapper .zero		{ background-position:	0 0; }
+.dice-toolbar-counter-wrapper .one		{ background-position:	0 -17px; }
+.dice-toolbar-counter-wrapper .two		{ background-position:	0 -34px; }
+.dice-toolbar-counter-wrapper .three	{ background-position:	0 -51px; }
+.dice-toolbar-counter-wrapper .four		{ background-position:	0 -68px; }
+.dice-toolbar-counter-wrapper .five		{ background-position:	0 -85px; }
+.dice-toolbar-counter-wrapper .six		{ background-position:	0 -102px; }
+.dice-toolbar-counter-wrapper .seven	{ background-position:	0 -119px; }
+.dice-toolbar-counter-wrapper .eight	{ background-position:	0 -136px; }
+.dice-toolbar-counter-wrapper .nine		{ background-position:	0 -153px; }
+
+.dice-side-one							{ background-position:	0 0; }
+.dice-side-two							{ background-position:	0 -25px; }
+.dice-side-three						{ background-position:	0 -50px; }
+.dice-side-four							{ background-position:	0 -75px; }
+.dice-side-five							{ background-position:	0 -100px; }
+.dice-side-six							{ background-position:	0 -125px; }
