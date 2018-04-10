@@ -1,0 +1,6 @@
+<!ELEMENT imagelist (category,image*)>
+	<!ELEMENT category (#PCDATA)>
+	<!ELEMENT image (url,caption)>
+		<!ELEMENT url (#PCDATA)>
+		<!ELEMENT caption (#PCDATA)>
+		

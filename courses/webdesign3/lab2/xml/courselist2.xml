@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE courselist SYSTEM "courses.dtd">
+
+<courselist>
+
+	<subject department=" Institutionen för musik och bild">Musik</subject>
+	<semester>vt16</semester>
+	
+	<course>
+		<code>1MU324</code>
+		<name>Låtinspelning med digitala verktyg</name>
+		<credits>15</credits>
+		<prerequisites>Grundläggande behörighet</prerequisites>
+		<contact>
+			<name>Mats Runeberg</name>
+			<email>mats.runberg@lnu.se</email>
+		</contact>
+		<link url="http://lnu.se/utbildning/kurser/1MU324" />
+	</course>
+	
+	<course>
+		<code>1MU500</code>
+		<name>Musikproduktion I</name>
+		<credits>15</credits>
+		<prerequisites> Grundläggande behörighet.</prerequisites>
+		<link url="http://lnu.se/utbildning/kurser/1MU500" />
+	</course>
+	
+	<course>
+		<code>2MU911</code>
+		<name>Att skriva sångtexter på engelska</name>
+		<credits>7,5</credits>
+		<prerequisites>Musik 60 hp eller motsvarande</prerequisites>
+		<contact>
+			<name>Dan Alkenäs</name>
+			<email>dan.alkenas@lnu.se</email>
+		</contact>
+		<link url="http://lnu.se/utbildning/kurser/2MU911" />
+	</course>
+	
+</courselist>

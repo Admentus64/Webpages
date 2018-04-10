@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<teachers>
+	<course code="1ME331">
+		<teacher>David Johansson</teacher>
+		<link url="http://lnu.se/personal/david.johansson"/>
+	</course>
+	<course code="1ME323">
+		<teacher>Rune Körnefors</teacher>
+		<link url="http://lnu.se/personal/rune.kornefors"/>
+	</course>
+	<course code="1ME302">
+		<teacher>Karl Johan Rosqvist</teacher>
+		<link url="http://lnu.se/personal/karl.johan.rosqvist"/>
+	</course>
+</teachers>

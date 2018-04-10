@@ -1,0 +1,29 @@
+{
+	"category": "Katter",
+	"image": [
+		{
+			"url": "pics/cats/c0.jpg",
+			"caption": "Kattungar"
+		},
+		{
+			"url": "pics/cats/c1.jpg",
+			"caption": "Lekande katt"
+		},
+		{
+			"url": "pics/cats/c2.jpg",
+			"caption": "Katt med mus"
+		},
+		{
+			"url": "pics/cats/c3.jpg",
+			"caption": "Grå katt"
+		},
+		{
+			"url": "pics/cats/c4.jpg",
+			"caption": "Nyfiken katt"
+		},
+		{
+			"url": "pics/cats/c5.jpg",
+			"caption": "Katt på plank"
+		}
+	]
+}

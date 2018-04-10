@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>1ME323, Laboration 3 - Manipulering av DOM med JavaScript</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="events.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>1ME323, Laboration 3 - Manipulering av DOM med JavaScript</h1>
+	</header>
+	<main>
+		<section>
+			<div>
+				<h3>En kurs i medieteknik</h3>
+				<p>Kursen <a href="http://lnu.se/utbildning/kurser/1ME323">1ME322 Webbteknik 3</a> är den tredje kursen i webbteknik i ämnet <a href="http://lnu.se/amnen/medieteknik" target="_blank">medieteknik</a>. Detta är ett tekniskt ämne som ingår i <a href="http://lnu.se/fakulteten-for-teknik">Fakulteten för teknik</a> vid <a href="http://lnu.se/">Linnéuniversitetet</a>. Kursen ges som fristående kurs och ingår också i programmet <a href="http://lnu.se/utbildning/program/NGIMW">Interaktiva medier och webbteknologier</a>.</p>
+			</div>
+			<div>
+				<p><button type="button" id="linkBtn">Lista länkar</button></p>
+				<div id="linkList"></div> <!-- Här ska programmet lägga in textens länkar. -->
+			</div>
+		</section>
+		<section>
+			<div>
+				<h3>Fler kurser i medieteknik</h3>
+				<p>Några fler kurser i <a href="http://lnu.se/amnen/medieteknik" target="_blank">medieteknik</a> är:</p>
+				<ul>
+					<li>1ME321, Webbteknik 1, 7,5hp</li>
+					<li>1ME323, Webbteknik 3, 7,5hp</li>
+					<li>1ME331, Interaktionsdesign 1, 7,5hp</li>
+					<li>1ME302, Projektkurs i medieteknik 1, 7,5hp</li>
+					<li>2ME10E, Examensarbete i medieteknik, 15hp</li>
+				</ul>
+				<p><i>Klicka på en kurs, för att lägga in den i listan till höger.</i></p>
+			</div>
+			<div>
+				<h3>Valda kurser</h3>
+				<div id="courseList"></div> <!-- Här ska programmet lägga in valda kurser. -->
+				<p><i>Klicka på en kurs, för att ta bort den ur listan.</i></p>
+			</div>
+		</section>
+		<section>
+			<div>
+				<h3>Kursansvariga lärare</h3>
+				<ul>
+					<li>1ME323, Webbteknik 3, 7,5hp</li>
+					<li>1ME331, Interaktionsdesign 1, 7,5hp</li>
+					<li>1ME302, Projektkurs i medieteknik 1, 7,5hp</li>
+				</ul>
+			</div>
+			<div>
+				<p><button type="button" id="teacherBtn">Lägg till lärare</button></p>
+			</div>
+		</section>
+	</main>
+	<footer>
+		Laboration i 1ME323 Webbdteknik 3 på Linnéuniversitetet
+	</footer>
+</body>
+</html>

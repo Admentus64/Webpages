@@ -1,0 +1,171 @@
+﻿<!doctype html>
+
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<title> Camping Norrvägsbruket </title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			
+			<header>
+				<h1> Camping Norrvägsbruket - En camping för alla </h1>
+			</header>
+			
+			<nav>
+                <ul>
+                    <li> <a href="index.html"> Hem </a> </li>
+                    <li> <a href="information.html"> Information </a> </li>
+                    <li> <a href="contact.html"> Hitta oss </a> </li>
+                    <li> <a href="booking.html" id="thisPage"> Bokning </a> </li>
+                </ul>
+            </nav>
+			
+			<main>
+				<h2> Förfrågan om plats - För tält, husvagn, husbil och stuga </h2>
+				
+				<form id="booking" method="post" action="http://www.olzzon.com/cgi-bin/p.cgi?epost=rh222ff-CCC-student.lnu.se&amp;id=1">
+					
+					<fieldset id="place"> <legend> Val av plats </legend>
+						<label>
+							<input type="radio" name="place" value="talt" checked>
+							Tält utan el (160 kr)
+						</label> <br>
+						
+						<label>
+							<input type="radio" name="place" value="talt_med_el">
+							Tält med el (180 kr)
+						</label> <br>
+						
+						<label>
+							<input type="radio" name="place" value="husvagn">
+							Husvagn utan el (200 kr)
+						</label> <br>
+						
+						<label>
+							<input type="radio" name="place" value="husvagn_med_el">
+							Husvagn med el (220 kr)
+						</label> <br>
+						
+						<label>
+							<input type="radio" name="place" value="husbil">
+							Husbil utan el (180 kr)
+						</label> <br>
+						
+						<label>
+							<input type="radio" name="place" value="husbil_med_el">
+							Husbil med el (200 kr)
+						</label> <br>
+						
+						<label>
+							<input type="radio" name="place" value="stuga">
+							Stuga (250 kr)
+						</label>
+						
+						<label>
+							--- Stuga typ:
+							<select name="house_type">
+								<option value="stugby"> Stugby </option>
+								<option value="sma_hus"> Små hus (+50 kr)</option>
+								<option value="stor_hus"> Stor hus (+100 kr) </option>
+							</select>
+						</label>
+						
+						<label>
+							--- Antal personer:
+							<select name="persons">
+								<option value="1"> 1 </option>
+								<option value="2"> 2 (+25 kr) </option>
+								<option value="3"> 3 (+50 kr)</option>
+								<option value="4"> 4 (+75 kr)</option>
+							</select>
+						</label> <br>
+						<p> Kostnader per dygn </p>
+					</fieldset>
+					
+					<fieldset id="date"> <legend> Datum och antal nätter </legend>
+						<label>
+							* Ankomstdatum:
+							<input type="date" name="arrivaldate" required>
+						</label>
+						
+						<label>
+							* Antal nätter:
+							<select name="nights">
+								<option value="1"> 1 </option>
+								<option value="2"> 2 </option>
+								<option value="3"> 3 </option>
+								<option value="4"> 4 </option>
+								<option value="5"> 5 </option>
+								<option value="6"> 6 </option>
+								<option value="7"> 1 vecka </option>
+								<option value="14"> 2 veckor </option>
+							</select>
+						</label>
+					</fieldset>
+					
+					<fieldset id="extra"> <legend> Tillägg </legend>
+						<label>
+							<input type="checkbox" name="addition" value="internet">
+							Wifi Internet (+40 kr per dygn)
+						</label> <br>
+						
+						<label>
+							<input type="checkbox" name="addition" value="simhall">
+							Kort till simhallen (+100 kr per person)
+						</label> <br>
+						
+						<label>
+							<input type="checkbox" name="addition" value="glasbruk">
+							Kort till glasbruket (+150 kr per person)
+						</label> <br>
+						
+						<label>
+							<input type="checkbox" name="addition" value="fiskebåt">
+							Fiskebåt (+40 kr per dygn)
+						</label> <br>
+						
+						<label>
+							<input type="checkbox" name="addition" value="sjo">
+							Plats vid sjö (+25 kr)
+						</label>
+					</fieldset>
+					
+					<fieldset id="customer"> <legend> Kund </legend>
+						<label for="name"> * Namn: </label>
+						<input id="name" type="text" name="name" size="40" required>
+						
+						<label for="street"> * Gatuadress: </label>
+						<input id="street" type="text" name="street" size="40" required>
+						
+						<label for="zipcode"> * Postnummer: </label>
+						<input id="zipcode" type="text" name="zipcode" size="5" maxlength="5" required>
+						
+						<label for="city"> * Ort: </label>
+						<input id="city" type="text" name="city" size="40" required>
+						
+						<label for="telephone"> Telefon: </label>
+						<input id="telephone" type="tel" name="telephone" size="40">
+						
+						<label for="email"> * E-post: </label>
+						<input id="email" type="email" name="email" size="40" required>
+					</fieldset>
+					
+					<p id="submitbtn">
+						<input type="submit">
+					</p>
+				</form>
+			</main>
+			
+			<footer>
+                <br> Robert Hallink - 2015-10-24
+                <br> Går tillbaka till indexsida: <a href="../../../index.html"> Index </a>
+            </footer>
+			
+		</div> <!-- End wrapper -->
+	</body>
+	
+</html>

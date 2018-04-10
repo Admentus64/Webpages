@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE gamelist SYSTEM "games.dtd">
+
+<gamelist>
+	
+	<game>
+		<title>The Legend of Zelda: Ocarina of Time</title>
+		<score rating="10"/>
+		<release date="19981123">November 23, 1998</release>
+		<platforms>
+			<platform>3DS</platform>
+			<platform>Nintendo 64</platform>
+			<platform>GameCube</platform>
+		</platforms>
+		<developers>
+			<developer>Nintendo</developer>
+			<developer>GREZZO</developer>
+		</developers>
+		<publishers>
+			<publisher>Nintendo</publisher>
+		</publishers>
+		<link url="http://www.gamespot.com/the-legend-of-zelda-ocarina-of-time">GameSpot: Ocarina of Time</link>
+	</game>
+	
+	<game>
+		<title>The Legend of Zelda: Majora's Mask</title>
+		<score rating="9"/>
+		<release date="20001025">October 25, 2000</release>
+		<platforms>
+			<platform>3DS</platform>
+			<platform>Nintendo 64</platform>
+		</platforms>
+		<developers>
+			<developer>Nintendo</developer>
+			<developer>GREZZO</developer>
+		</developers>
+		<publishers>
+			<publisher>Nintendo</publisher>
+		</publishers>
+		<link url="http://www.gamespot.com/the-legend-of-zelda-majoras-mask">GameSpot: Majora's Mask</link>
+	</game>
+
+	<game>
+		<title>Valiant Hearts: The Great War</title>
+		<score rating="8"/>
+		<release date="20140524">June 24, 2014</release>
+		<platforms>
+			<platform>Android</platform>
+			<platform>iOS</platform>
+			<platform>PC</platform>
+			<platform>PlayStation 3</platform>
+			<platform>PlayStation 4</platform>
+			<platform>Xbox 360</platform>
+			<platform>Xbox One</platform>
+		</platforms>
+		<developers>
+			<developer>Ubisoft Montpellier</developer>
+		</developers>
+		<publishers>
+			<publisher>Ubisoft</publisher>
+		</publishers>
+		<link url="http://www.gamespot.com/valiant-hearts-the-great-war">GameSpot: Valiant Hearts</link>
+	</game>
+	
+	<game>
+		<title>Transistor</title>
+		<score rating="8"/>
+		<release date="20140420">May 20, 2014</release>
+		<platforms>
+			<platform>iOS</platform>
+			<platform>PC</platform>
+			<platform>Macintosh</platform>
+			<platform>Linux</platform>
+			<platform>PlayStation 4</platform>
+		</platforms>
+		<developers>
+			<developer>Supergiant Games</developer>
+		</developers>
+		<publishers>
+			<publisher>Supergiant Games</publisher>
+		</publishers>
+		<link url="http://www.gamespot.com/transistor">GameSpot: Transistor</link>
+	</game>
+	
+</gamelist>

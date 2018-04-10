@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+html, body, header, nav, main, footer, div {margin:0; padding:0;}
+body {background-color:#FC9; color:#000; font-family:Verdana, Geneva, sans-serif; font-size:12px; max-width:900px; margin:0 auto;}
+
+header {background-color:#C60; color:#FFF; padding:10px;}
+header h1 {margin:0;}
+
+main {padding:10px;}
+
+footer {padding:5px 10px; border-top:1px solid #666; margin-top:20px; color:#333; font-size:1.0em; font-style:italic;}
+
+table{
+    border-collapse:collapse;
+    box-shadow:5px 5px 3px #888888;
+    margin-top:20px;
+    width:500px;
+}
+
+th, td{
+    border:1px solid #666;
+    padding:5px;
+}
+
+tr{
+    background-color:#FFFFFF;
+}
+
+th{
+    font-weight: bold;
+    text-align: center;
+    width:150px;
+}
+
+select{
+    width:160px;
+}

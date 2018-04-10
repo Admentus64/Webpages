@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>1ME323, Laboration 4 - Objektbaserad programmering</title>
+	<link rel="stylesheet" type="text/css" href="style/layout.css">
+	<link rel="stylesheet" type="text/css" href="style/selection.css">
+	<script type="text/javascript" src="events.js"></script>
+	<script type="text/javascript" src="selection-script.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>1ME323, Laboration 4 - Objektbaserad programmering</h1>
+	</header>
+	<main>
+		<h1>Val av bilder</h1>
+		<form>
+			<select id="categoryMenu">
+				<option>Välj kategori ...</option>
+				<option>Blommor</option>
+				<option>Fjärilar</option>
+				<option>Katter</option>
+			</select>
+		</form>
+		<hr>
+		<div id="images"><!-- Innehåll läggs in med AJAX --></div>
+		<div>
+			<img id="largeImg" src="pics/blank.png">
+		</div>
+		<div id="result">
+			<h4>Lista</h4>
+			<div id="list"></div>
+			<img id="listImg" src=="pics/blank.png">
+			<button type="button" id="saveBtn">Spara lista</button> 
+			<button type="button" id="goBtn">Gå till bildspelet</button>
+		</div>
+		<hr>
+		<form id="ssStyle">
+			<h4>Välj stil för bildspelet</h4>
+			<p>Färg: bakgrund <input type="color" name="bgColor"> bildtext <input type="color" name="captionColor"></p>
+			<p>Textstil: <input type="radio" checked value="normal" name="captionStyle">Normal 
+				<input type="radio" value="bold" name="captionStyle">Fet <input type="radio" value="italic" name="captionStyle">Kursiv</p>
+			<p>Tjocklek på ram: 
+				<select name="frameStyle">
+					<option>0</option>
+					<option>1</option>
+					<option>2</option>
+					<option selected>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+				</select>
+			</p>
+			<p><button type="button" id="saveStyleBtn">Spara stil</button></p>
+		</form>
+	</main>
+	<footer>
+		Laboration i 1ME323 Webbteknik 3 på Linnéuniversitetet
+	</footer>
+</body>
+</html>

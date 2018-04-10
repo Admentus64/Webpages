@@ -1,0 +1,159 @@
+﻿{
+   "genre": "Rollspel",
+   "game": [
+
+      {
+         "title": "The Witcher 3: Wild Hunt",
+         "score": "10",
+         "release": {
+            "date": "20150418",
+            "calendar": "May 18, 2015"
+         },
+         "platforms": [
+            "Windows",
+            "Macintosh",
+            "PlayStation 4",
+            "Xbox One"
+         ],
+         "developers": [
+            "CD Projekt RED Studio"
+         ],
+         "publishers": [
+            "CD Projekt RED S.A.",
+            "Warner Bros. Interactive Entertainment",
+            "Bandai Namco Games",
+            "Spike Chunsoft"
+         ],
+         "link": {
+            "url": "http://www.gamespot.com/the-witcher-3-wild-hunt",
+            "info": "GameSpot: The Witcher 3"
+         }
+      },
+
+      {
+         "title": "World of Warcraft",
+         "score": "9.5",
+         "release": {
+            "date": "20041123",
+            "calendar": "November 23, 2004"
+         },
+         "platforms": [
+            "Windows",
+            "Macintosh"
+         ],
+         "developers": [
+            "Blizzard Entertainment"
+         ],
+         "publishers": [
+            "Blizzard Entertainment",
+            "Activision Blizzard",
+            "Vivendi Games"
+         ],
+         "link": {
+            "url": "http://www.gamespot.com/world-of-warcraft",
+            "info": "GameSpot: World of Warcraft"
+         }
+      },
+
+      {
+         "title": "Paper Mario: The Thousand-Year Door",
+         "score": "9.2",
+         "release": {
+            "date": "20041011",
+            "calendar": "October 11, 2004"
+         },
+         "platforms": [
+            "Nintendo GameCube"
+         ],
+         "developers": [
+            "Intelligent Systems"
+         ],
+         "publishers": [
+            "Nintendo"
+         ],
+         "link": {
+            "url": "http://www.gamespot.com/paper-mario-the-thousand-year-door",
+            "info": "GameSpot: Paper Mario GC"
+         }
+      },
+
+      {
+         "title": "Undertale",
+         "score": "9",
+         "release": {
+            "date": "20150915",
+            "calendar": "September 15, 2015"
+         },
+         "platforms": [
+            "Windows",
+            "Macintosh"
+         ],
+         "developers": [
+            "tobyfox"
+         ],
+         "publishers": [
+            "tobyfox"
+         ],
+         "link": {
+            "url": "http://www.gamespot.com/undertale",
+            "info": "GameSpot: Undertale"
+         }
+      },
+
+      {
+         "title": "Chrono Trigger",
+         "score": "8.5",
+         "release": {
+            "date": "19950822",
+            "calendar": "August 22, 1995"
+         },
+         "platforms": [
+            "Android",
+            "Nintendo Dual Screen",
+            "iPhone / iPad",
+            "Mobile",
+            "PlayStation",
+            "Super Nintendo Entertainment System"
+         ],
+         "developers": [
+            "Square Enix",
+            "SquareSoft",
+            "TOSE"
+         ],
+         "publishers": [
+            "Square Enix",
+            "SquareSoft"
+         ],
+         "link": {
+            "url": "http://www.gamespot.com/chrono-trigger",
+            "info": "GameSpot: Chrono Trigger"
+         }
+      },
+
+      {
+         "title": "The Legend of Heroes: Trails in the Sky",
+         "score": "8",
+         "release": {
+            "date": "20110328",
+            "calendar": "March 28, 2011"
+         },
+         "platforms": [
+            "Windows",
+            "PlayStation Portable"
+         ],
+         "developers": [
+            "Falcom"
+         ],
+         "publishers": [
+            "Falcom",
+            "Xseed Games",
+            "Ghostlight"
+         ],
+         "link": {
+            "url": "http://www.gamespot.com/the-legend-of-heroes-trails-in-the-sky",
+            "info": "GameSpot: Trails in the Sky FC"
+         }
+      }
+
+   ]
+}

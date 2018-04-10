@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript-exempel, Flickr API</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript" src="events.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+	<h1>JavaScript-exempel, Flickr API</h1>
+	<hr>
+	<form id="searchForm">
+		Taggar: <input type="text" name="tags"> 
+		<input type="button" value="Sök" name="searchBtn">
+	</form>
+	<hr>
+	<div id="flickrImg"></div>
+	<div>
+		<button type="button" id="prevBtn">Föregående sida</button>
+		<span id="pageNr"></span>
+		<button type="button" id="nextBtn">Nästa sida</button>
+	</div>
+	<hr>
+	<figure id="largeImg">
+		<img src="" alt="Stor bild">
+		<figcaption></figcaption>
+	</figure>
+	<div id="map"></div>
+	<hr>
+	<p id="imgLocation"></p>
+	<h4>Fler bilder från samma plats</h4>
+	<div id="moreImg"></div>
+</body>
+</html>

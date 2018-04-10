@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game+)>
+	<!ELEMENT game (title, score, release, platforms, developers, publishers, link)>
+
+	<!ELEMENT title (#PCDATA)>
+	<!ELEMENT score EMPTY>
+	<!ELEMENT release (#PCDATA)>
+	<!ELEMENT platforms (platform+)>
+	<!ELEMENT developers (developer+)>
+	<!ELEMENT publishers (publisher+)>
+	<!ELEMENT link (#PCDATA)>
+	
+	<!ELEMENT platform (#PCDATA)>
+	<!ELEMENT developer (#PCDATA)>
+	<!ELEMENT publisher (#PCDATA)>
+	
+	<!ATTLIST score rating CDATA #REQUIRED>
+	<!ATTLIST release date CDATA #REQUIRED>
+	<!ATTLIST link url CDATA #REQUIRED>
+]>
+
+<gamelist>
+	
+	<game>
+		<title>Super Mario Galaxy 2</title>
+		<score rating="10"/>
+		<release date="20100423">May 23, 2010</release>
+		<platforms>
+			<platform>Wii</platform>
+		</platforms>
+		<developers>
+			<developer>Nintendo EAD Tokyo</developer>
+		</developers>
+		<publishers>
+			<publisher>Nintendo</publisher>
+		</publishers>
+		<link url="http://www.gamespot.com/super-mario-galaxy-2">GameSpot: Super Mario Galaxy 2</link>
+	</game>
+	
+	<game>
+		<title>Banjo-Tooie</title>
+		<score rating="9.6"/>
+		<release date="20001120">November 20, 2000</release>
+		<platforms>
+			<platform>Nintendo 64</platform>
+			<platform>Xbox 360</platform>
+		</platforms>
+		<developers>
+			<developer>Rare Ltd.</developer>
+			<developer>4J Studios</developer>
+		</developers>
+		<publishers>
+			<publisher>Nintendo</publisher>
+			<publisher>Microsoft Game Studios</publisher>
+		</publishers>
+		<link url="http://www.gamespot.com/banjo-tooie">GameSpot: Banjo-Tooie</link>
+	</game>
+	
+	<game>
+		<title>Super Mario 64</title>
+		<score rating="9.4"/>
+		<release date="19960926">September 26, 1996</release>
+		<platforms>
+			<platform>DS</platform>
+			<platform>Nintendo 64</platform>
+		</platforms>
+		<developers>
+			<developer>Nintedo EAD</developer>
+		</developers>
+		<publishers>
+			<publisher>Nintendo</publisher>
+		</publishers>
+		<link url="http://www.gamespot.com/super-mario-64">GameSpot: Super Mario 64</link>
+	</game>
+	
+	<game>
+		<title>Ori and the Blind Forest</title>
+		<score rating="9"/>
+		<release date="20150311">March 11, 2015</release>
+		<platforms>
+			<platform>PC</platform>
+			<platform>Xbox 360</platform>
+			<platform>Xbox One</platform>
+		</platforms>
+		<developers>
+			<developer>Mon Studios</developer>
+		</developers>
+		<publishers>
+			<publisher>Microsoft Game Studios</publisher>
+		</publishers>
+		<link url="http://www.gamespot.com/ori-and-the-blind-forest">GameSpot: Ori and the Blind Forest</link>
+	</game>
+	
+	<game>
+		<title>Rayman Legends</title>
+		<score rating="9"/>
+		<release date="20130829">August 29, 2013</release>
+		<platforms>
+			<platform>PC</platform>
+			<platform>Wii U</platform>
+			<platform>PlayStation 3</platform>
+			<platform>PlayStation 4</platform>
+			<platform>Xbox 360</platform>
+			<platform>Xbox One</platform>
+		</platforms>
+		<developers>
+			<developer>Ubisoft Montpellier</developer>
+		</developers>
+		<publishers>
+			<publisher>Ubisoft</publisher>
+			<publisher>Nintendo</publisher>
+		</publishers>
+		<link url="http://www.gamespot.com/rayman-legends">GameSpot: Rayman Legends</link>
+	</game>
+	
+	<game>
+		<title>Donkey Kong 64</title>
+		<score rating="9"/>
+		<release date="19991124">November 24, 1999</release>
+		<platforms>
+			<platform>Nintendo 64</platform>
+		</platforms>
+		<developers>
+			<developer>Rare Ltd.</developer>
+		</developers>
+		<publishers>
+			<publisher>Nintendo</publisher>
+		</publishers>
+		<link url="http://www.gamespot.com/donkey-kong-64">GameSpot: Donkey Kong 64</link>
+	</game>
+	
+</gamelist>

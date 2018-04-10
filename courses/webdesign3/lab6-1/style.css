@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {background-color:#FFF; color:#000; font-family:Verdana, Geneva, sans-serif; font-size:12px;}
+
+hr {clear:both;}
+
+button {margin:0 20px;}
+
+#searchForm input {margin-right:20px;}
+
+#flickrImg img, #moreImg img {width:100px; margin:5px; border:3px groove #060}
+#flickrImg img {cursor:pointer;}
+
+#largeImg {float:left;}
+#largeImg img {max-width:600px; max-height:400px;}
+
+#map {margin-left:650px; width:600px; height:400px;}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE courselist SYSTEM "courses.dtd">
+
+<courselist>
+
+	<subject department="Institutionen för svenska språket">Svenska</subject>
+	<semester>vt16</semester>
+	
+	<course>
+		<code>1SV108</code>
+		<name>Akademiskt skrivande</name>
+		<credits>7,5</credits>
+		<prerequisites>Grundläggande behörighet.</prerequisites>
+		<contact>
+			<name>Ida Västerdal</name>
+			<email>ida.vasterdal@lnu.se</email>
+		</contact>
+		<link url="http://lnu.se/utbildning/kurser/1SV108" />
+	</course>
+	
+	<course>
+		<code>1SV109</code>
+		<name>Vikingarnas språk</name>
+		<credits>7,5</credits>
+		<contact>
+			<name>Ida Västerdal</name>
+			<email>ida.vasterdal@lnu.se</email>
+		</contact>
+		<prerequisites> Grundläggande behörighet.</prerequisites>
+		<link url="http://lnu.se/utbildning/kurser/1SV109" />
+	</course>
+	
+	<course>
+		<code>4SV702</code>
+		<name>Textanalys och textforskning</name>
+		<credits>15</credits>
+		<prerequisites>Engelska B. samt Svenska 1–90 hp där ett examensarbete om minst 15 hp ingår.</prerequisites>
+		<contact>
+			<name>Daniel Bergman</name>
+			<email>daniel.bergman@lnu.se</email>
+		</contact>
+		<link url="http://lnu.se/utbildning/kurser/4SV702" />
+	</course>
+	
+	<course>
+		<code>1SV208</code>
+		<name>Grammatik för lärare</name>
+		<credits>7,5</credits>
+		<prerequisites>1–30 hp i svenska eller främmande språk.</prerequisites>
+		<link url="http://lnu.se/utbildning/kurser/1SV208" />
+	</course>
+	
+</courselist>

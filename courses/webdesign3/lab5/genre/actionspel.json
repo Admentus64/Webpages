@@ -1,0 +1,109 @@
+﻿{
+   "genre": "Actionspel",
+   "game": [
+
+      {
+         "title": "The Legend of Zelda: Ocarina of Time",
+         "score": "10",
+         "release": {
+            "date": "19981123",
+            "calendar": "November 23, 1998"
+         },
+         "platforms": [
+            "Nintendo 3DS",
+            "Nintendo 64",
+            "Nintendo GameCube"
+         ],
+         "developers": [
+            "Nintendo",
+            "GREZZO"
+         ],
+         "publishers": [
+            "Nintendo"
+         ],
+         "link": {
+            "url": "http://www.gamespot.com/the-legend-of-zelda-ocarina-of-time",
+            "info": "GameSpot: Ocarina of Time"
+         }
+      },
+
+      {
+         "title": "The Legend of Zelda: Majora's Mask",
+         "score": "9",
+         "release": {
+            "date": "20001025",
+            "calendar": "October 25, 2000"
+         },
+         "platforms": [
+            "Nintendo 3DS",
+            "Nintendo 64"
+         ],
+         "developers": [
+            "Nintendo",
+            "GREZZO"
+         ],
+         "publishers": [
+            "Nintendo"
+         ],
+         "link": {
+            "url": "http://www.gamespot.com/the-legend-of-zelda-majoras-mask",
+            "info": "GameSpot: Majora's Mask"
+         }
+      },
+
+      {
+         "title": "Valiant Hearts: The Great War",
+         "score": "8",
+         "release": {
+            "date": "20140524",
+            "calendar": "June 24, 2014"
+         },
+         "platforms": [
+            "Android",
+            "iPhone / iPad",
+            "Windows",
+            "PlayStation 3",
+            "PlayStation 4",
+            "Xbox 360",
+            "Xbox One"
+         ],
+         "developers": [
+            "Ubisoft Montpellier"
+         ],
+         "publishers": [
+            "Ubisoft"
+         ],
+         "link": {
+            "url": "http://www.gamespot.com/valiant-hearts-the-great-war",
+            "info": "GameSpot: Valiant Hearts"
+         }
+      },
+
+      {
+         "title": "Transistor",
+         "score": "8",
+         "release": {
+            "date": "20140420",
+            "calendar": "May 20, 2014"
+         },
+         "platforms": [
+            "iPhone / iPad",
+            "Windows",
+            "Macintosh",
+            "Linux",
+            "PlayStation 4"
+         ],
+         "developers": [
+            "Supergiant Games"
+         ],
+         "publishers": [
+            "Supergiant Games"
+         ],
+         "link": {
+            "url": "http://www.gamespot.com/transistor",
+            "info": "GameSpot: Transistor"
+         }
+      }
+
+   ]
+}

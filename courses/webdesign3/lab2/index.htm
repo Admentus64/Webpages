@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>1ME323, Laboration 2 - AJAX</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="events.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>1ME323, Laboration 2 - AJAX</h1>
+	</header>
+	<main>
+		<h2>Institutioner</h2>
+		<p>Välj ämne i nedanstående meny, för att se kort info om institutionen.</p>
+		<form>
+			<select id="depmenu">
+				<option>Välj ämne ...</option>
+				<option>Medieteknik</option>
+				<option>Musik</option>
+				<option>Svenska</option>
+			</select>
+		</form>
+		<div id="depinfo"></div> <!-- Här skriver programmet innehåll utifrån inläst XML-fil -->
+		
+		<hr>
+		
+		<h2>Kurser</h2>
+		<p>Välj ämne i nedanstående meny, för att se kurserna.</p>
+		<form>
+			<select id="coursemenu">
+				<option>Välj ämne ...</option>
+				<option>Medieteknik</option>
+				<option>Musik</option>
+				<option>Svenska</option>
+			</select>
+		</form>
+		<div id="courselist"></div> <!-- Här skriver programmet innehåll utifrån inläst XML-fil -->
+	</main>
+	<footer>
+		Laboration i 1ME323 Webbdteknik 3 på Linnéuniversitetet
+	</footer>
+</body>
+</html>

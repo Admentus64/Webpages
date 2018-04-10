@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#images {float:left; width:460px;}
+#images div {float:left; width:140px; padding:5px; margin:0;}
+#images div p {margin:3px 0; width:120px; overflow:hidden; white-space:nowrap;}
+#images div img {width:120px;}
+
+#largeImg {float:right; margin-top:30px; border:4px ridge #060; width:400px; height:auto;}
+
+#result {clear:both; margin-top:40px;}
+
+#list p {cursor:pointer; display:table;}
+
+#listImg {position:absolute; visibility:hidden; top:0px; left:0px; z-index:10; width:120px; height:auto; box-shadow:5px 5px 10px #333;}
+
+#ssStyle button {margin:0;}

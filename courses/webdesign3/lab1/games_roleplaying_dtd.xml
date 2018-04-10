@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE gamelist [
+	<!ELEMENT gamelist (game+)>
+	<!ELEMENT game (title, score, release, platforms, developers, publishers, link)>
+
+	<!ELEMENT title (#PCDATA)>
+	<!ELEMENT score EMPTY>
+	<!ELEMENT release (#PCDATA)>
+	<!ELEMENT platforms (platform+)>
+	<!ELEMENT developers (developer+)>
+	<!ELEMENT publishers (publisher+)>
+	<!ELEMENT link (#PCDATA)>
+	
+	<!ELEMENT platform (#PCDATA)>
+	<!ELEMENT developer (#PCDATA)>
+	<!ELEMENT publisher (#PCDATA)>
+	
+	<!ATTLIST score rating CDATA #REQUIRED>
+	<!ATTLIST release date CDATA #REQUIRED>
+	<!ATTLIST link url CDATA #REQUIRED>
+]>
+
+<gamelist>
+	
+	<game>
+		<title>The Witcher 3: Wild Hunt</title>
+		<score rating="10"/>
+		<release date="20150418">May 18, 2015</release>
+		<platforms>
+			<platform>PC</platform>
+			<platform>Macintosh</platform>
+			<platform>PlayStation 4</platform>
+			<platform>Xbox One</platform>
+		</platforms>
+		<developers>
+			<developer>CD Projekt RED Studio</developer>
+		</developers>
+		<publishers>
+			<publisher>CD Projekt RED S.A.</publisher>
+			<publisher>Warner Bros. Interactive Entertainment</publisher>
+			<publisher>Bandai Namco Games</publisher>
+			<publisher>Spike Chunsoft</publisher>
+		</publishers>
+		<link url="http://www.gamespot.com/the-witcher-3-wild-hunt">GameSpot: The Witcher 3</link>
+	</game>
+	
+	<game>
+		<title>World of Warcraft</title>
+		<score rating="9.5"/>
+		<release date="20041123">November 23, 2004</release>
+		<platforms>
+			<platform>PC</platform>
+			<platform>Macintosh</platform>
+		</platforms>
+		<developers>
+			<developer>Blizzard Entertainment</developer>
+		</developers>
+		<publishers>
+			<publisher>Blizzard Entertainment</publisher>
+			<publisher>Activision Blizzard</publisher>
+			<publisher>Vivendi Games</publisher>
+		</publishers>
+		<link url="http://www.gamespot.com/world-of-warcraft">GameSpot: World of Warcraft</link>
+	</game>
+	
+	<game>
+		<title>Paper Mario: The Thousand-Year Door</title>
+		<score rating="9.2"/>
+		<release date="20041011">October 11, 2004</release>
+		<platforms>
+			<platform>GameCube</platform>
+		</platforms>
+		<developers>
+			<developer>Intelligent Systems</developer>
+		</developers>
+		<publishers>
+			<publisher>Nintendo</publisher>
+		</publishers>
+		<link url="http://www.gamespot.com/paper-mario-the-thousand-year-door">GameSpot: Paper Mario GC</link>
+	</game>
+	
+	<game>
+		<title>Undertale</title>
+		<score rating="9"/>
+		<release date="20150915">September 15, 2015</release>
+		<platforms>
+			<platform>PC</platform>
+			<platform>Macintosh</platform>
+		</platforms>
+		<developers>
+			<developer>tobyfox</developer>
+		</developers>
+		<publishers>
+			<publisher>tobyfox</publisher>
+		</publishers>
+		<link url="http://www.gamespot.com/undertale">GameSpot: Undertale</link>
+	</game>
+	
+	<game>
+		<title>Chrono Trigger</title>
+		<score rating="8.5"/>
+		<release date="19950822">August 22, 1995</release>
+		<platforms>
+			<platform>Android</platform>
+			<platform>iOS</platform>
+			<platform>Mobile</platform>
+			<platform>DS</platform>
+			<platform>Super Nintendo</platform>
+			<platform>PlayStation</platform>
+		</platforms>
+		<developers>
+			<developer>Square Enix</developer>
+			<developer>SquareSoft</developer>
+			<developer>TOSE</developer>
+		</developers>
+		<publishers>
+			<publisher>Square Enix</publisher>
+			<publisher>SquareSoft</publisher>
+		</publishers>
+		<link url="http://www.gamespot.com/chrono-trigger">GameSpot: Chrono Trigger</link>
+	</game>
+	
+	<game>
+		<title>The Legend of Heroes: Trails in the Sky</title>
+		<score rating="8"/>
+		<release date="20110328">March 28, 2011</release>
+		<platforms>
+			<platform>PC</platform>
+			<platform>PSP</platform>
+		</platforms>
+		<developers>
+			<developer>Falcom</developer>
+		</developers>
+		<publishers>
+			<publisher>Falcom</publisher>
+			<publisher>Xseed Games</publisher>
+			<publisher>Ghostlight</publisher>
+		</publishers>
+		<link url="http://www.gamespot.com/the-legend-of-heroes-trails-in-the-sky">GameSpot: Trails in the Sky FC</link>
+	</game>
+	
+</gamelist>

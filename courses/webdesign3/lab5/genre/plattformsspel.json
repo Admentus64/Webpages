@@ -1,0 +1,150 @@
+﻿{
+   "genre": "Plattformsspel",
+   "game": [
+
+      {
+         "title": "Super Mario Galaxy 2",
+         "score": "10",
+         "release": {
+            "date": "20100423",
+            "calendar": "May 23, 2010"
+         },
+         "platforms": [
+            "Wii"
+         ],
+         "developers": [
+            "Nintendo EAD Tokyo"
+         ],
+         "publishers": [
+            "Nintendo"
+         ],
+         "link": {
+            "url": "http://www.gamespot.com/super-mario-galaxy-2",
+            "info": "GameSpot: Super Mario Galaxy 2"
+         }
+      },
+
+      {
+         "title": "Banjo-Tooie",
+         "score": "9.6",
+         "release": {
+            "date": "20001120",
+            "calendar": "November 20, 2000"
+         },
+         "platforms": [
+            "Nintendo 64",
+            "Xbox 360"
+         ],
+         "developers": [
+            "Rare Ltd.",
+            "4J Studios"
+         ],
+         "publishers": [
+            "Nintendo",
+            "Microsoft Game Studios"
+         ],
+         "link": {
+            "url": "http://www.gamespot.com/banjo-tooie",
+            "info": "GameSpot: Banjo-Tooie"
+         }
+      },
+
+      {
+         "title": "Super Mario 64",
+         "score": "9.4",
+         "release": {
+            "date": "19960926",
+            "calendar": "September 26, 1996"
+         },
+         "platforms": [
+            "Nintendo Dual Screen",
+            "Nintendo 64"
+         ],
+         "developers": [
+            "Nintendo EAD"
+         ],
+         "publishers": [
+            "Nintendo"
+         ],
+         "link": {
+            "url": "http://www.gamespot.com/super-mario-64",
+            "info": "GameSpot: Super Mario 64"
+         }
+      },
+
+      {
+         "title": "Ori and the Blind Forest",
+         "score": "9",
+         "release": {
+            "date": "20150311",
+            "calendar": "March 11, 2015"
+         },
+         "platforms": [
+            "Windows",
+            "Xbox 360",
+            "Xbox One"
+         ],
+         "developers": [
+            "Mon Studios"
+         ],
+         "publishers": [
+            "Microsoft Game Studios"
+         ],
+         "link": {
+            "url": "http://www.gamespot.com/ori-and-the-blind-forest",
+            "info": "GameSpot: Ori and the Blind Forest"
+         }
+      },
+
+      {
+         "title": "Rayman Legends",
+         "score":  "9",
+         "release": {
+            "date": "20130829",
+            "calendar": "August 29, 2013"
+         },
+         "platforms": [
+            "Windows",
+            "Wii U",
+            "PlayStation 3",
+            "PlayStation 4",
+            "Xbox 360",
+            "Xbox One"
+         ],
+         "developers": [
+            "Ubisoft Montpellier"
+         ],
+         "publishers": [
+            "Ubisoft",
+            "Nintendo"
+         ],
+         "link": {
+            "url": "http://www.gamespot.com/rayman-legends",
+            "info": "GameSpot: Rayman Legends"
+         }
+      },
+
+      {
+         "title": "Donkey Kong 64",
+         "score": "9",
+         "release": {
+            "date": "19991124",
+            "calendar": "November 24, 1999"
+         },
+         "platforms": [
+            "Nintendo 64"
+         ],
+         "developers": [
+            "Rare Ltd."
+         ],
+         "publishers": [
+            "Nintendo"
+         ],
+         "link": {
+            "url": "http://www.gamespot.com/donkey-kong-64",
+            "info": "GameSpot: Donkey Kong 64"
+         }
+      }
+
+   ]
+}

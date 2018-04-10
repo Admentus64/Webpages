@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body {background-color:#FFF; color:#000; font-family:Verdana, Geneva, sans-serif; font-size:12px;}
+
+hr {clear:both;}
+
+#map {width:600px; height:400px; margin:15px; border:3px solid #039; float:left;}
+
+#addrBtns {margin-left:20px;}
+#addrBtns button {display:block; margin:10px;}
+
+#flickrImg img {width:100px; margin:5px; border:3px groove #060;}

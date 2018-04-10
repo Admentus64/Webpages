@@ -1,0 +1,21 @@
+{
+	"category": "Fjärilar",
+	"image": [
+		{
+			"url": "pics/butterflies/b0.jpg",
+			"caption": "En orange och svart fjäril"
+		},
+		{
+			"url": "pics/butterflies/b1.jpg",
+			"caption": "Blå fjäril"
+		},
+		{
+			"url": "pics/butterflies/b2.jpg",
+			"caption": "Röd med färgade ringar"
+		},
+		{
+			"url": "pics/butterflies/b3.jpg",
+			"caption": "Orange med svarta prickar"
+		}
+	]
+}

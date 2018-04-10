@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE courselist SYSTEM "courses.dtd">
+
+<courselist>
+
+	<subject department="Institutionen för medieteknik">Medieteknik</subject>
+	<semester>vt16</semester>
+	
+	<course>
+		<code>1ME321</code>
+		<name>Webbteknik 1</name>
+		<credits>7,5</credits>
+		<prerequisites>Grundläggande behörighet samt Matematik B eller Matematik 2a/2b/2c</prerequisites>
+		<contact>
+			<name>Rune Körnefors</name>
+			<email>rune.kornefors@lnu.se</email>
+		</contact>
+		<link url="http://lnu.se/utbildning/kurser/1ME321" />
+	</course>
+	
+	<course>
+		<code>1ME323</code>
+		<name>Webbteknik 3</name>
+		<credits>7,5</credits>
+		<prerequisites>1ME322 Webbteknik 2, 7,5hp eller motsvarande</prerequisites>
+		<contact>
+			<name>Rune Körnefors</name>
+			<email>rune.kornefors@lnu.se</email>
+		</contact>
+		<link url="http://lnu.se/utbildning/kurser/1ME323" />
+	</course>
+	
+	<course>
+		<code>1ME331</code>
+		<name>Interaktionsdesign 1</name>
+		<credits>7,5</credits>
+		<prerequisites>1ME311 Digitala medier</prerequisites>
+		<contact>
+			<name>David Johansson</name>
+			<email>david.johansson@lnu.se</email>
+		</contact>
+		<link url="http://lnu.se/utbildning/kurser/1ME331" />
+	</course>
+	
+	<course>
+		<code>1ME302</code>
+		<name>Projektkurs i medieteknik 1</name>
+		<credits>7,5</credits>
+		<prerequisites>1ME323 Webbteknik 3, 7,5hp och 1ME331 Interaktionsdesign 1, 7,5hp eller motsvarande.</prerequisites>
+		<contact>
+			<name>Karl Johan Rosqvist</name>
+			<email>karl.johan.rosqvist@lnu.se</email>
+		</contact>
+		<link url="http://lnu.se/utbildning/kurser/1ME302" />
+	</course>
+	
+	<course>
+		<code>2ME10E</code>
+		<name>Examensarbete i medieteknik</name>
+		<credits>15</credits>
+		<prerequisites>60 hp medieteknik inkl 1ME205 Webbprogrammering 15 hp, eller motsvarande.</prerequisites>
+		<link url="http://lnu.se/utbildning/kurser/2ME10E" />
+	</course>
+	
+</courselist>

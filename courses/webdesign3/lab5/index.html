@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>1ME323, Laboration 5 - Informationsstrukturering med JSON</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="events.js"></script>
+		<script type="text/javascript" src="genres.js"></script>
+		<script type="text/javascript" src="games.js"></script>
+		<script type="text/javascript" src="info.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	
+	<body>
+		<header>
+			<h1>1ME323, Laboration 5 - Informationsstrukturering med JSON</h1>
+		</header>
+		
+		<main>
+			<h2>Dataspel</h2>
+			<p>Välj en kategori i nedanstående meny, för att välja ett dataspel i nästa nedanstående meny.</p>
+			
+			<form>
+				<select id="genresMenu">
+					<option>Välj en kategori ...</option>
+				</select>
+				<b id="genresMessage">- Ej kategori vald än</b>
+			</form>
+			
+			<p>Välj ett dataspel i nedanstående meny, för att se beskrivingen.</p>
+			<form>
+				<select id="gamesMenu">
+					<option>Välj ett dataspel ...</option>
+				</select>
+				<b id="gamesMessage">- Välj kategorien först</b>
+			</form>
+			
+			<table id="infoTable"></table> <!-- Information from JSON-files is added here -->
+		</main>
+		
+		<footer>
+			Laboration i 1ME323 Webbteknik 3 på Linnéuniversitetet<br>
+			Ansvariga av sidan: Robert Hallink<br>
+			<a href="../../../index.html">Går tillbaka till ingångssidan</a>
+		</footer>
+	</body>
+	
+</html>

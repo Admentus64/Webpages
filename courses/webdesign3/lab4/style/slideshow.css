@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+#slideshowImg {margin-top:10px; width:600px; text-align:center;}
+#slideshowImg img {border:4px ridge #060; width:400px;}
+#slideshowImg p {font-style:italic;}
+
+#browseBtns {margin-top:20px; width:600px; text-align:center;}
+#browseBtns button {background-color:#FFF; margin:0 20px; font-size:1.2em;}

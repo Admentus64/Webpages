@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<departments>
+	<department id="1">
+		<name>Institutionen för medieteknik</name>
+		<info>Medieteknik är ett ämne under ständig utveckling där man kombinerar olika digitala medier med interaktivitet för att skapa intressanta produkter och tjänster.</info>
+	</department>
+	<department id="2">
+		<name>Institutionen för musik och bild</name>
+		<info>Institutionen för musik och bild är en av sju institutioner inom Fakulteten för konst och humaniora och innehåller följande ämnen: Art history and Visual arts, Arts, Music, Musicology and Theatre studies.</info>
+	</department>
+	<department id="3">
+		<name>Institutionen för svenska språket</name>
+		<info>Institutionen för svenska språket är en av sju institutioner inom Fakulteten för konst och humaniora och innehåller två ämnen: svenska och svenska som andraspråk.</info>
+	</department>
+</departments>

@@ -1,0 +1,18 @@
+﻿<!ELEMENT gamelist (game+)>
+<!ELEMENT game (title, score, release, platforms, developers, publishers, link)>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT score EMPTY>
+<!ELEMENT release (#PCDATA)>
+<!ELEMENT platforms (platform+)>
+<!ELEMENT developers (developer+)>
+<!ELEMENT publishers (publisher+)>
+<!ELEMENT link (#PCDATA)>
+
+<!ELEMENT platform (#PCDATA)>
+<!ELEMENT developer (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+
+<!ATTLIST score rating CDATA #REQUIRED>
+<!ATTLIST release date CDATA #REQUIRED>
+<!ATTLIST link url CDATA #REQUIRED>

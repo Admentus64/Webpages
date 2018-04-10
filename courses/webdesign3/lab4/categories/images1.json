@@ -1,0 +1,25 @@
+{
+	"category": "Blommor",
+	"image": [
+		{
+			"url": "pics/flowers/f0.jpg",
+			"caption": "Gul blomma"
+		},
+		{
+			"url": "pics/flowers/f1.jpg",
+			"caption": "Blåklocka"
+		},
+		{
+			"url": "pics/flowers/f2.jpg",
+			"caption": "Prästkrage"
+		},
+		{
+			"url": "pics/flowers/f3.jpg",
+			"caption": "Bi på blomma"
+		},
+		{
+			"url": "pics/flowers/f4.jpg",
+			"caption": "Viol"
+		}
+	]
+}
