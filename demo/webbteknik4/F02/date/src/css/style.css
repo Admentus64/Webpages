@@ -1,0 +1,42 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+}
+
+html {
+	font: 5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	background-color: #F4D16B;
+	color: #333333;
+	font-weight: 300;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: inherit;
+	width: inherit;
+}
+
+#page-wrapper {
+	display: table;
+	height: inherit;
+	width: inherit;
+}
+
+#page-content-wrapper {
+	display: table-cell;
+    vertical-align: middle;
+	text-align: center;
+}
+
+#page-content-wrapper h1 {
+	margin-bottom: 0.15em;
+}
+
+#page-content-wrapper p {
+	color: #ffffff;
+	font: 0.33em "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	letter-spacing: 5px;
+}

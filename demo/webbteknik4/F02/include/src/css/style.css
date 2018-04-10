@@ -1,0 +1,165 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html {
+	font: 125% "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	color: #333333;
+	letter-spacing: 1px;
+}
+
+a {
+	text-decoration: none;
+	color: #333333;
+}
+
+a:hover {
+	text-decoration: line-through;
+}
+
+#page-wrapper {
+	
+}
+
+#page-header-wrapper {
+	background-color: #FFFFFF;
+	width: 100%;
+	position: fixed;
+	margin: 0 auto;
+	padding-top: 2%;
+	top: 0;
+	z-index: 1;
+	opacity: 0.9;
+}
+
+#page-header-wrapper h1 {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+#page-header-wrapper h1 a {
+	text-decoration: none;
+}
+
+#page-header-wrapper a {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+#page-header-wrapper p {
+	float: left;
+	text-indent: -999em;
+}
+
+#page-header-logo-wrapper {
+	float: left;
+}
+
+#page-header-menu-wrapper {
+	float: right;
+}
+
+#page-header-menu-wrapper ul {
+	list-style: none;
+}
+
+#page-header-menu-wrapper ul li {
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+#page-content-wrapper h2 {
+	font-size: 110px;
+	font-weight: 600;
+}
+
+#page-content-wrapper h3 {
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	border-bottom: 1px solid #eeeeee;
+	line-height: 100px;
+	color: #888888;
+}
+
+#page-content-presentation-wrapper {
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+
+#page-content-publications-wrapper {
+	
+}
+
+#page-content-publications-wrapper ul {
+	list-style: none;
+	margin: 0px;
+}
+
+#page-content-publications-wrapper ul li {
+	border-bottom: 1px solid #eeeeee;
+	line-height: 100px;
+}
+
+#page-content-publications-wrapper ul li a {
+	display: block;
+	line-height: 150%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 18px;
+	text-align: justify;
+}
+
+#page-content-publications-wrapper ul li a:hover {
+	text-decoration: underline;
+}
+
+#page-content-about-wrapper h3 {
+	margin: 0;
+	padding: 0;
+	border-bottom-style: none;
+	line-height: 0;
+	color: #333333;
+	font-weight: 500;
+}
+
+#page-content-about-wrapper p {
+	color: #888888;
+	margin-bottom: 25px;
+	line-height: 150%;
+}
+
+#page-footer-wrapper {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 16px;
+}
+
+#page-footer-wrapper a {
+	float: right;
+	text-decoration: none;
+}
+
+#page-footer-wrapper p {
+	float: left;
+}
+
+.content-wrapper {
+	margin: 0 auto;
+	width: 70%;
+	animation: fadein 2s;
+}
+
+.clear {
+	float: none;
+	clear: both;
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to   {opacity: 1;}
+}
