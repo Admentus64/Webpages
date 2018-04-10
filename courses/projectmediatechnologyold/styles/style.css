@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, header, #local, main, section, footer{
+    margin:0;
+    padding:0;
+}
+
+footer{
+    clear:both;
+    text-align:center;
+    padding-bottom:10px;
+    background-color:#CC6600;
+    color:#FFFFFF;
+}
+
+header, #local, main, footer, section{
+    display:block; /* För webbläsare utan stöd för HTML5 */
+}
+
+body{
+    background-color:#FC6;
+    color:#000;
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:12px;
+}
+
+#wrapper{
+    margin:0 auto;
+    background-color:#3c3a34;
+}
+
+header{
+    background-color:#F90;
+    padding:10px;
+    text-align:center;
+}
+
+main{
+    padding:10px;
+    margin-left:200px;
+    background:-webkit-linear-gradient(left, #FFF, #F90);     /* For Safari 5.1 to 6.0 */
+    background:-o-linear-gradient(right, #FFF, #F90);         /* For Opera 11.1 to 12.0 */
+    background:-moz-linear-gradient(right, #FFF, #F90);       /* For Firefox 3.6 to 15 */
+    background:linear-gradient(to right, #FFF, #F90);         /* Standard syntax */
+}
+
+main:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+caption{
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+table{
+    border-collapse:collapse;
+    box-shadow:5px 5px 3px #888888;
+    margin-bottom:20px;
+}
+
+th, td{
+    border:1px solid #666;
+    padding:5px;
+}
+
+
+th{
+    background-color:#CC6600;
+    color:#FFFFFF;
+    font-weight:bold;
+}
+
+#survey fieldset{
+    background-color:#EEE;
+    margin-bottom:20px;
+}
+
+#survey legend{
+    font-style:italic;
+    font-weight:bold;
+}
+
+label input[type="text"], label input[type="email"]{
+    width:400px;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+
+.linkBox {
+    display:block;
+    margin-left:30px;
+    margin-top:20px;
+    padding:10px;
+    width:300px;
+    border-radius:10px;
+    border:2px outset #36C;
+    font-size:1.25em;
+    background-color:#66ff66;
+    text-align:center;
+    font-size:large;
+    font-weight:bold;
+}
+
+#topicsDiv {
+    display:block;
+    float:right;
+    margin-right:1%;
+    margin-top:70px;
+}
+
+fieldset label { display:block; }
+header h1{ margin:10px; }
+tr{ background-color:#e1e1d0; }
+h2{ padding-top:20px; }
+#place label, #data label, #date select, #extra label{ line-height:2em; }
+#submitbtn{ text-align:right; }
+#survey{ padding:20px; }
+.titleCell{ background-color:#3366ff; }

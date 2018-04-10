@@ -1,0 +1,84 @@
+﻿<!doctype html>
+
+<html lang="en">
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Information, Tips, Events, Restaurants and Hotels for Fishing.">
+		<meta name="keywords" content="Fishing,Event,Restaurants,Hotels">
+		<meta name="author" content="Robert Hallink">
+		<title>Fishing Trip Online</title>
+		<link rel="stylesheet" type="text/css" href="../styles/style.css">
+		<link rel="stylesheet" type="text/css" href="../styles/links.css">
+		<link rel="stylesheet" type="text/css" href="../styles/fishing.css">
+		<script src="../scripts/events.js"></script>
+		<script src="../scripts/jquery/jquery-1.12.3.js"></script>
+		<script src="../scripts/init.js"></script>
+		<script src="../scripts/topic.js"></script>
+		<script src="../scripts/payload.js"></script>
+		<script src="../scripts/locations/fishing.js"></script>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			
+			<header>
+				<h1>Fishing Trip Online</h1>
+			</header>
+			
+			<nav id="global">
+				<ul>
+					<li class="inactiveGlobal">Home</li>
+					<li class="inactiveGlobal">Information</li>
+					<li class="inactiveGlobal">Fishing Guide</li>
+					<li class="activeGlobal">Locations</li>
+				</ul>
+			</nav>
+			
+			<nav id="globalToLocal">
+				<ul>
+					<li class="Home"> <a href="../home/index.html">Index</a> </li>
+					<li class="Home"> <a href="../home/survey.html">Survey</a> </li>
+					<li class="Information"> <a href="../information/why.html">Why Fishing?</a> </li>
+					<li class="Information"> <a href="../information/events.html">Events</a> </li>
+					<li class="Information"> <a href="../information/hotels.html">Hotels</a> </li>
+					<li class="Information"> <a href="../information/restaurants.html">Restaurants</a> </li>
+					<li class="Fishing Guide"> <a href="../fishingGuide/equipmentGuide.html">Equipment Guide</a> </li>
+					<li class="Fishing Guide"> <a href="../fishingGuide/bait.html">Fish & Bait</a> </li>
+					<li class="Fishing Guide"> <a href="../fishingGuide/equipmentList.html">Equipment List</a> </li>
+					<li class="Fishing Guide"> <a href="../fishingGuide/compare.html">Compare</a> </li>
+					<li class="Locations"> <a href="map.html">Map</a> </li>
+					<li class="Locations"> <a href="fishing.html" id="thisGlobal">Fishing</a> </li>
+				</ul>
+			</nav>
+			
+			<nav id="local">
+                <ul>
+                    <li> <a href="map.html">Map</a> </li>
+					<li> <a href="fishing.html" id="thisLocal">Fishing</a> </li>
+                </ul>
+            </nav>
+			
+			<main>
+				<h1>Fishing</h1>
+				
+				<div class="paneDiv">
+					<h2 id="header1">Småland</h2>
+					<div id="list1"></div>
+				</div>
+				
+				<div class="paneDiv">
+					<h2 id="header2">Öland</h2>
+					<div id="list2"></div>
+				</div>
+			</main>
+			
+			<footer>
+                <br>Robert Hallink
+                <br>Go back to the presentation index: <a href="../../../index.html">Index</a>
+            </footer>
+			
+		</div> <!-- End wrapper -->
+	</body>
+	
+</html>

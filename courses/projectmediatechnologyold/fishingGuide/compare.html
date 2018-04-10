@@ -1,0 +1,108 @@
+﻿<!doctype html>
+
+<html lang="en">
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Information, Tips, Events, Restaurants and Hotels for Fishing.">
+		<meta name="keywords" content="Fishing,Event,Restaurants,Hotels">
+		<meta name="author" content="Robert Hallink">
+		<title>Fishing Trip Online</title>
+		<link rel="stylesheet" type="text/css" href="../styles/style.css">
+		<link rel="stylesheet" type="text/css" href="../styles/links.css">
+		<link rel="stylesheet" type="text/css" href="../styles/compare.css">
+		<script src="../scripts/events.js"></script>
+		<script src="../scripts/jquery/jquery-1.12.3.js"></script>
+		<script src="../scripts/init.js"></script>
+		<script src="../scripts/topic.js"></script>
+		<script src="../scripts/fishingGuide/equipment.js"></script>
+		<script src="../scripts/fishingGuide/compare.js"></script>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			
+			<header>
+				<h1>Fishing Trip Online</h1>
+			</header>
+			
+			<nav id="global">
+				<ul>
+					<li class="inactiveGlobal">Home</li>
+					<li class="inactiveGlobal">Information</li>
+					<li class="activeGlobal">Fishing Guide</li>
+					<li class="inactiveGlobal">Locations</li>
+				</ul>
+			</nav>
+			
+			<nav id="globalToLocal">
+				<ul>
+					<li class="Home"> <a href="../home/index.html">Index</a> </li>
+					<li class="Home"> <a href="../home/survey.html">Survey</a> </li>
+					<li class="Information"> <a href="../information/why.html">Why Fishing?</a> </li>
+					<li class="Information"> <a href="../information/events.html">Events</a> </li>
+					<li class="Information"> <a href="../information/hotels.html">Hotels</a> </li>
+					<li class="Information"> <a href="../information/restaurants.html">Restaurants</a> </li>
+					<li class="Fishing Guide"> <a href="../fishingGuide/equipmentGuide.html">Equipment Guide</a> </li>
+					<li class="Fishing Guide"> <a href="../fishingGuide/bait.html">Fish & Bait</a> </li>
+					<li class="Fishing Guide"> <a href="../fishingGuide/equipmentList.html">Equipment List</a> </li>
+					<li class="Fishing Guide"> <a href="../fishingGuide/compare.html" id="thisGlobal">Compare</a> </li>
+					<li class="Locations"> <a href="../locations/map.html">Map</a> </li>
+					<li class="Locations"> <a href="../locations/fishing.html">Fishing</a> </li>
+				</ul>
+			</nav>
+			
+			<nav id="local">
+                <ul>
+					<li> <a href="equipmentGuide.html">Equipment Guide</a> </li>
+					<li> <a href="bait.html">Fish & Bait</a> </li>
+                    <li> <a href="equipmentList.html">Equipment List</a> </li>
+					<li> <a href="compare.html" id="thisLocal">Compare</a> </li>
+                </ul>
+            </nav>
+			
+			<div id="category1">
+				<form id="categoryChoices1">
+					<h1 id="categoryChoiceHeader1">Left Compare</h1>
+					<input type="radio" name="categoryChoice1" value="Fishing Rods" checked>Fishing Rods<br>
+					<input type="radio" name="categoryChoice1" value="Lures">Lures<br>
+					<input type="radio" name="categoryChoice1" value="Clothing">Clothing<br>
+					<input type="radio" name="categoryChoice1" value="Fishing Knives">Fishing Knives<br>
+					<input type="radio" name="categoryChoice1" value="Storing Boxes">Storing Boxes
+				</form>
+			</div>
+			
+			<div id="category2">
+				<form id="categoryChoices2">
+					<h1 id="categoryChoiceHeader2">Right Compare</h1>
+					<input type="radio" name="categoryChoice2" value="Fishing Rods" checked>Fishing Rods<br>
+					<input type="radio" name="categoryChoice2" value="Lures">Lures<br>
+					<input type="radio" name="categoryChoice2" value="Clothing">Clothing<br>
+					<input type="radio" name="categoryChoice2" value="Fishing Knives">Fishing Knives<br>
+					<input type="radio" name="categoryChoice2" value="Storing Boxes">Storing Boxes
+				</form>
+			</div>
+			
+			<main>
+				<h1>Compare</h1>
+				
+				<div class="paneDiv">
+					<h2 id="header1">Compare 1</h2>
+					<div id="list1"></div>
+				</div>
+				
+				<div class="paneDiv">
+					<h2 id="header2">Compare 2</h2>
+					<div id="list2"></div>
+				</div>
+			</main>
+			
+			<footer>
+                <br>Robert Hallink
+                <br>Go back to the presentation index: <a href="../../../index.html">Index</a>
+            </footer>
+			
+		</div> <!-- End wrapper -->
+	</body>
+	
+</html>

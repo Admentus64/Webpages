@@ -1,0 +1,33 @@
+﻿<h2>A short introduction</h2>
+<p>Fishing is the activity of trying to catch fish. Fish are normally caught in the wild. Techniques for catching fish include hand gathering, spearing, netting, angling and trapping. Fishing may include catching other aquatic animals, such as molluscs, cephalopods, crustaceans, and echinoderms. The term is not normally applied to catching farmed fish, or to aquatic mammals, and marine mammals, such as whales, where the term whaling is more appropriate.</p>
+
+<p>According to United Nations FAO statistics, the total number of commercial fishermen and fish farmers is estimated to be 38 million. Fisheries and aquaculture provide direct and indirect employment to over 500 million people in developing countries. In 2005, the worldwide per capita consumption of fish captured from wild fisheries was 14.4 kilograms, with an additional 7.4 kilograms harvested from fish farms. In addition to providing food, modern fishing is also a recreational pastime.</p>
+
+
+
+<h2>Techniques</h2>
+<p>There are many fishing techniques and tactics for catching fish. The term can also be applied to methods for catching other aquatic animals such as shellfish, squid and octopus. Fishing techniques include hand gathering, spearfishing, netting, angling and trapping. Recreational, commercial and artisanal fishers use different techniques, and also, sometimes, the same techniques. Recreational fishers fish for pleasure or sport, while commercial fishers fish for profit. Artisanal fishers use traditional, low-tech methods, for survival in third-world countries, and as a cultural heritage in other countries. Usually, recreational fishers use angling methods and commercial fishers use netting methods. There is an intricate link between various fishing techniques and knowledge about the fish and their behaviour including migration, foraging and habitat. The effective use of fishing techniques often depends on this additional knowledge. Some fishermen follow fishing folklores which claim that fish feeding patterns are influenced by the position of the sun and the moon.</p>
+
+
+
+<h2>Tackle</h2>
+<p>Fishing tackle is a general term that refers to the equipment used by fishermen when fishing. Almost any equipment or gear used for fishing can be called fishing tackle. Some examples are hooks, lines, sinkers, floats, rods, reels, baits, lures, spears, nets, gaffs, traps, waders and tackle boxes. Tackle that is attached to the end of a fishing line is called terminal tackle. This includes hooks, sinkers, floats, leaders, swivels, split rings and wire, snaps, beads, spoons, blades, spinners and clevises to attach spinner blades to fishing lures. Fishing tackle can be contrasted with fishing techniques. Fishing tackle refers to the physical equipment that is used when fishing, whereas fishing techniques refers to the ways the tackle is used when fishing.</p>
+
+
+
+<h2>Traditional fishing</h2>
+<p>Traditional fishing is any kind of small scale, commercial or subsistence fishing practices using traditional techniques such as rod and tackle, arrows and harpoons, throw nets and drag nets and so on</p>
+
+
+
+<h2>Recreational fishing</h2>
+<p>Recreational and sport fishing are fishing primarily for pleasure or competition. Recreational fishing has conventions, rules, licensing restrictions and laws that limit the way in which fish may be caught; typically, these prohibit the use of nets and the catching of fish with hooks not in the mouth. The most common form of recreational fishing is done with a rod, reel, line, hooks and any one of a wide range of baits or lures such as artificial flies. The practice of catching or attempting to catch fish with a hook is generally known as angling. In angling, it is sometimes expected or required that fish be returned to the water. Recreational or sport fishermen may log their catches or participate in fishing competitions.</p>
+
+<p>Big-game fishing is fishing from boats to catch large open-water species such as tuna, sharks, and marlin. Sport fishing is recreational fishing where the primary reward is the challenge of finding and catching the fish rather than the culinary or financial value of the fish's flesh. Fish sought after include marlin, tuna, tarpon, sailfish, shark, mackerel, and many others.</p>
+
+
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/11/P%C3%A1tzcuaro-Trad-Fishing-3.jpg" alt="Fishing with Nets in Mexico">
+<form>
+	<a href="https://en.wikipedia.org/wiki/Fishing">Source: Wikipedia - Fishing</a>
+</form>

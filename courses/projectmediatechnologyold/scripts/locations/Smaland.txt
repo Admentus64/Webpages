@@ -1,0 +1,9 @@
+﻿<h2>On-Shore</h2>
+
+<button class="location" value="56.54099201966859;15.553550720214844">Törn</button>
+<button class="location" value="56.643234635553014;15.201644897460938">Wiren</button>
+
+<h2>Off-Shore</h2>
+
+<button class="location" value="56.59414449813012;16.23178482055664">Bottorps Hamn</button>
+<button class="location" value="56.52930170375099;16.20680809020996">Kolboda's Hamn</button>

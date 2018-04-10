@@ -1,0 +1,39 @@
+﻿<h2>Bass</h2>
+<p>Bass is a name shared by many different species of fish. The term encompasses both freshwater and marine species, all belonging to the large order Perciformes, or perch-like fishes, and the word bass comes from Middle English bars, meaning "perch".</p>
+
+
+
+<h2>Bass Types</h2>
+<ul>
+	<li>The black basses, such as the Choctaw bass, Guadalupe bass, largemouth bass, smallmouth bass, and spotted bass, belong to the sunfish family, Centrarchidae.</li>
+	<li>The temperate basses, such as the European seabass, striped bass and white bass, belong to the family Moronidae.</li>
+	<li>The Asian seabasses, such as the Japanese seabass and Blackfin seabass, belong to the family Lateolabracidae.</li>
+</ul>
+
+
+
+<h2>Other Bass Types</h2>
+<p>Many species are also known as basses, including:</p>
+
+<ul>
+	<li>The Australian bass, Macquaria novemaculeata, is a member of the temperate perch family, Percichthyidae.</li>
+	<li>The black sea bass, Centropristis striata, is a member of the sea bass and sea grouper family, Serranidae.</li>
+	<li>The Chilean sea bass, Dissostichus eleginoides, also known as the Patagonian toothfish, is a member of the cod icefish family, Nototheniidae.</li>
+	<li>The giant sea bass Stereolepis gigas, also known as the black sea bass, is a member of the wreckfish family, Polyprionidae.</li>
+	<li>The "lanternbellies" or "temperate ocean-basses", Acropomatidae.</li>
+	<li>The "butterfly peacock bass", Cichla ocellaris, is a member of the cichlid family, Cichlidae and a prized game fish along with its relatives in the genus Cichla.</li>
+</ul>
+
+
+
+<h2>Fishing</h2>
+<p>Largemouth bass and smallmouth bass are the most popular game fish in North America. It is also very popular in South Africa where the largemouth bass is often found in lakes and dams. When fishing, lures or live bait will work. Lures that mimic baitfish, worms, crayfish, frogs, and mice are all proven techniques.</p>
+
+
+
+<img src="..\pics\bass.jpg" alt="Fishing the Bass">
+<form>
+	<a href="https://en.wikipedia.org/wiki/Bass_(fish)">Source: Wikipedia - Bass (Fish)</a>
+</form>
+
+

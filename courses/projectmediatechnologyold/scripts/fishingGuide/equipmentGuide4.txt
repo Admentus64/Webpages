@@ -1,0 +1,55 @@
+﻿<h2>Fishing Lines</h2>
+<p>A fishing line is a cord used or made for angling. Important parameters of a fishing line are its length, material, and weight. Factors that may determine what line an angler chooses for a given fishing environment include breaking strength, knot strength, UV resistance, castability, limpness, stretch, abrasion resistance, and visibility. Most modern lines are made from nylon or silk.</p>
+
+
+
+<h2>Catching Fish</h2>
+<p>Fish are caught with a fishing line by encouraging a fish to bite on a fish hook. A fish hook will pierce the mouthparts of a fish and is normally barbed to make escape less likely. Another method is to use a gorge, which is buried in the bait such that it would be swallowed end first. The tightening of the line would fix it cross-wise in the quarry's stomach or gullet and so the capture would be assured.</p>
+
+<p>Fishing with a hook and line is called angling. In addition to the use of the hook and line used to catch a fish, a heavy fish may be landed by using a landing net or a hooked pole called a gaff.</p>
+
+<p>Trolling is a technique in which a fishing lure on a line is drawn through the water. Trolling from a moving boat is a technique of big-game fishing and is used to catch large open-water species such as tuna and marlin. Trolling is also a freshwater angling technique often used to catch salmon, northern pike, muskellunge and walleye. This technique allows anglers to cover a large body of water in a short time.</p>
+
+<p>Long-line fishing, also known as a trot line is a commercial fishing technique that uses many baited hooks hanging from a single line.</p>
+
+<p>Snagging is a technique where the object is to hook the fish in the body. Generally, a large treble hook with a heavy sinker is cast into a river containing a large amount of fish, such as a Salmon, and is quickly jerked and reeled in. Due to the often illegal nature of this method some practitioners have added methods to disguise the practice, such as adding bait or piercing the jerking motion.</p>
+
+
+
+<h2>Modern Lines</h2>
+<p>Modern fishing lines intended for spinning, spin cast, or bait casting reels are almost entirely made from artificial substances, including nylon, polyvinylidene fluoride, polyethylene, Dacron and Dyneema. The most common type is monofilament, made of a single strand. Fishermen often use monofilament because of its buoyant characteristics and its ability to stretch under load. The line stretch has advantages, such as dampening the force when setting the hook and when fighting strong fish. On very far distances the dampening may become a disadvantage. Recently, other alternatives to standard nylon monofilament lines have been introduced made of copolymers or fluorocarbon, or a combination of the two materials. Fluorocarbon fishing line is made of the fluoropolymer PVDF and it is valued for its refractive index, which is similar to that of water, making it less visible to fish. Fluorocarbon is also a denser material, and therefore, is not nearly as buoyant as monofilament. Anglers often utilize fluorocarbon when they need their baits to stay closer to the bottom without the use of heavy sinkers. There are also braided fishing lines, cofilament and thermally fused lines, also known as 'superlines' for their small diameter, lack of stretch, and great strength relative to standard nylon monofilament lines. Braided, thermally fused, and chemically fused varieties of 'superlines' are now readily available.</p>
+
+
+
+<h2>Specialty Lines</h2>
+<p>Fly lines consist of a tough braided or monofilament core, wrapped in a thick waterproof plastic sheath, often of polyvinyl chloride. In the case of floating fly lines, the PVC sheath is usually embedded with many 'microballoons' or air bubbles, and may also be impregnated with silicone or other lubricants to give buoyancy and reduce wear. In order to fill up the reel spool and ensure an adequate reserve in case of a run by a powerful fish, fly lines are usually attached to a secondary line at the butt section, called backing. Fly line backing is usually composed of braided dacron or gelspun monofilaments. All fly lines are equipped with a leader of monofilament or fluorocarbon fishing line, usually tapered in diameter, and referred to by the 'X-size' of its final tip section, or tippet.</p>
+
+<p>Tenkara lines are special lines used for the fixed-line fishing method of tenkara. Traditionally these are furled lines the same length as the tenkara rod. Although original to Japan, these lines are similar to the British tradition of furled leader. They consist of several strands being twisted together in decreasing numbers toward the tip of the line, thus creating a taper that allows the line to cast the fly. It serves the same purpose as the fly-line, to propel a fly forward. They may be tied of various materials, but most commonly are made of monofilament.</p>
+
+<p>Wire lines are frequently used as leaders to prevent the fishing line from being severed by toothy fish. Usually braided from several metal strands, wire lines may be made of stainless steel, titanium, or a combination of metal alloys coated with plastic.</p>
+
+<b>Stainless steel line leaders:</b>
+<ul>
+	<li>Bite protection</li>
+	<li>Abrasion resistance</li>
+	<li>Single wire leaders are not as flexible as multi strand steel wire</li>
+	<li>Steel wire leaders are very flexible</li>
+</ul>
+
+<b>Titanium line leaders:</b>
+<ul>
+	<li>Titanium leader lines are very flexible</li>
+	<li>These lines are very elastic</li>
+	<li>These lines are knottable just as nylon monofilament lines
+	<li>Surface is rather hard and abrasion resistant</li>
+	<li>Titanium wire is corrosion resistant and can last for a long time</li>
+	<li>Due to the strength and elasticity, titanium wires are almost entirely kink-proof</li>
+</ul>
+
+<p>Copper, monel and lead core fishing lines are used as heavy trolling main lines, usually followed with fluorocarbon line near the lure or bait with fishing swivel between the lines. Due to their high density, these fishing lines sink rapidly in water and they require less line for achieving desired trolling depth. On the other hand, these lines are relatively thick for desired strength, especially when compared with braided fishing lines and they often require reels with larger spools.</p>
+
+
+<img src="../pics/titaniumLineLeader.png" alt="Fishing Line Leader Made of Titanium">
+<form>
+	<a href="https://en.wikipedia.org/wiki/Fishing_line">Source: Wikipedia - Fishing Line</a>
+</form>

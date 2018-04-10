@@ -1,0 +1,54 @@
+﻿<h2>Search fishing rules by map</h2>
+<p>On svenskafiskeregler.se you can search by map fishing rules. Here you can also find rules for different tool for the precise area where you will be fishing.</p>
+
+
+
+<h2>Minimum dimensions and seasons</h2>
+<p>The minimum dimensions set so that individuals in stocks to reproduce at least once before they risk being caught. Although maximum dimensions occur. For some species are also closed seasons, usually during the spawning season, such as lobster and trout.</p>
+
+
+
+<h2>Protected areas</h2>
+<p>To increase protection during spawning and spawning set up so-called closed areas where only those tools are permitted that do not catch the species protection concerns. To reduce overall fishing pressure on stocks is limited in some cases the amount of gear that may be used or how many fish can be caught. Protection areas and the rules of these can be found in the map on svenskafiskeregler.se.</p>
+
+
+
+<h2>General and private water</h2>
+<p>The Law on the border to public water divided the water into two groups; public and private waters. This division is of fundamental importance for the right to fish. Generally water is basically all coastal waters and the Great Lakes region, which is 300 meters off the mainland.</p>
+
+
+
+<h2>Sales of the catch of recreational fishing</h2>
+<p>It is forbidden for anglers to sell the catch from the sea. It requires a fishing license to sell fish. The provision does not apply to catches from lakes and rivers.</p>
+
+
+
+<h2>Foreign citizens</h2>
+<p>Foreign citizens on both individually and generally water fishing lure to the same extent as Swedish citizens.</p>
+
+
+
+<h2>Fishing in other lakes and rivers</h2>
+<p>For fishing in all other lakes and rivers, you need permission from the person who has the fishing rights. In many waters there is an orderly assignment of the lake or river so you can buy a fishing license and thus be allowed to fish. Otherwise, simply ask the person who has the fishing rights for permission to fish.</p>
+
+
+
+<h2>Legislation for recreational fishing</h2>
+<p>Marine and Water Authority Statutes (HVMFS) contains regulations that have been of fish conservation reasons. These regulations are sometimes changed due to the current stock situation. Such provisions concern including closed areas, closed seasons, minimum size and gear restrictions. Read more about the legislation concerning recreational fisheries. Everyman's right does not apply to fishing. More information about roam on the Environmental Protection Agency's website.</p>
+
+
+
+<h2>Special provisions in your county</h2>
+<p>On the county administrative boards' websites you will find information about fishing waters, rules and fishing licenses. You will also find information on local fishing rules, tips on fishing grounds and more on local government websites.</p>
+
+
+
+<h2>Report the sick fish</h2>
+<p>SVA has created a reporting portal, https://rapporterafisk.sva.se. Via the anglers in Sweden report the sick and injured fish.</p>
+
+
+
+<img src="../pics/fisheryRules.jpg" alt="Magiscroft Fishery Rules">
+<form>
+	<a href="https://www.havochvatten.se/hav/fiske--fritid/sport--och-fritidsfiske/fiskeregler/fiskeregler-for-fritidsfiske.html">Source: Havs- och Vatten Myndigheten - Guide to fishing rules</a>
+</form>

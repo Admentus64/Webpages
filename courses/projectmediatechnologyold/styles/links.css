@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#thisLocal, #thisGlobal{ background-color:#0066FF; }
+#global, #globalToLocal{ background-color:#F90; }
+.activeGlobal:hover, .activeSelection:hover{ cursor:pointer; }
+
+#global ul, #globalToLocal ul{
+    margin:0px;
+    margin-left:10px;
+    padding:0px;
+    text-align:center;
+}
+
+#global ul li, #globalToLocal ul li{
+    display:inline;
+    margin:30px;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */      
+}
+
+#global ul li, #globalToLocal a{
+    text-decoration:none;
+    display:inline-block;
+    margin-top:0px;
+    margin-bottom:20px;
+    text-align:center;
+    width:120px;
+    height:30px;
+    line-height:30px;
+}
+
+#local{
+    float:left;
+    width:200px;
+    padding-top:20px;
+}
+
+#local ul{
+    list-style:none;
+    padding:0px;
+    padding-left:20px;
+    margin-top:60px;
+    padding-bottom:300px;
+}
+
+#local ul li{
+    display:block;
+    margin-right:30px;
+    margin-bottom:25px;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */  
+}
+
+#local a{
+    text-decoration:none;
+    padding:5px;
+    display:block;
+    text-align:center;
+}
+
+nav a:link, nav a:visited, .inactiveGlobal{
+    background-color:#993300;
+    color:#FFFFFF;
+}
+
+.activeGlobal{
+    background-color:#0066FF;
+    color:#FFFFFF;
+}
+
+.activeSelection{
+    background-color:#006400;
+    color:#FFFFFF;
+}
+
+nav a:hover, nav a:active, .linkBox:hover, .linkBox:active, .inactiveGlobal:hover {
+    background-color:#009999;
+    color:#FFFFFF;
+    cursor:pointer;
+}

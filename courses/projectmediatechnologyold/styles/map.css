@@ -1,0 +1,32 @@
+#addrBtns {
+    margin-left:20px;
+    display:block;
+    float:right;
+}
+
+#addrBtns button {
+    width:300px;
+    height:30px;
+    display:block;
+    margin:10px;
+}
+
+
+#map {
+    width:1300px;
+    height:600px;
+    margin:15px;
+    border:3px solid #039;
+    float:left;
+}
+
+#maplocation p {
+    float:left;
+}
+
+#flickrImg img {
+    width:100px;
+    margin:5px;
+    border:3px groove #060;
+    float:left;
+}

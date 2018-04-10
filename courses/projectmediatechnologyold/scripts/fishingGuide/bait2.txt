@@ -1,0 +1,64 @@
+﻿<h2>Pike</h2>
+<p>The species of this sort are known as pike and pickerel. The pike is a sort of freshwater fish. The big pike species are found in North America, to Western Europe to Siberia.</p>
+
+<p>Pikes have the elongated, torpedo-like form of predatory fishes, with sharply pointed heads and sharp teeth. Their coloration is typically grey-green with a mottled or spotted appearance with stripes along their backs, providing camouflage among weeds. Individual pike marking patterns are unique, like fingerprints. Pike can grow to a maximum recorded length of 1.83 m, reaching a maximum recorded weight of 35 kg.</p>
+
+
+
+<h2>Pike Types</h2>
+<ul>
+	<li>Aquitanian pike</li>
+	<li>American pickerel</li>
+	<li>Redfin pickerel</li>
+	<li>Grass pickerel</li>
+	<li>Southern pike</li>
+	<li>Northern pike</li>
+	<li>Muskellunge</li>
+	<li>Great Lakes muskellunge or Spotted muskellunge</li>
+	<li>Chautauqua muskellunge or Barred muskellunge</li>
+	<li>Clear muskellunge</li>
+	<li>Chain pickerel</li>
+	<li>Amur pike</li>
+</ul>
+
+
+
+<h2>Diet</h2>
+<p>Pike feed on a wide range of food sources, predominantly smaller shoal fish. Pike are also cannibalistic, sometimes preying upon smaller members of their own species. This can be seen clearly in the northern pike.</p>
+
+<p>They will also prey on insects and amphibians such as newts or frogs in times when their usual food is scarce, and occasionally on small mammals like moles or mice when caught water-borne. Small birds such as ducklings may become a target for hungry pike. Pike are also known to prey on swimming snakes.</p>
+
+<p>They are, however, undeserving of their reputation for being overly vicious predators. There are few substantiated incidents of pike "attacks" on people. Pike's further reputation as a pest seems to lie predominantly amongst a small handful of anglers and fishery managers who think, perhaps unfairly, that pike are a threat to native rough fish and also other sport fish.</p>
+
+
+
+<h2>Angling</h2>
+<p>Effective methods for catching this hard-fighting fish include dead baits, live baits, and lure fishing. Pike can easily be damaged when handled since they are not as robust as their reputation would suggest. Colour of lure can be influenced by water clarity and weather conditions. Since pike have numerous sharp teeth it is wise to take extreme care when unhooking them. The use of a wet leather gauntlet and surgical forceps to remove hooks is highly recommended on safety grounds. If practicing catch and release fishing, care for the pike should be the pike angler's utmost concern. The formerly recommended practice of grasping a pike by its eye sockets resulted in countless released pike that quickly died from inability to see prey any longer.</p>
+
+<p>The current recommended method of grasping pike is to close the hand firmly over the gill covers, and to make the period of handling as short as possible before release. Grabbing a pike by the gill covers is not feasible when a pike is very big, but it is easy to handle a pike by inserting the fingers at the bottom of the gill opening and grabbing the lower jaw. Big pike should also be supported at the belly. When a pike is held this way it is also easier to keep the mouth open to remove a hook. Some anglers now use special grips to grab the pike's front lower jaw, which can add to the safety of an anglers because of the danger imposed by the hooks of the lure or tackle and the pike's teeth. However these can cause serious damage to a pike's lower jaw. The Pike Anglers Club was formed in 1977 to campaign for the preservation of pike and the sport of pike fishing.</p>
+
+<p>A practice known as gut hooking was previously widely used in catching pike. Upon taking the bait, the pike will hold it for a short time in its mouth as it moves off. The pike will then, usually, turn the bait in its mouth, so that it sits in alignment with its throat to ease swallowing. It is recommended that when pike fishing the process is not allowed to go this far and a strike is recommended as soon as a bite is indicated. Otherwise, what is known as gut hooking will result, which will normally kill or seriously injure the fish. Dutch research shows that cutting the line immediately when the fish is gut hooked will still give low mortality. The hooks in the gut or stomach were either encapsulated or removed from the body. Placing hooks near the rear of the bait reduces the risk of deep hooking.</p>
+
+<p>Other methods of catching and handing pike that are now frowned upon are the gaff and the gag. The gaff is a metal hook on the end of a pole used to hook through the fish's body in place of a more humane landing net. A gag is a device for holding open the pike's mouth whilst unhooking. These are now illegal in Scotland, as they put a huge amount of pressure on a pike's jaw, thus causing irreparable damage.</p>
+
+
+
+<h2>Blue Walleye</h2>
+<p>The blue walleye, also called the blue pike, is a subspecies of the walleye that has been critically endangered in the Great Lakes since the 1980s. Until the middle of the 20th century, it was a commercially valuable fish, with about a half million tonnes being landed from about 1880 to the late 1950s, when the populations collapsed.</p>
+
+<p>The fish was endemic to lakes Erie and Ontario of the Great Lakes region of North America, including the interconnecting Niagara River, but most especially to Lake Erie, where it sometimes represented more than 50% of the commercial catch. The subspecies was apparently extirpated in the Great Lakes by about 1983 through a combination of anthropogenic eutrophication, overfishing and competition with the introduced rainbow smelt, Osmerus mordax. The subspecies is now considered extinct.</p>
+
+<p>There are occasional reports of blue walleye being caught from waters in the Great Lakes Basin, because many yellow walleye populations also contain a bluish colour variant. The actual blue walleye, however, was said to be distinguishable from the yellow walleye by various meristics and morphometrics which the blue colour variant of the yellow walleye seems not to share. Reportedly, though, some of the meristic and morphometric differences may simply have been artifacts of the different growth rates of yellow and blue walleyes. The clearest evidence, however, indicates that the blue walleye, whatever its taxonomic status, has been lost. Nonetheless, an investigation of genetic material from preserved blue walleye specimens is currently underway in several research facilities in an effort to decipher the true status of the populations.</p>
+
+<p>To date, none of the bluish-coloured walleyes recently captured has been shown to be a blue walleye, although at least one organization in the US is offering a reward for successful capture of a blue walleye specimen. A United States Fish and Wildlife Service recovery plan in the mid-1970s was unable to find any certain evidence of the blue walleye's existence at that time. Nine purported blue walleyes captured in 1975, including a number of gravid females, were inconclusive as to their subspecific designation and failed to produce any viable offspring through artificial propagation. The last known blue walleyes, to any degree of certainty, were captured in about 1983 from lakes Erie and Ontario. Subsequent exhaustive efforts to find a relict population have been entirely unsuccessful. The loss of the blue walleye is, arguably, an extinction event on par with the loss of the passenger pigeon and the near-extirpation of the American bison. Where once the subspecies numbered in the millions, all are now gone.</p>
+
+<p>The blue walleye is in the same family as the yellow perch.</p>
+
+
+<img src="../pics/pike.jpg" alt="Fishing the Pike">
+<form>
+	<a href="https://en.wikipedia.org/wiki/Esox">Source: Wikipedia - Esox</a>
+	<a href="https://en.wikipedia.org/wiki/Blue_walleye">Source: Wikipedia - Blue Walleye</a>
+	<a href="https://en.wikipedia.org/wiki/Pacific_saury">Source: Wikipedia - Pacific Saury</a>
+	<a href="https://en.wikipedia.org/wiki/Northern_pike">Source: Wikipedia - Northern Pike</a>
+</form>

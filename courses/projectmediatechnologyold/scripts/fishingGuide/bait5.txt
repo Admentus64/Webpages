@@ -1,0 +1,119 @@
+﻿<h2>Herring</h2>
+<p>Herring are forage fish. Herring often move in large schools around fishing banks and near the coast. The most abundant and commercially important species belong to the genus Clupea, found particularly in shallow, temperate waters of the North Pacific and the North Atlantic oceans, including the Baltic Sea, as well as off the west coast of South America. Three species of Clupea are recognised, and provide about 90% of all herrings captured in fisheries. Most abundant of all is the Atlantic herring, providing over half of all herring capture. Fishes called herring are also found in India, in the Arabian Sea, Indian Ocean and Bay of Bengal.</p>
+
+<p>Herring played a pivotal role in the history of marine fisheries in Europe, and early in the twentieth century their study was fundamental to the evolution of fisheries science. These oily fish also have a long history as an important food fish, and are often salted, smoked, or pickled.</p>
+
+<h2>Herring Types</h2>
+<p>A number of different species, most belonging to the family Clupeidae, are commonly referred to as herrings. The origins of the term herring is somewhat unclear, though it may derive from the Old High German heri meaning a "host, multitude", in reference to the large schools they form.</p>
+
+<p>The type genus of the herring family Clupeidae is Clupea. Clupea contains three species: the Atlantic herring found in the north Atlantic, the Pacific herring found in the north Pacific, and the Araucanian herring found off the coast of Chile. Subspecific divisions have been suggested for both the Atlantic and Pacific herrings, but their biological basis remain unclear.</p>
+
+<b>Herrings in the Clupea family</b>
+<ul>
+	<li>Araucanian herring</li>
+	<li>Atlantic herring</li>
+	<li>Pacific herring</li>
+</ul>
+
+<p>In addition, a number of related species, all in the family Clupeidae, are commonly referred to as herrings. The table immediately below includes those members of the Clupeidae family referred to by FishBase as herrings which have been assessed by the International Union for Conservation of Nature.</p>
+
+<b>Herrings in the Clupeidae family</b>
+<ul>
+	<li>Toothed river herring</li>
+	<li>Day's round herring</li>
+	<li>Dwarf round herring</li>
+	<li>Gilchrist's round herring</li>
+	<li>Little-eye round herring</li>
+	<li>Red-eye round herring</li>
+	<li>Two-finned round herring</li>
+	<li>Whitehead's round herring</li>
+	<li>Venezuelan herring</li>
+	<li>Galapagos thread herring</li>
+	<li>Middling thread herring</li>
+	<li>Pacific thread herring</li>
+	<li>Slender thread herring</li>
+	<li>Blackstripe herring</li>
+	<li>Denticle herring</li>
+	<li>Dogtooth herring</li>
+	<li>Graceful herring</li>
+	<li>Pacific Flatiron herring</li>
+	<li>Sanaga pygmy herring</li>
+	<li>Silver-stripe round herring</li>
+	<li>Striped herring</li>
+	<li>West African pygmy herring</li>
+</ul>
+
+<p>There are also a number of other species called herrings, which may be related to clupeids or just share some characteristics of herrings. Just which of these species are called herrings can vary with locality, so what might be called a herring in one locality might be called something else in another locality.</p>
+
+<b>Other herrings</b>
+<ul>
+	<li>Bigeyed longfin herring</li>
+	<li>Dove's longfin herring</li>
+	<li>Hatchet herring</li>
+	<li>Panama longfin herring</li>
+	<li>Tropical longfin herring</li>
+	<li>Vaqueira longfin herring</li>
+	<li>Equatorial longfin herring</li>
+	<li>Dorab wolf-herring</li>
+	<li>Whitefin wolf-herring</li>
+	<li>Lake herring</li>
+</ul>
+
+
+
+<h2>Characteristics</h2>
+<p>These silvery-coloured fish have a single dorsal fin, which is soft, without spines. They have no lateral line and have a protruding lower jaw. The Baltic herring is small, 14 to 18 centimetres, the proper Atlantic herring can grow to about 46 cm and weigh up 700 g and Pacific herring grow to about 38 cm.</p>
+
+
+
+<h2>Life Cycle</h2>
+<p>At least one stock of Atlantic herring spawns in every month of the year. Each spawns at a different time and place. Greenland populations spawn in 0-5 metres of water while North Sea herrings spawn at up to 200 metres in autumn. Eggs are laid on the sea bed, on rock, stones, gravel, sand or beds of algae.</p>
+
+<p>Females may deposit from 20,000 up to 40,000 eggs, according to age and size, averaging about 30,000. In sexually mature herrings, the genital organs grow before spawning, reaching about one-fifth of its total weight. The eggs sink to the bottom, where they stick in layers or clumps to gravel, seaweed or stones, by means of their mucus coating, or to any other objects on which they chance to settle.</p>
+
+<p>If the egg layers are too thick they suffer from oxygen depletion and often die, entangled in a maze of fucus. They need substantial water microturbulence, generally provided by wave action or coastal currents. Survival is highest in crevices and behind solid structures, because predators feast on openly disposed eggs. The individual eggs are 1 to 1.4 millimetres in diameter, depending on the size of the parent fish and also on the local race. Incubation time is about 40 days at 3 &deg;C, 15 days at 7 &deg;C, 11 days at 10 &deg;C. Eggs die at temperatures above 19 &deg;C.</p>
+
+<p>The larvae are 5 to 6 millimetres long at hatching, with a small yolk sac that is absorbed by the time the larva reaches 10 millimetres. Only the eyes are well pigmented. The rest of the body is nearly transparent, virtually invisible under water and in natural lighting conditions. The dorsal fin forms at 15 to 17 millimetres, the anal fin at about 30 millimetre the ventral fins are visible and the tail becomes well forked at 30 to 35 millimetres at about 40 millimetres the larva begins to look like a herring.</p>
+
+<p>The larvae are very slender and can easily be distinguished from all other young fish of their range by the location of the vent, which lies close to the base of the tail. But distinguishing clupeoids one from another in their early stages requires critical examination, especially telling herring from sprats. At one year they are about 10 centimetres long, and they first spawn at three years.</p>
+
+
+
+<h2>Prey</h2>
+<p>Herrings are a prominent converter of zooplankton into fish, consuming copepods, arrow worms, pelagic amphipods, mysids and krill in the pelagic zone. Conversely, they are a central prey item or forage fish for higher trophic levels. The reasons for this success is still enigmatic; one speculation attributes their dominance to the huge, extremely fast cruising schools they inhabit.</p>
+
+<p>Young herring feed on phytoplankton and as they mature they start to consume larger organisms. Adult herring feed on zooplankton, tiny animals that are found in oceanic surface waters, and small fish and fish larvae. Copepods and other tiny crustaceans are the most common zooplankton eaten by herring. During daylight herring stay in the safety of deep water, feeding at the surface only at night when there is less chance of being seen by predators. They swim along with their mouths open, filtering the plankton from the water as it passes through their gills. Young herring mostly hunt copepods individually, by means of "particulate feeding" or "raptorial feeding", a feeding method also used by adult herring on larger prey items like krill. If prey concentrations reach very high levels, as in microlayers, at fronts or directly below the surface, herring become filter feeders, driving several meters forward with wide open mouth and far expanded opercula, then closing and cleaning the gill rakers for a few milliseconds.</p>
+
+<p>Copepods, the primary zooplankton, are a major item on the forage fish menu. Copepods are typically one millimetre to two millimetres long, with a teardrop shaped body. Some scientists say they form the largest animal biomass on the planet. Copepods are very alert and evasive. They have large antennae. When they spread their antennae they can sense the pressure wave from an approaching fish and jump with great speed over a few centimetres. If copepod concentrations reach high levels, schooling herrings adopt a method called ram feeding. In the photo below, herring ram feed on a school of copepods. They swim with their mouth wide open and their opercula fully expanded.</p>
+
+<p>The fish swim in a grid where the distance between them is the same as the jump length of their prey, as indicated in the animation above right. In the animation, juvenile herring hunt the copepods in this synchronised way. The copepods sense with their antennae the pressure-wave of an approaching herring and react with a fast escape jump. The length of the jump is fairly constant. The fish align themselves in a grid with this characteristic jump length. A copepod can dart about 80 times before it tires. After a jump, it takes it 60 milliseconds to spread its antennae again, and this time delay becomes its undoing, as the almost endless stream of herrings allows a herring to eventually snap the copepod. A single juvenile herring could never catch a large copepod.</p>
+
+<p>Herrings, along with cod and sprat, are the most important commercial species to humans in the Baltic Sea. The analysis of the stomach contents of these fish indicate cod is the top predator, preying on the herring and sprat. Sprat are competitive with herrings for the same food resources. This is evident in the two species' vertical migration in the Baltic Sea, where they compete for the limited zooplankton that is available and necessary for their survival. Sprat are highly selective in their diet and eat only zooplankton, while herrings are more eclectic, adjusting their diet as they grow in size. In the Baltic, copepods of the genus Acartia can be present in large numbers. However, they are small in size with a high escape response, so herring and sprat avoid trying to catch them. These copepods also tend to dwell more in surface waters, whereas herrings and sprat, especially during the day, tend to dwell in deeper waters.</p>
+
+
+
+<h2>Predators</h2>
+<p>Predators of herring include seabirds, marine mammals such as dolphins, porpoises, whales, seals and sea lions, predatory fish such as sharks, billfish, tuna, salmon, striped bass, cod and halibut. Fishermen also catch and eat herring.</p>
+
+<p>The predators often operate cooperatively in groups, using different techniques to panic or herd a school of herrings into a tight bait ball. Different predators species then use different techniques to pick the fish off in the bait ball. The sailfish raises its sail to make it appear much larger. Swordfish charge at high speed through the bait balls, slashing with their swords to kill or stun prey. They then turn and return to consume their "catch". Thresher sharks use their long tails to stun the shoaling fish. These sharks compact their prey school by swimming around them and splashing the water with their tails, often in pairs or small groups. They then strike them sharply with the upper lobe of their tails to stun them. Spinner sharks charge vertically through the school, spinning on their axis with their mouths open and snapping all around. The shark's momentum at the end of these spiraling runs often carries it into the air.</p>
+
+<p>Some whales lunge feed on bait balls. Lunge feeding is an extreme feeding method, where the whale accelerates from below the bait ball to a high velocity and then opens its mouth to a large gape angle. This generates the water pressure required to expand its mouth and engulf and filter a huge amount of water and fish. Lunge feeding by rorquals, a family of huge baleen whales that includes the blue whale, is said to be the largest biomechanical event on Earth.</p>
+
+
+                             
+<h2>Fisheries</h2>
+<p>Adult herring are harvested for their flesh and eggs, and they are often used as baitfish. The trade in herring is an important sector of many national economies. In Europe the fish has been called the "silver of the sea", and its trade has been so significant to many countries that it has been regarded as the most commercially important fishery in history. Environmental Defense have suggested that the Atlantic herring fishery is an environmentally responsible fishery.</p>
+
+
+                             
+<h2>As Food</h2>
+<p>Herring has been a staple food source since at least 3000 B.C. There are numerous ways the fish is served and many regional recipes: eaten raw, fermented, pickled, or cured by other techniques, such as being smoked as kippers. Herring are very high in the long-chain Omega-3 fatty acids EPA and DHA. They are a source of vitamin D.</p>
+
+<p>Water pollution influences the amount of herring that may be safely consumed. For example, large Baltic herring slightly exceeds recommended limits with respect to PCB and dioxin, although some sources point out that the cancer-reducing effect of omega-3 fatty acids is statistically stronger than the cancer-causing effect of PCBs and dioxins. The contaminant levels depend on the age of the fish which can be inferred from their size. Baltic herrings larger than 17 cm may be eaten twice a month, while herrings smaller than 17 cm can be eaten freely. Mercury in fish also influences the amount of fish that women who are pregnant or planning to be pregnant within the next one or two years may safely eat.</p>
+
+
+
+<img src="../pics/herring.jpg" alt="Fishing the Herring">
+<form>
+	<a href="https://en.wikipedia.org/wiki/Herring">Source: Wikipedia - Mackerel</a>
+</form>

@@ -1,0 +1,9 @@
+﻿<h2>On-Shore</h2>
+
+<button class="location" value=" 56.53635024303587;16.571502685546875">Frösslunda Sjön</button>
+<button class="location" value="56.86514196293324;16.760544776916504">Hörninge Sjön</button>
+
+<h2>Off-Shore</h2>
+
+<button class="location" value="56.266192152267294;16.399240493774414">Grönhögens Hamn</button>
+<button class="location" value="56.797474818870946;16.566739082336426">Ekerumshamn</button>

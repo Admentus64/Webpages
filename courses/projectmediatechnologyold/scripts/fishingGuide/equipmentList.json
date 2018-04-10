@@ -1,0 +1,230 @@
+﻿{
+	"equipment":  [
+		{
+			"category": "Fishing Rods",
+			"item": [
+				{
+					"name": "Alivio DX",
+					"price": "349 SEK",
+					"shipping": "29 SEK",
+					"vendor": "CDON",
+					"producer": "Shimano",
+					"link": "http://cdon.se/outdoor/shimano-alivio-dx-p33152700",
+					"description": "Ny modernare design med snabbare och bättre aktion."
+				},
+				{
+					"name": "MPP 6' 183cm Jerk -> 75g - 1sec",
+					"price": "399 SEK",
+					"shipping": "29 SEK",
+					"vendor": "CDON",
+					"producer": "Savage Gear",
+					"link": "http://cdon.se/outdoor/savage-gear-mpp-6-183cm-jerk-75g-1sec-p32713877",
+					"description": "Ett kraftfullt spö för jerkfisket. Super lightweight ultra-fast jerk bait rods!"
+				},
+				{
+					"name": "SRX 9'6'' #7 - 4sec Rec.Wt 15.5g",
+					"price": "799 SEK",
+					"shipping": "29 SEK",
+					"vendor": "CDON",
+					"producer": "Scierra",
+					"link": "http://cdon.se/outdoor/scierra-srx-9-6-7-4sec-rec-wt-15-5g-p32710194",
+					"description": "The SRX rod series has been developed specifically for stillwater fishing after trout, where long, precise casts are needed - as well as a forgiving blank that handles big fish on thin leaders well. These progressive 42T carbon rods cast smoothly in even the roughest of conditions, and they excel in fast delivery and distance while preserving the feeling and delicacy needed to land big fish on light tippets. Built on Korean 42T quality blanks, Medium fast action, High quality Portuguese cork handles, Light weight Pacific Bay snake guides, Saltwater resistant stripping guides, Supplied in quality tube with screw in fittings."
+				},
+				{
+					"name": "Vengeance BX Shad, Svart/röd",
+					"price": "549 SEK",
+					"shipping": "39 SEK",
+					"vendor": "CDON",
+					"producer": "Shimano",
+					"link": "http://cdon.se/outdoor/shimano-vengeance-bx-shad-p30688642-4794820",
+					"description": "Fiskespö tillverkat i XT-30 grafit + Geofibre. Mjuk topp med snabb aktion. Delat bakhandtag sparar vikt."
+				},
+				{
+					"name": "SRX 10' #8 - 4sec Rec. Wt 17g",
+					"price": "999 SEK",
+					"shipping": "29 SEK",
+					"vendor": "CDON",
+					"producer": "Scierra",
+					"link": "http://cdon.se/outdoor/scierra-srx-10-8-4sec-rec-wt-17g-p32710177",
+					"description": "The SRX rod series has been developed specifically for stillwater fishing after trout, where long, precise casts are needed - as well as a forgiving blank that handles big fish on thin leaders well. These progressive 42T carbon rods cast smoothly in even the roughest of conditions, and they excel in fast delivery and distance while preserving the feeling and delicacy needed to land big fish on light tippets. Built on Korean 42T quality blanks, Medium fast action, High quality Portuguese cork handles, Light weight Pacific Bay snake guides, Saltwater resistant stripping guides, Supplied in quality tube with screw in fittings."
+				}
+			]
+		},
+		
+		
+		
+		{
+			"category": "Lures",
+			"item": [
+				{
+					"name": "3D Prey71, Rudd",
+					"price": "49 SEK",
+					"shipping": "29 SEK",
+					"vendor": "CDON",
+					"producer": "Savage Gear",
+					"link": "http://cdon.se/outdoor/savage-gear-3d-prey71-p31872242-5207116",
+					"description": "The Savage Gear 3D Prey Lures is made to match the hatch in a perfect way, with superior details and colours, plus the most amazing action, that will give you the edge - whether weekend warrior or tour Pro! The results during field-testing have been superb on all predators - Perch, Pike, Bass, Asp, Salmon and Trout!"
+				},
+				{
+					"name": "3D Line Thru Trout, Dark Brown",
+					"price": "100 SEK",
+					"shipping": "29 SEK",
+					"vendor": "CDON",
+					"producer": "Savage Gear",
+					"link": "http://cdon.se/outdoor/savage-gear-3d-line-thru-trout-p31775893-5107891",
+					"description": "3D Trout Line Thru swim bait - made from a super detailed 3D scan of a Real Trout. The Innovative line thru Y-system that allows you to put the hooks either on the back or on the belly, depending on how you want to fish the lure."
+				},
+				{
+					"name": "3D Prey - Fiskbete, Fire Perch",
+					"price": "79 SEK",
+					"shipping": "29 SEK",
+					"vendor": "CDON",
+					"producer": "Savage Gear",
+					"link": "http://cdon.se/outdoor/savage-gear-3d-prey-fiskbete-p31791050-5108563",
+					"description": "Savage Gear 3D Prey är ett fiskbete med otrolig detaljrikedom och färger. Kan användas på abborre, gädda, asp, lax och öring!"
+				},
+				{
+					"name": "3D Prey71, Minnow",
+					"price": "49 SEK",
+					"shipping": "29 SEK",
+					"vendor": "CDON",
+					"producer": "Savage Gear",
+					"link": "http://cdon.se/outdoor/savage-gear-3d-prey71-p31872242-5207114",
+					"description": "The Savage Gear 3D Prey Lures is made to match the hatch in a perfect way, with superior details and colours, plus the most amazing action, that will give you the edge - whether weekend warrior or tour Pro! The results during field-testing have been superb on all predators - Perch, Pike, Bass, Asp, Salmon and Trout!"
+				},
+				{
+					"name": "Husky Jerk 10 (HJ10), CLN",
+					"price": "89 SEK",
+					"shipping": "29 SEK",
+					"vendor": "CDON",
+					"producer": "Rapala",
+					"link": "http://cdon.se/outdoor/rapala-husky-jerk-10-hj10-p27541386-3878468",
+					"description": "Husky Jerk är perfekt balanserad vilket gör den till ett ypperligt trollingbete. De interna rasselkulorna sänder ut vibrationer som hörs på långt håll i vattnet och lockar in rovfisken. Husky Jerk finns i metalliska, målade eller glas-färger."
+				}
+			]
+		},
+		
+		
+		
+		{
+			"category": "Clothing",
+			"item": [
+				{
+					"name": "Flytoverall 845, Yellow/Blue",
+					"price": "1399 SEK",
+					"shipping": "0 SEK",
+					"vendor": "CDON",
+					"producer": "Fladen",
+					"link": "http://cdon.se/outdoor/fladen-flytoverall-845-p32994942-5569116",
+					"description": "Fladens storsäljande flytoverall modell 845 är en av marknadens mest sålda overaller, kanske till och med den mest sålda. Den har samma extrema flytkraft och termiska skydd som övriga overaller i Fladen Rescue System och är certifierad både som Flytplagg enligt EN393 och som Sjöräddningsdräkt enligt ISO 15027-1. Ett av kraven för att klassas enligt ISO 15027-1 är att man inte förlorar mer än 2 Celsius av sin kroppstemperatur under en timme i 5 Celsius vatten. Testresultatet för Fladens overaller var bara 1.2 Celsius."
+				},
+				{
+					"name": "CC3 XP Stocking Foot Wader",
+					"price": "1399 SEK",
+					"shipping": "0 SEK",
+					"vendor": "CDON",
+					"producer": "Scierra",
+					"link": "http://cdon.se/outdoor/scierra-cc3-xp-stocking-foot-wader-p31887573",
+					"description": "New upgraded version with extra features and new 2-tone colour of our popular CC3 breathable waders. Strong 3-layer breathable fabric construction,  100% waterprrof with more than 20.000mm and highly breathable with over 4.000 mvp, New better design and fit with belt loops and elastic waist belt with back support, Deluxe handwarmer front pocket with waterrepellent zipper, 2 D-rings for various tools, Elastic adjustable suspenders with slim strong buckles, Adjustable upper chest for better fit, Great inner pocket with zipper and mesh pocket."
+				},
+				{
+					"name": "CC3 XP Wading Shoe w/Felt Sole",
+					"price": "699 SEK",
+					"shipping": "29 SEK",
+					"vendor": "CDON",
+					"producer": "Scierra",
+					"link": "http://cdon.se/outdoor/scierra-cc3-xp-wading-shoe-w-felt-sole-p31887660",
+					"description": "Lightweight yet tough wading shoes in matching colours of our SIE CC3 XP breathable waders for great matching look. Light and strong construction of durable materials, Abrasion and tear resistant, Reinforced toe and heel cap for ultimate protection, Great design for easy access and fit, Padded at upper and tongue for maximum comfort, Strong corrosion-free metal buttons, Drain holes for ultra quick drying, Removable foam inner sole w/micro fleece for warmth, High quality felt soles."
+				},
+				{
+					"name": "Flytoverall 845, Yellow/Black",
+					"price": "1399 SEK",
+					"shipping": "0 SEK",
+					"vendor": "CDON",
+					"producer": "Fladen",
+					"link": "http://cdon.se/outdoor/fladen-flytoverall-845-p32994942-5569115",
+					"description": "Fladens storsäljande flytoverall modell 845 är en av marknadens mest sålda overaller, kanske till och med den mest sålda. Den har samma extrema flytkraft och termiska skydd som övriga overaller i Fladen Rescue System och är certifierad både som Flytplagg enligt EN393 och som Sjöräddningsdräkt enligt ISO 15027-1. Ett av kraven för att klassas enligt ISO 15027-1 är att man inte förlorar mer än 2 Celsius av sin kroppstemperatur under en timme i 5 Celsius vatten. Testresultatet för Fladens overaller var bara 1.2 Celsius."
+				}
+			]
+		},
+		
+		
+		
+		{
+			"category": "Fishing Knives",
+			"item": [
+				{
+					"name": "Swede 38 Fällkniv, Dark Blue",
+					"price": "199 SEK",
+					"shipping": "29 SEK",
+					"vendor": "CDON",
+					"producer": "EKA",
+					"link": "http://cdon.se/outdoor/eka-swede-38-fallkniv-p30380019-4459177",
+					"description": "Praktisk fällkniv som är mycket populär inom industri, jordbruk och skogsbruk. Kniven har ett elegant handtag av Termoplastisk ElastomerTM by Dryflex vilket ger användaren ett mycket trevligt mjukt grepp."
+				},
+				{
+					"name": "Swede 8 Fällkniv, Wood",
+					"price": "279 SEK",
+					"shipping": "29 SEK",
+					"vendor": "CDON",
+					"producer": "EKA",
+					"link": "http://cdon.se/outdoor/eka-swede-8-fallkniv-p30380039-4459218",
+					"description": "Bruksfällkniv med flera användningsområd. Swede 8 är mycket populärt i industri, jordbruk och skogsbruk. Den har en framgångsrik mjukt grepp, ett ergonomiskt handtag samt en stark och säker låsmekanism. "
+				},
+				{
+					"name": "Swede 38 Fällkniv, Black",
+					"price": "199 SEK",
+					"shipping": "29 SEK",
+					"vendor": "CDON",
+					"producer": "EKA",
+					"link": "http://cdon.se/outdoor/eka-swede-38-fallkniv-p30380019-4459181",
+					"description": "Praktisk fällkniv som är mycket populär inom industri, jordbruk och skogsbruk. Kniven har ett elegant handtag av Termoplastisk ElastomerTM by Dryflex® vilket ger användaren ett mycket trevligt mjukt grepp."
+				},
+				{
+					"name": "Swede 88, Walnut",
+					"price": "395 SEK",
+					"shipping": "29 SEK",
+					"vendor": "CDON",
+					"producer": "EKA",
+					"link": "http://cdon.se/outdoor/eka-swede-88-p30380301-5352097",
+					"description": "Fällkniven Swede 88 är resultatet av ett långt utvecklingsarbete. Skaftet är tillverkat av ett enda stycke, som komprimerats och behandlats för att bli starkt och hårt. Konstruktionen gör kniven både lätt och stark. Designen med det greppvänliga skaftet och det relativt korta bladet bygger på generationer av erfarenhet från daglig knivanvändning i den nordiska naturen. Stålet, Sandvik 12C27 är härdat till RC 58–59 och eggens vinkel är cirka 40°. Allt för att garantera en rakbladsvass och hållbar egg."
+				},
+				{
+					"name": "Swede 9, Wood",
+					"price": "489 SEK",
+					"shipping": "29 SEK",
+					"vendor": "CDON",
+					"producer": "EKA",
+					"link": "http://cdon.se/outdoor/eka-swede-9-p32585539-5352162",
+					"description": "Robust fällkniv med en unik bladspärr som frigörs bak. Denna låsning ger en säker bladspärr samt bidrar till ett bekvämt grepp. Bladet av clip point-typ slipas hela vägen till handtaget för att maximera egglinjen. Kniven är monterad med maskinskruvar av hög precision så att användaren kan finjustera bladgången samt helt demontera kniven för rengöring. Två typer av handtagsmaterial finns att välja mellan, G10 och Bubinga (Rosenträ). Hål för montering av snodd som tillsammans med fickklämman säkert håller kniven på plats."
+				}
+			]
+		},
+		
+		
+		
+		{
+			"category": "Storing Boxes",
+			"item": [
+				{
+					"name": "Lure Box 6-9",
+					"price": "199 SEK",
+					"shipping": "29 SEK",
+					"vendor": "CDON",
+					"producer": "Savage Gear",
+					"link": "http://cdon.se/outdoor/savage-gear-lure-box-6-9-p31791262",
+					"description": "Extremely tough and durable lure boxes. Both boxes come with heavy duty clips and re moveable slats for adjusting the box to fit your lures and accessories"
+				},
+				{
+					"name": "Plano 467310",
+					"price": "1199 SEK",
+					"shipping": "0 SEK",
+					"vendor": "CDON",
+					"producer": "Unknown",
+					"link": "http://cdon.se/outdoor/plano-467310-p26876169",
+					"description": "Plano 467310 är en ny stor rymlig betesväska som rymmer hela 6 st betesaskar (ingår) av 3700-storlek. Väskan rymmer all nödvändig fiskeutrustning för en dag vid sjön."
+				}
+			]
+		}
+	]
+}

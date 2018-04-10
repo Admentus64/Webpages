@@ -1,0 +1,22 @@
+﻿<h2>Fishing Rods</h2>
+<p>A fishing rod is a long, flexible rod used to catch fish. At its simplest, a fishing rod is a simple stick or pole attached to a line ending in a hook. The length of the rod can vary between 0.61 and 6.10 m. To entice fish, bait or lures are impaled on one or more hooks attached to the line. The line is generally stored on a reel which reduces tangles and assists in landing a fish.</p>
+
+<p>Traditionally rods are made from bamboo, while contemporary rods are usually made from fibreglass or carbon fibre. In contrast with nets, which are usually used in subsistence and commercial fishing, fishing rods are more often used in recreational fishing and competitive casting. Fishing rods come in many sizes, actions, lengths and configurations depending on whether they are to be used for small, medium or large fish or in different fresh or salt water situations. Various types of fishing rods are designed for specific types of fishing. Fly rods are used to cast artificial flies, spinning rods and bait casting rods are designed to cast baits or lures. Ice fishing rods are designed to fish through small holes in ice covered lakes. Trolling rods are designed to drag bait or lures behind moving boats.</p>
+
+
+
+<h2>Modern Design</h2>
+<p>In theory, an ideal rod should gradually taper from butt to tip, be tight in all its joints, and have a smooth, progressive taper, without 'dead spots'. Modern design and fabrication techniques, along with advanced materials such as graphite, boron and fiberglass composites as well as stainless steel have allowed rod makers to tailor both the shape and action of fishing rods for greater casting distance, accuracy, and fish-fighting qualities. Today, fishing rods are identified by their weight and action.</p>
+
+<p>Generally there are three types of rods used today graphite, fiberglass, and bamboo rods. Bamboo rods are the heaviest of the three, but people still use it for its feel. Fiberglass rods are the heaviest of the new chemically made material rods. They are mostly popular with the new and young anglers, as well as anglers who cannot afford the generally more expensive graphite rods. They are more commonly found among those anglers that fish in rugged areas such as on rocks or piers where potentially knocking the rod on hard objects is a greater possibility. This may potentially cause breakage, making a fiberglass rod more preferable for some anglers due to its higher durability and affordability compared to graphite rods. Today's most popular rod tends to be graphite for its light weight characteristics and its ability to allow for further and more accurate cast. Graphite rods tend to be more sensitive, allowing the user to feel bites from fish easier.</p>
+
+<p>Modern fishing rods retain cork as a common material for grips. Cork is light, durable, keeps warm and tends to transmit rod vibrations better than synthetic materials, although EVA foam is also used. Reel seats are often of graphite-reinforced plastic, aluminium, or wood. Guides are available in steel and titanium with a wide variety of high-tech metal alloy inserts replacing the classic agate inserts of earlier rods.</p>
+
+<p>Back rests can also be used with modern fishing rods to make it easier to pull big fish off the water. These are fork-like supports that help keep the rod in position, providing leverage and counteracting tensions caused by a caught fish.</p>
+
+
+
+<img src="../pics/fishingRod.jpg" alt="Fishing Rod">
+<form>
+	<a href="https://en.wikipedia.org/wiki/Fishing_rod">Source: Wikipedia - Fishing rod</a>
+</form>
