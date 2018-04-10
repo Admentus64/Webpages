@@ -1,0 +1,69 @@
+<!doctype html>
+	
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>Budget Planner</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="scripts/events.js"></script>
+		<script type="text/javascript" src="scripts/overview.js"></script>
+		<script type="text/javascript" src="scripts/general.js"></script>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+		
+			<header>
+				<h1>Budget Planner</h1>
+			</header>
+			
+			<nav>
+                <ul>
+                    <li><a href="index.html">Start</a></li>
+					<li><a href="incomes.html">Inkomster</a></li>
+					<li><a href="expenses.html">Utgifter</a></li>
+					<li><a href="overview.html" id="thisPage">Översikt</a></li>
+                </ul>
+            </nav>
+		
+			<main>
+				<h1>Översikt</h1>
+				<p class="hide" id="noPriceMsg">Priser vissas som EJ PRIS eller EJ BERÄKNAD eftersom dina inkomster eller utgifter är inte korrekt beräknade när de sparades.</p>
+				<p class="hide" id="noNameMsg">Priser vissas som EJ NAMN eftersom dina inkomster eller utgifter är inte nämnda när de sparades.</p>
+				
+				<div>
+					<h2 id="enlargedBudgetText">Förstorad belopp</h2>
+					<p id="focusTable">
+					<p class="showLongGreenBox" id="focusMsg">Tryck på namnet av ett belopp för att förstora den.</p>
+				</div>
+				
+				<div>
+					<h2>Inkomster</h2>
+					<table id="incomesTable"></table>
+					<p class="hide" id="incomesErr">Inga inkomster är sparade än.</p>
+				</div>
+				
+				<div>
+					<h2>Utgifter</h2>
+					<table id="expensesTable"></table>
+					<p class="hide" id="expensesErr">Inga utgifter är sparade än.</p>
+				</div>
+				
+				<div>
+					<h2>Balans</h2>
+					<table id="balanceTable"></table>
+					<p class="hide" id="balanceErr">Balans kan inte räknas eftersom inga inkomster och utgifter är sparade än.</p>
+				</div>
+			</main>
+		
+			<footer>
+                Uppgift 3 i 1ME331 Interaktionsdesign 1 på Linnéuniversitetet<br>
+				Ansvariga av sidan: Robert Hallink<br>
+				<a href="../../index.html">Går tillbaka till ingångssidan</a>
+            </footer>
+			
+		</div> <!-- End wrapper -->
+	</body>
+	
+</html>

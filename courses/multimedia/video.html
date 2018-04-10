@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<title> Interaktiva Medier och Webbteknogier </title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="scripts/events.js"></script>
+		<script type="text/javascript" src="scripts/cookies.js"></script>
+		<script type="text/javascript" src="scripts/video.js"></script>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			
+			<header>
+				<h1> Interaktiva Medier och Webbteknogier </h1>
+			</header>
+			
+			<nav>
+                <ul>
+                    <li> <a href="start.html"> Start </a> </li>
+                    <li> <a href="program.html"> Program </a> </li>
+					<li> <a href="courses.html"> Kurser </a> </li>
+                    <li> <a href="video.html" id="thisPage"> Video </a> </li>
+                </ul>
+            </nav>
+			
+			<main>
+				<h2 id="pageTitle"> Introduktionvideon om Linnéuniversitet </h2>
+				
+				<video id="video" width="1280" height="720" controls autoplay loop>
+					<source src="media/introVideo.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				
+				<br>
+				<div id="media">
+					<button type="button" class="inactive"> Spela </button>
+					<button type="button" class="inactive"> Dämpa </button>
+					<button type="button" class="inactive"> Kontroll </button>
+					<button type="button" class="inactive"> Automatiskt </button>
+					<button type="button" class="inactive"> Upprepa </button>
+					<button type="button" class="inactive"> Ändra storlek </button>
+				</div>
+			</main>
+			
+			<footer>
+                <br> Robert Hallink - 2015-10-24
+                <br> Går tillbaka till indexsida: <a href="../../index.html"> Index </a>
+            </footer>
+			
+		</div> <!-- End wrapper -->
+	</body>
+	
+</html>

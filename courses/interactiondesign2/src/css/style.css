@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, header, #local, main, section, footer{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:#FC6;
+    color:#000;
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:100%;
+}
+
+main{
+    background-color:#FC6;
+}
+
+main:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+#menu  {
+    display:block;
+    width:30%;
+    height:100vh;
+    float:right;
+    margin:0;
+    padding:0;
+    background-color:#EEE;
+}
+
+#menu button {
+    font-size:125%;
+    display:block;
+    width:80%;
+    height:5vh;
+    min-height:75px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10%;
+    margin-bottom:0;
+}
+
+#menu p, #menu h2 {
+    display:block;
+    text-align:center;
+    font-size:larger;
+}
+
+#menu input {
+    display:block;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#map {
+    display:block;
+    width:calc(70% - 10px);
+    height:calc(100vh - 10px);
+    margin:0;
+    padding:0;
+    float:left;
+    border:5px solid #039;
+}
+
+#menu fieldset button {
+    display:inline-block;
+    width:40%;
+    height:3vh;
+    margin-left:2%;
+    margin-right:2%;
+    margin-top:5%;
+    margin-bottom:0;
+}
+
+#menu fieldset {
+    display:block;
+    border:0px;
+    text-align:center;
+}
+
+.bottom {
+    position:absolute;
+    bottom:1vh;
+    width:30%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.dayBtn {
+    background-color:#0099cc;
+    color:white;
+    font-size:200%;
+}
+
+#keypad  {
+    display:block;
+    width:calc(40% - 10px);
+    height:calc(100vh - 10px);
+    margin:0;
+    padding:0;
+    float:left;
+    border:5px solid #039;
+    text-align:center;
+}
+
+#keypad fieldset {
+    margin:1%;
+}
+
+.keypadLetterBtn {
+    margin:2%;
+    width:10%;
+    min-width:40px;
+    height:8vh;
+}
+
+.keypadPresetBtn {
+    margin:1%;
+    width:25%;
+    min-width:100px;
+    height:8vh;
+}
+
+#keypadSpaceBtn, #keypadDelBtn, #keypadResetBtn {
+    margin:5%;
+    width:10%;
+    min-width:100px;
+    height:10vh;
+}
+
+input[type="text"]:disabled {
+    background: #dddddd;
+    color:black;
+}
+
+input[type="text"] {
+    font-size:150%;
+    text-align:center;
+    padding:10px;
+}
+
+@media (max-width: 1450px) {    
+    #menu button {
+        font-size:100%;
+    }
+}
+
+@media (max-width: 1250px) {
+    body {
+        font-size:80%;
+    }
+    
+    #menu fieldset button {
+        display:block;
+        width:80%;
+        height:5vh;
+        min-height:60px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:10%;
+        margin-bottom:0;
+    }
+    
+}

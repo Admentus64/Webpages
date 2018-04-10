@@ -1,0 +1,506 @@
+[
+	{	
+		"title" :  "The Legend of Zelda: Ocarina of Time",
+		"genre" : "Adventure",
+		"grade" : "10",
+		"developer" : [
+			{	"name" : "Nintendo EAD",
+				"employees" : "720",
+				"establishment" : "1980",
+				"office" : [
+					{ 	"city" : "Kyoto",
+						"country" : "Japan"
+					},
+					{ 	"city" : "Tokyo",
+						"country" : "Japan"
+					}
+				]
+			}
+		],
+		"publisher" : [
+			{	"name" : "Nintendo",
+				"employees" : "5101",
+				"establishment" : "1889",
+				"office" : [
+					{ 	"city" : "Kyoto",
+						"country" : "Japan"
+					},
+					{ 	"city" : "Tokyo",
+						"country" : "Japan"
+					},
+					{ 	"city" : "Redmond",
+						"country" : "North America"
+					},
+					{ 	"city" : "Frankfurt",
+						"country" : "Germany"
+					}
+				]
+			}
+		],
+		"release" : [
+			{	"date" : "1998-11-21",
+				"region" : "Japan",
+				"platform" : "Nintendo 64"
+			},
+			{	"date" : "1998-11-23",
+				"region" : "North America",
+				"platform" : "Nintendo 64"
+			},
+			{	"date" : "1998-11-21",
+				"region" : "Europe",
+				"platform" : "Nintendo 64"
+			},
+			{	"date" : "1998-12-18",
+				"region" : "Australia",
+				"platform" : "Nintendo 64"
+			}
+		]
+	},
+	{	
+		"title" :  "Super Mario Galaxy 2",
+		"genre" : "Platformer",
+		"grade" : "10",
+		"developer" : [
+			{	"name" : "Nintendo EAD",
+				"employees" : "720",
+				"establishment" : "1980",
+				"office" : [
+					{ 	"city" : "Kyoto",
+						"country" : "Japan"
+					},
+					{ 	"city" : "Tokyo",
+						"country" : "Japan"
+					}
+				]
+			}
+		],
+		"publisher" : [
+			{	"name" : "Nintendo",
+				"employees" : "5101",
+				"establishment" : "1889",
+				"office" : [
+					{ 	"city" : "Kyoto",
+						"country" : "Japan"
+					},
+					{ 	"city" : "Tokyo",
+						"country" : "Japan"
+					},
+					{ 	"city" : "Redmond",
+						"country" : "North America"
+					},
+					{ 	"city" : "Frankfurt",
+						"country" : "Germany"
+					}
+				]
+			}
+		],
+		"release" : [
+			{	"date" : "2010-05-27",
+				"region" : "Japan",
+				"platform" : "Wii"
+			},
+			{	"date" : "2010-05-23",
+				"region" : "North America",
+				"platform" : "Wii"
+			},
+			{	"date" : "2010-06-01",
+				"region" : "Europe",
+				"platform" : "Wii"
+			},
+			{	"date" : "2010-07-01",
+				"region" : "Australia",
+				"platform" : "Wii"
+			}
+		]
+	},
+	{	
+		"title" :  "Chrono Trigger",
+		"genre" : "Roleplaying",
+		"grade" : "10",
+		"developer" : [
+			{	"name" : "Square Enix",
+				"employees" : "3924",
+				"establishment" : "1983",
+				"office" : [
+					{ 	"city" : "Tokyo",
+						"country" : "Japan"
+					}
+				]
+			}
+		],
+		"publisher" : [
+			{	"name" : "Square Enix",
+				"employees" : "3924",
+				"establishment" : "1983",
+				"office" : [
+					{ 	"city" : "Tokyo",
+						"country" : "Japan"
+					}
+				]
+			}
+		],
+		"release" : [
+			{	"date" : "1995-03-11",
+				"region" : "Japan",
+				"platform" : "Super NES"
+			},
+			{	"date" : "1995-08-22",
+				"region" : "North America",
+				"platform" : "Super NES"
+			},
+			{	"date" : "1999-11-02",
+				"region" : "Japan",
+				"platform" : "PlayStation"
+			},
+			{	"date" : "2001-06-29",
+				"region" : "North America",
+				"platform" : "PlayStation"
+			}
+		]
+	},
+	{	
+		"title" :  "Batman: Arkham Knight",
+		"genre" : "Action",
+		"grade" : "7",
+		"developer" : [
+			{	"name" : "Rockysteady Studios",
+				"employees" : "134",
+				"establishment" : "2004",
+				"office" : [
+					{ 	"city" : "London",
+						"country" : "United Kingdom"
+					}
+				]
+			}
+		],
+		"publisher" : [
+			{	"name" : "Warner Bros. Interactive Entertainment",
+				"employees" : "12000",
+				"establishment" : "1993",
+				"office" : [
+					{ 	"city" : "Burbank",
+						"country" : "United States"
+					}
+				]
+			}
+		],
+		"release" : [
+			{	"date" : "2015-06-23",
+				"region" : "Worldwide",
+				"platform" : "PC"
+			},
+			{	"date" : "2015-06-23",
+				"region" : "Worldwide",
+				"platform" : "PlayStation 4"
+			},
+			{	"date" : "2015-06-23",
+				"region" : "Worldwide",
+				"platform" : "Xbox One"
+			}
+		]
+	},
+	
+	
+	
+	{	
+		"title" :  "Banjo-Kazooie",
+		"genre" : "Platformer",
+		"grade" : "9.5",
+		"developer" : [
+			{	"name" : "Rare",
+				"employees" : "200",
+				"establishment" : "1985",
+				"office" : [
+					{ 	"city" : "Twycross",
+						"country" : "United Kingdom"
+					}
+				]
+			}
+		],
+		"publisher" : [
+			{	"name" : "Nintendo",
+				"employees" : "5101",
+				"establishment" : "1889",
+				"office" : [
+					{ 	"city" : "Kyoto",
+						"country" : "Japan"
+					},
+					{ 	"city" : "Tokyo",
+						"country" : "Japan"
+					},
+					{ 	"city" : "Redmond",
+						"country" : "North America"
+					},
+					{ 	"city" : "Frankfurt",
+						"country" : "Germany"
+					}
+				]
+			},
+			{	"name" : "Microsoft Studios",
+				"employees" : "Unknown",
+				"establishment" : "2002",
+				"office" : [
+					{ 	"city" : "Redmond",
+						"country" : "United States"
+					}
+				]
+			}
+		],
+		"release" : [
+			{	"date" : "1998-06-29",
+				"region" : "North America",
+				"platform" : "Nintendo 64"
+			},
+			{	"date" : "1998-07-17",
+				"region" : "Europe",
+				"platform" : "Nintendo 64"
+			},
+			{	"date" : "2008-12-03",
+				"region" : "Worldwide",
+				"platform" : "Xbox 360"
+			}
+		]
+	},
+	{	
+		"title" :  "Ori and the Blind Forest",
+		"genre" : "Platformer",
+		"grade" : "9",
+		"developer" : [
+			{	"name" : "Moon Studios",
+				"employees" : "Unknown",
+				"establishment" : "2010",
+				"office" : [
+					{ 	"city" : "Vienna",
+						"country" : "Austria"
+					}
+				]
+			}
+		],
+		"publisher" : [
+			{	"name" : "Microsoft Studios",
+				"employees" : "Unknown",
+				"establishment" : "2002",
+				"office" : [
+					{ 	"city" : "Redmond",
+						"country" : "United States"
+					}
+				]
+			}
+		],
+		"release" : [
+			{	"date" : "2015-03-11",
+				"region" : "Worldwide",
+				"platform" : "PC"
+			},
+			{	"date" : "2015-03-11",
+				"region" : "Worldwide",
+				"platform" : "Xbox One"
+			},
+			{	"date" : "2016-04-27",
+				"region" : "Worldwide",
+				"platform" : "PC"
+			},
+			{	"date" : "2016-03-11",
+				"region" : "Worldwide",
+				"platform" : "Xbox One"
+			}
+			
+		]
+	},
+	{	
+		"title" :  "The Elder Scrolls V: Skyrim",
+		"genre" : "Roleplaying",
+		"grade" : "9",
+		"developer" : [
+			{	"name" : "Bethesda Game Studios",
+				"employees" : "100",
+				"establishment" : "2001",
+				"office" : [
+					{ 	"city" : "Rockville",
+						"country" : "United Kingdom"
+					}
+				]
+			}
+		],
+		"publisher" : [
+			{	"name" : "Bethesda Softworks",
+				"employees" : "273",
+				"establishment" : "1986",
+				"office" : [
+					{ 	"city" : "Rockville",
+						"country" : "United States"
+					}
+				]
+			}
+		],
+		"release" : [
+			{	"date" : "2011-11-11",
+				"region" : "Worldwide",
+				"platform" : "PC"
+			},
+			{	"date" : "2016-10-28",
+				"region" : "Worldwide",
+				"platform" : "PC"
+			},
+			{	"date" : "2011-11-11",
+				"region" : "Worldwide",
+				"platform" : "PlayStation 3"
+			},
+			{	"date" : "2016-10-28",
+				"region" : "Worldwide",
+				"platform" : "PlayStation 4"
+			},
+			{	"date" : "2011-11-11",
+				"region" : "Worldwide",
+				"platform" : "Xbox 360"
+			},
+			{	"date" : "2016-10-28",
+				"region" : "Worldwide",
+				"platform" : "Xbox One"
+			}
+		]
+	},
+	{	
+		"title" :  "The Legend of Heroes: Trails in the Sky",
+		"genre" : "Roleplaying",
+		"grade" : "8",
+		"developer" : [
+			{	"name" : "Nihon Falcom",
+				"employees" : "50",
+				"establishment" : "1981",
+				"office" : [
+					{ 	"city" : "Tokyo",
+						"country" : "Japan"
+					}
+				]
+			}
+		],
+		"publisher" : [
+			{	"name" : "Nihon Falcom",
+				"employees" : "50",
+				"establishment" : "1981",
+				"office" : [
+					{ 	"city" : "Tokyo",
+						"country" : "Japan"
+					}
+				]
+			},
+			{	"name" : "XSEED Games",
+				"employees" : "451",
+				"establishment" : "2004",
+				"office" : [
+					{ 	"city" : "Torrance",
+						"country" : "United States"
+					}
+				]
+			}
+		],
+		"release" : [
+			{	"date" : "2004-06-23",
+				"region" : "Japan",
+				"platform" : "PC"
+			},
+			{	"date" : "2014-07-29",
+				"region" : "Worldwide (English)",
+				"platform" : "PC"
+			},
+			{	"date" : "2011-10-28",
+				"region" : "Japan",
+				"platform" : "PlayStation Portable"
+			},
+			{	"date" : "2011-03-29",
+				"region" : "North America",
+				"platform" : "PlayStation Portable"
+			},
+			{	"date" : "2011-11-04",
+				"region" : "Europa",
+				"platform" : "PlayStation Portable"
+			},
+			{	"date" : "2012-12-13",
+				"region" : "Japan",
+				"platform" : "PlayStation 3"
+			}
+		]
+	},
+	{	
+		"title" :  "Anno 1404",
+		"genre" : "Strategy",
+		"grade" : "8.5",
+		"developer" : [
+			{	"name" : "Blue Byte",
+				"employees" : "350",
+				"establishment" : "1988",
+				"office" : [
+					{ 	"city" : "Düsseldorf",
+						"country" : "Germany"
+					},
+					{ 	"city" : "Mainz",
+						"country" : "Germany"
+					}
+				]
+			}
+		],
+		"publisher" : [
+			{	"name" : "Ubisoft",
+				"employees" : "10000",
+				"establishment" : "1986",
+				"office" : [
+					{ 	"city" : "Rennes",
+						"country" : "France"
+					}
+				]
+			}
+		],
+		"release" : [
+			{	"date" : "2009-06-25",
+				"region" : "North America",
+				"platform" : "PC"
+			},
+			{	"date" : "2009-06-23",
+				"region" : "Europe",
+				"platform" : "PC"
+			}
+		]
+	},
+	{	
+		"title" :  "Kingdom Rush",
+		"genre" : "Strategy",
+		"grade" : "8.5",
+		"developer" : [
+			{	"name" : "Ironhide Game Studio",
+				"employees" : "50",
+				"establishment" : "2010",
+				"office" : [
+					{ 	"city" : "Montevideo",
+						"country" : "Uruguay"
+					}
+				]
+			}
+		],
+		"publisher" : [
+			{	"name" : "Ironhide Game Studio",
+				"employees" : "50",
+				"establishment" : "2010",
+				"office" : [
+					{ 	"city" : "Montevideo",
+						"country" : "Uruguay"
+					}
+				]
+			}
+		],
+		"release" : [
+			{	"date" : "2014-01-06",
+				"region" : "Worldwide",
+				"platform" : "PC"
+			},
+			{	"date" : "2011-07-28",
+				"region" : "Worldwide",
+				"platform" : "Android"
+			},
+			{	"date" : "2011-07-28",
+				"region" : "Worldwide",
+				"platform" : "iOS"
+			}
+		]
+	}
+]

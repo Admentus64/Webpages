@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, header, nav, main, section, footer { margin:0; padding:0; }
+footer { clear:both; text-align:center; padding-bottom:10px; background-color:#CC6600; color:#FFFFFF; }
+header, nav, main, footer, section { display:block; }
+body { background-color:#FC6; color:#000; font-family:Tahoma, Geneva, sans-serif; font-size:12px; }
+
+#wrapper { margin:0 auto; background-color:#FFF; background-color:#3c3a34; }
+#thisPage { background-color:#0066FF; }
+
+nav { float:left; width:200px; padding-top:20px; }
+nav ul { list-style:none; padding:0px; padding-left:20px; margin-top:60px; padding-bottom:300px; }
+nav ul li { display:block; margin-right:30px; margin-bottom:25px; }
+nav a { text-decoration:none; padding:5px; display:block; text-align:center; }
+nav a:link, nav a:visited { background-color:#993300; color:#FFFFFF; }
+nav a:hover, nav a:active { background-color:#009999; color:#FFFFFF; }
+
+caption { margin-bottom:5px; }
+header { background-color:#F90; padding:10px; text-align:center; }
+header h1 { margin:10px; }
+
+main {
+    padding:10px;
+    margin-left:200px;
+    background:-webkit-linear-gradient(left, #FFF, #F90);     /* For Safari 5.1 to 6.0 */
+    background:-o-linear-gradient(right, #FFF, #F90);         /* For Opera 11.1 to 12.0 */
+    background:-moz-linear-gradient(right, #FFF, #F90);       /* For Firefox 3.6 to 15 */
+    background:linear-gradient(to right, #FFF, #F90);         /* Standard syntax */
+}
+main:after { content:""; display:block; clear:both; }
+
+table { border-collapse:collapse; box-shadow:5px 5px 3px #888888; margin-bottom:20px; }
+th, td { border:1px solid #666; padding:5px; }
+tr { background-color:#FFFFFF; }
+th { background-color:#CC6600; color:#FFFFFF; }
+
+#pics { width:300px; float:right; padding:10px; }
+#pics:after { content:""; clear:both; display:block; }
+#pics img { float:right; width:320px; height:240px; }
+#pageTitle { margin:10px; font-size: 2.5em; }
+#message { width:1260px; border-radius:10px; border:2px outset #36C; font-size:1.5em; margin:10px; background-color:#66ff66; padding:10px; }
+
+#courses { width:1300px; }
+#courses button { width:225px; height:50px; }
+#media button { width:150px; height:50px; }
+
+.activeImg { border:10px outset #00ff00; }
+.inactiveImg { padding:10px; }
+.largeImg { margin-left:10px; margin-top:20px; width:1280px; height:720px; }
+.disabled { width:0px; height:0px; }
+
+.inactive, .active, .inactive:disabled, .active:disabled { margin:15px; font-size:1.5em; border-radius:10px; border:2px outset #36C; }
+.inactive { background-color:#69C; }
+.active { background-color:#06C;  border-style:inset; }
+.inactive:disabled, .active:disabled { background-color:#808080; }

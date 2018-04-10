@@ -1,0 +1,142 @@
+﻿<!doctype html>
+
+<html lang="en">
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Robert Hallink">
+		<title>Bus Planner</title>
+		<link rel="stylesheet" type="text/css" href="src/css/style.css">
+		<script src="src/js/events.js"></script>
+		<script src="src/js/init.js"></script>
+		<script src="src/js/map.js"></script>
+		<script src="src/js/destinations.js"></script>
+		<script src="src/js/bustimes.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			
+			<main>
+				<div id="map"></div>
+				
+				<div id="keypad">
+					<fieldset>
+						<b>Type in your destination:</b> <br>
+						<button class="keypadLetterBtn" value="a">A</button>
+						<button class="keypadLetterBtn" value="b">B</button>
+						<button class="keypadLetterBtn" value="c">C</button>
+						<button class="keypadLetterBtn" value="d">D</button>
+						<button class="keypadLetterBtn" value="e">E</button>
+						<button class="keypadLetterBtn" value="f">F</button>
+						<button class="keypadLetterBtn" value="g">G</button>
+						<button class="keypadLetterBtn" value="h">H</button>
+						<button class="keypadLetterBtn" value="i">I</button>
+						<button class="keypadLetterBtn" value="j">J</button>
+						<button class="keypadLetterBtn" value="k">K</button>
+						<button class="keypadLetterBtn" value="l">L</button>
+						<button class="keypadLetterBtn" value="m">M</button>
+						<button class="keypadLetterBtn" value="n">N</button>
+						<button class="keypadLetterBtn" value="o">O</button>
+						<button class="keypadLetterBtn" value="p">P</button>
+						<button class="keypadLetterBtn" value="q">Q</button>
+						<button class="keypadLetterBtn" value="r">R</button>
+						<button class="keypadLetterBtn" value="s">S</button>
+						<button class="keypadLetterBtn" value="t">T</button>
+						<button class="keypadLetterBtn" value="u">U</button>
+						<button class="keypadLetterBtn" value="v">V</button>
+						<button class="keypadLetterBtn" value="w">W</button>
+						<button class="keypadLetterBtn" value="x">X</button>
+						<button class="keypadLetterBtn" value="y">Y</button>
+						<button class="keypadLetterBtn" value="z">Z</button>
+						<button class="keypadLetterBtn" value="å">Å</button>
+						<button class="keypadLetterBtn" value="ä">Ä</button>
+						<button class="keypadLetterBtn" value="ö">Ö</button>
+						<button class="keypadLetterBtn" value="é">É</button>
+					</fieldset>
+					<fieldset>
+						<b>Or choose the most common destinations:</b> <br>
+						<button class="keypadPresetBtn" value="växjö c">Växjö C</button>
+					</fieldset>
+					<button id="keypadSpaceBtn" class="keypadLetterBtn" value=" ">SPACE</button>
+					<button id="keypadDelBtn">&larr;</button>
+					<button id="keypadResetBtn">RESET</button>
+				</div>
+				
+				<div id="menu">
+					<div id="mainMenu">
+						<h2>Main Menu</h2>
+						<h2 class="timeLabel">Main Menu</h2> <hr>
+						<button class="chooseDestinationBtn">Choose Destination</button>
+						<button id="leavingTimesBtn">Check Leaving Times</button>
+						<button id="arrivalTimesBtn">Check Arrival Times</button>
+						<button id="resetMapBtn">Reset Map View</button>
+					</div>
+					
+					<div id="chooseDestinationMenu">
+						<h2>Choose Destination</h2>
+						<h2 class="timeLabel"></h2> <hr>
+						<p>Choose your destination:</p>
+						<input id="setDestinationTextBox" type="text" disabled>
+						<button id="presentDestinationBtn">Confirm</button>
+						<button class="mainMenuBtn">Return to<br>Main Menu</button>
+					</div>
+					
+					<div id="presentDestinationMenu">
+						<h2>Present Destination</h2>
+						<h2 class="timeLabel"></h2> <hr>
+						<p id="chosenDestination"></p>
+						<p class="presentDay"></p>
+						<p class="goalInfo"></p>
+						<p class="presentInfo"></p>
+						<div class="bottom">
+							<fieldset>
+								<button class="showMoreBtn">Show More</button>
+								<button class="filterDayBtn">Filter By Day</button>
+								<button class="chooseDestinationBtn">Choose Another<br>Destination</button>
+								<button class="mainMenuBtn">Return to<br>Main Menu</button>
+							</fieldset>
+						</div>
+					</div>
+					
+					<div id="busTimesMenu">
+						<h2 id="busTimesLabel"></h2>
+						<h2 class="timeLabel"></h2> <hr>
+						<p id="currentBusStopLocation"></p>
+						<p class="presentDay"></p>
+						<p class="goalInfo"></p>
+						<p class="presentInfo"></p>
+						<div class="bottom">
+							<button class="showMoreBtn">Show More</button>
+							<fieldset>
+								<button class="filterDayBtn">Filter By<br>Day</button>
+								<button class="mainMenuBtn">Return to<br>Main Menu</button>
+						</fieldset>
+						</div>
+					</div>
+					
+					<div id="filterDayMenu">
+						<h2>Filter By Day</h2>
+						<h2 class="timeLabel"></h2> <hr>
+						<p id="currentDayFilter"></p>
+						<fieldset>
+							<button class="dayBtn" value="Monday">Monday</button>
+							<button class="dayBtn" value="Tuesday">Tuesday</button>
+							<button class="dayBtn" value="Wednesday">Wednesday</button>
+							<button class="dayBtn" value="Thursday">Thursday</button>
+							<button class="dayBtn" value="Friday">Friday</button>
+							<button class="dayBtn" value="Saturday">Saturday</button>
+							<button class="dayBtn" value="Sunday">Sunday</button>
+							<button class="dayBtn" value="Disabled">Disable Filter</button>
+						</fieldset>
+						<button class="returnFilterDayBtn">Return</button>
+					</div>
+				</div>
+				<div id="mapLocation"></div>
+			</main>
+			
+		</div> <!-- End wrapper -->
+	</body>
+	
+</html>

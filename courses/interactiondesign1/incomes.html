@@ -1,0 +1,103 @@
+<!doctype html>
+	
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>Budget Planner</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="scripts/events.js"></script>
+		<script type="text/javascript" src="scripts/planner.js"></script>
+		<script type="text/javascript" src="scripts/budgets.js"></script>
+		<script type="text/javascript" src="scripts/incomes.js"></script>
+		<script type="text/javascript" src="scripts/general.js"></script>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+		
+			<header>
+				<h1>Budget Planner</h1>
+			</header>
+			
+			<nav>
+                <ul>
+                    <li><a href="index.html">Start</a></li>
+					<li><a href="incomes.html" id="thisPage">Inkomster</a></li>
+					<li><a href="expenses.html">Utgifter</a></li>
+					<li><a href="overview.html">Översikt</a></li>
+                </ul>
+            </nav>
+		
+			<main>
+				<h1>Inkomster</h1>
+				
+				<div id=globalActions>
+					<fieldset id="tabs">
+						<legend>Visning</legend>
+						<label>Flik:</label>
+						<label><input name="tab" type="radio" checked>1</label>
+						<label><input name="tab" type="radio">2</label>
+						<label><input name="tab" type="radio">3</label>
+						<br> <label>Sortering:
+							<select id="sortMenu">
+								<option>Välj sortering ...</option>
+								<option>Nummer (stigande)</option>
+								<option>Nummer (fallande)</option>
+								<option>Namn (stigande)</option>
+								<option>Namn (fallande)</option>
+							</select>
+						</label>
+					</fieldset>
+					<fieldset>
+						<legend>Hantering</legend>
+						<label><button type="button" id="addIncomeBtn">Lägg till inkomst</button></label><br>
+						<label><button type="button" id="saveIncomesBtn">Spara alla inkomster</button></label><br>
+					</fieldset>
+				</div>
+				
+				<div id="incomesTabs">
+					<div className="showTab" id="incomesTab1"></div>
+					<div className="hide" id="incomesTab2"></div>
+					<div className="hide" id="incomesTab3"></div>
+					<p id="addBudgetMsg" class="showGreenBox">Lägg till en inkomst i fikan för att fortsätta med programmet.</p>
+				</div>
+				
+				<div id=localActions>
+					<h3>
+						Vald inkomst: <input type="text" name="income" id="incomeField">
+						<input type="button" value="Räkna alla totalpriser" id="calcAllTotalPricesBtn">
+						<input type="button" value="Ta bort" id="removeBtn" class="remove">
+					</h3>
+					<form>
+						Namn: <input type="text" name="name" id="nameField">
+						Datum: <input type="date" id="dateField">
+						<input type="button" value="Ändra namn & datum" id="changeNameBtn">
+					</form>
+					<form>
+						Cell: <input type="text" name="cell" id="cellField" readonly>
+						Värde: <input type="text" name="value" id="valueField">
+						<input type="button" value="Ändra värde" id="changeValueBtn">
+					</form>
+					<form>
+						Rader: <input type="text" name="rows" id="rowsField" disabled>
+						Kolumner: <input type="text" name="columns" id="columnsField">
+						<input type="button" value="Ändra storlek" id="changeSizeBtn">
+					</form>
+					<form><p class="hide" id="errorMsg"></form>
+				</div>
+				
+				
+				
+			</main>
+		
+			<footer>
+                Uppgift 3 i 1ME331 Interaktionsdesign 1 på Linnéuniversitetet<br>
+				Ansvariga av sidan: Robert Hallink<br>
+				<a href="../../index.html">Går tillbaka till ingångssidan</a>
+            </footer>
+		
+		</div> <!-- End wrapper -->
+	</body>
+	
+</html>
