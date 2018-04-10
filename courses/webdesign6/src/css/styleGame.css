@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+fieldset { float:left; background-color:#EEE; margin-bottom:20px; width:400px; padding:5px; margin-right:30px; }
+fieldset legend { font-style:italic; font-weight:bold; }
+fieldset label { line-height:2em; }
+
+#userInfo { float:right; width:180px; padding:10px; text-align:right; margin-left:40px; margin-bottom:80px; background-color:#FC6; border:3px solid #666; border-radius:25px; }
+#userInfo span { display:block; font-size:2em; }
+#userMoreInfo { display:none; }
+#userInfo a { font-size:0.8em; font-style:italic; color:#666; } 
+#turnInfo { float:left; width:550px; }
+#message { padding-top:20px; font-size:1.5em; clear:both; }
+#bricks { float:left; width:280px; }
+#bricks:after { content:""; clear:both; display:block; }
+#bricks img { float:left; width:60px; height:60px; margin:2px; }
+
+.brickBack { border:3px outset #060; padding:0; cursor:pointer; }
+.brickFront { border:3px outset #060; background-color:#FFF; padding:0; cursor:default; }
+.brickEmpty { border:none; padding:3px; cursor:default; }
+.brickBack:hover { transform:rotate(-5deg); }
+
+.blueBtn { margin:15px; font-size:1.5em; background-color:#69C; border:2px outset #36C; border-radius:10px; padding: 10px; width:150px; }
+.blueBtn:hover { background-color:#06C; border-style:inset; }
+
+#currentSettings { float:right; }
+input[type="text"] { width:80px; text-align:center; float:right; margin-left:10px; }
+input[type="text"][disabled] { color:black; }
+
+#buttonPanels { width:100%; display:block; float:left; margin-top:1%; }

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+html, body, div, header, nav, main, section, footer { margin:0; padding:0; }
+footer { clear:both; text-align:center; background-color:#CC6600; color:#FFFFFF; padding-bottom:10px; padding-top:10px; }
+header, nav, main, footer, section { display:block; }
+body { background-color:#FC6; color:#000; font-family:Tahoma, Geneva, sans-serif; font-size:16px; }
+
+nav { float:left; width:200px; padding-top:20px; }
+nav ul { list-style:none; padding:0px; padding-left:20px; margin-top:60px; padding-bottom:300px; }
+nav ul li { display:block; margin-right:30px; margin-bottom:25px; }
+nav a { text-decoration:none; padding:5px; display:block; text-align:center; }
+nav a:link, nav a:visited { background-color:#993300; color:#FFFFFF; }
+nav a:hover, nav a:active { background-color:#009999; color:#FFFFFF; }
+
+caption { margin-bottom:5px; }
+header { background-color:#F90; padding:10px; text-align:center; }
+header h1 { margin:10px; }
+
+main {
+    padding:20px;
+    margin-left:200px;
+    background-color:#ffa500;
+    /*background:-webkit-linear-gradient(left, #FFF, #F90);*/     /* For Safari 5.1 to 6.0 */
+    /*background:-o-linear-gradient(right, #FFF, #F90);*/         /* For Opera 11.1 to 12.0 */
+    /*background:-moz-linear-gradient(right, #FFF, #F90);*/       /* For Firefox 3.6 to 15 */
+    /*background:linear-gradient(to right, #FFF, #F90);*/         /* Standard syntax */
+}
+main:after { content:""; display:block; clear:both; }
+
+#wrapper { margin:0 auto; background-color:#FFF; background-color:#3c3a34; }
+#thisPage { background-color:#0066FF; }
