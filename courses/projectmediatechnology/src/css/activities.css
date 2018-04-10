@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+
+main {
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.activityImg {
+    border-radius: 10px;
+    float: left;
+    margin: 12px;
+    margin-right: 25px;
+    width:200px;
+}
+
+.fieldset {
+    border-radius: 20px;
+    border: 0px;
+    width: 70%;
+    text-align: left;
+    margin: 5px auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #E2F3FB;
+    position: relative;
+}
+
+.fieldset button {
+    background: #fff;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    -webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 3px;
+    border:0px;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+}
+
+.fieldset button:hover { box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 2px 3px rgba(0,0,0,0.22); }
+.fieldset p { width: 85%; }
+.fieldset h1 {  text-align: center; }
+.fieldset span { font-size: xx-large; }
+.rating { float: right; }
+
+#sorting {
+    float: left;
+    width: 50%;
+}
+
+#location {
+    text-align:right;
+    width: 80%;
+}
+
+#filtering {
+    text-align:right;
+    width: 80%;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    
+    .fieldset p { margin-left: 25px; }
+    
+    .fieldset {
+        width: 85%;
+        padding: 10px;
+    }
+    
+    .fieldset img {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .fieldset button {
+        margin-top: 10px;
+        position: relative;
+        float: right;
+    }
+    
+    .fieldset h1 {
+        text-align: left;
+        margin-left: 10px;
+        width: 350px;
+    }
+    
+    #sorting {
+        white-space: nowrap;
+        margin: 10px;
+        float: left;
+    }
+    
+    #filtering {
+        margin: 10px;
+        width: 90%;
+        float: left;
+        text-align: left;
+    }
+    
+    #filtering input {
+        margin: 5px;
+        width: 20px;
+        height: auto;
+    }
+    
+    #location {
+        width: 90%;
+        margin: 10px;
+        float: left;
+        text-align: left;
+    }
+
+}

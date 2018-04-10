@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.section {
+    text-align: left;
+    margin-left:20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; 
+    font-size: 130%;
+}
+
+.activityImg {
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-top: 20px;
+    width:700px;
+    position: relative;
+}
+
+#description { width: 700px; }
+#activityInfo { margin-left: 80px; }
+
+#map {
+    width: 70%;
+    height: 60vh;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    position: relative;
+}
+
+#mapInfo {
+    margin-top: 70px;
+    margin-left: 75px;
+}
+
+#services img {
+    width: 100px;
+    max-height: 100px;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    
+    .activityImg {
+        margin: 2px;
+        margin-top: 15px;
+        margin-left: -10px;
+        width: 95%;
+        height: 300px;
+        position: absolute;
+    }
+    
+    .section > .subsec {
+        margin-top: 0px;
+        -webkit-box-flex: 0;
+        -ms-flex: 0;
+        flex: 0;
+    }
+    
+    #description {
+        width: 100%;
+        float: left;
+        margin-left: -50px;
+        text-align: left;
+    }
+    
+    #map {
+        float: left;
+        height: 400px;
+        width: 90%;
+        margin-left: 5px;
+        position: absolute;
+    }
+    
+    #mapInfo {
+        margin-top: 400px;
+        margin-left: 20px;
+        padding-bottom: 10px;
+    }
+    
+    #services img {
+        width: 50px;
+        height: auto;
+    }
+    
+    #services {
+        float: left;
+        margin-left: -50px;
+        width: 100%;
+    }
+    
+    #title {
+        margin-top: 350px;
+        margin-left: -50px;
+    }
+    
+    #timeWindow {
+        margin-left: -50px;
+        width: 300px;
+    }
+    
+}

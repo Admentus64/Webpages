@@ -1,0 +1,83 @@
+﻿<!doctype html>
+
+<html lang="en">
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Aktiviter och Utflykter">
+		<meta name="keywords" content="Aktivitet,Utflykt,Småland,Öland">
+		<meta name="author" content="Grupp 10">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Utflyktsguiden</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="src/css/style.css">
+		<link rel="stylesheet" type="text/css" href="src/css/activity.css">
+		<script type="text/javascript" src="src/js/events/Event.js"></script>
+		<script type="text/javascript" src="src/js/GoogleMap.js"></script>
+		<script type="text/javascript" src="src/js/DetailedInfoPage.js"></script>
+		<script type="text/javascript" src="src/js/Ajax.js"></script>
+		<script type="text/javascript" src="src/js/Payload.js"></script>
+		<script type="text/javascript" src="src/js/database/Activity.js"></script>
+		<script type="text/javascript" src="src/js/database/ActivityLocation.js"></script>
+		<script type="text/javascript" src="src/js/database/ActivityEvent.js"></script>
+		<script type="text/javascript" src="src/js/database/ActivityRestaurant.js"></script>
+		<script type="text/javascript" src="src/js/database/ActivityHotel.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaEiO4F0GgdCrc8z-S2YxaIMxasdE8eqA"></script>
+		<link rel="canonical" href="http://1me205.lnu.se/~rh222ff/courses/projectmediatechnology/activity.html" />
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			
+			<header> <img src="src/img/logos/logotype.png" alt="Logo"> </header>
+			
+			<nav>
+				<ul>
+					<li> <a href="index.html" >Hem</a> </li>
+                    <li> <a href="activities.html">Utflykter</a> </li>
+                    <li> <a href="map.html">Karta</a> </li>
+					<li> <a href="aboutus.html">Om Oss</a> </li>
+					<li> <a href="activity.html" id="thisPage">Vald Utflykt</a> </li>
+				</ul>
+			</nav>
+			
+			<main>
+				<div class="section">
+					<div id="activityImg"></div>
+					<div id="activityInfo">
+						<h1 id="title">Title</h1>
+						<p id="timeWindow"></p> 
+						<p id="description"></p>
+						<div id="services">
+							<p id="hasServices"></p>
+							<p id="price"></p>
+							<p id="website"></p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="section">
+					<div id="map"></div>
+					<div id="mapInfo">
+						<h2>Restaurang i närheten:</h2>
+						<ul id="nearRestaurants"></ul>
+						<h2>Boende i närheten:</h2>
+						<ul id="nearHotels"></ul>
+					</div>
+				</div>
+			</main>
+			
+			<footer>
+				<div id="socialMediaIcons">
+					<img src="src/img/logos/facebookIcon.gif" alt="Facebook Icon" onclick="window.location.href = 'https://www.facebook.com';">
+					<img src="src/img/logos/twitterIcon.gif" alt="Twitter Icon" onclick="window.location.href = 'https://twitter.com';">
+					<img src="src/img/logos/snapchatIcon.gif" alt="Snapchat Icon" onclick="window.location.href = 'https://www.snapchat.com';">
+                    <img src="src/img/logos/instagramIcon.gif" alt="Instagram Icon" onclick="window.location.href = 'https://www.instagram.com';">
+				</div>
+                <div> <img id="arrowFooter" src="src/img/arrowTop.gif" alt="Arrow Top" onclick="window.location.href = '#';"> </div>
+            </footer>
+			
+		</div> <!-- End wrapper -->
+	</body>
+	
+</html>

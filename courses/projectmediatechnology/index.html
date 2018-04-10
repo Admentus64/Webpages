@@ -1,0 +1,62 @@
+﻿<!doctype html>
+
+<html lang="en">
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Aktiviter och Utflykter">
+		<meta name="keywords" content="Aktivitet,Utflykt,Småland,Öland">
+		<meta name="author" content="Grupp 10">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Utflyktsguiden</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="src/css/style.css">
+		<link rel="stylesheet" type="text/css" href="src/css/index.css">
+		<script type="text/javascript" src="src/js/events/Event.js"></script>
+		<script type="text/javascript" src="src/js/SlideShow.js"></script>
+		<script type="text/javascript" src="src/js/BigImage.js"></script>
+		<script type="text/javascript" src="src/js/Index.js"></script>
+		<script type="text/javascript" src="src/js/Ajax.js"></script>
+		<script type="text/javascript" src="src/js/Payload.js"></script>
+		<script type="text/javascript" src="src/js/database/Activity.js"></script>
+		<script type="text/javascript" src="src/js/database/ActivityLocation.js"></script>
+		<script type="text/javascript" src="src/js/database/ActivityEvent.js"></script>
+		<link rel="canonical" href="http://1me205.lnu.se/~rh222ff/courses/projectmediatechnology/index.html" />
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			
+			<header> <img src="src/img/logos/logotype.png" alt="Logo"> </header>
+			
+			<nav>
+				<ul>
+					<li> <a href="index.html" id="thisPage">Hem</a> </li>
+                    <li> <a href="activities.html">Utflykter</a> </li>
+                    <li> <a href="map.html">Karta</a> </li>
+					<li> <a href="aboutus.html">Om Oss</a> </li>
+				</ul>
+			</nav>
+			
+			<main>
+				<div id="bigImage"></div>
+				<img id="arrowLeft" src="src/img/slide_show/arrowLeft.png" alt="Arrow Left">
+				<img id="arrowRight" src="src/img/slide_show/arrowRight.png" alt="Arrow Right">
+				<h1 id="relevant">Aktuellt just nu</h1>
+				<div id="activitySuggestions"></div>
+			</main>
+			
+			<footer>
+				<div id="socialMediaIcons">
+					<img src="src/img/logos/facebookIcon.gif" alt="Facebook Icon" onclick="window.location.href = 'https://www.facebook.com';">
+					<img src="src/img/logos/twitterIcon.gif" alt="Twitter Icon" onclick="window.location.href = 'https://twitter.com';">
+					<img src="src/img/logos/snapchatIcon.gif" alt="Snapchat Icon" onclick="window.location.href = 'https://www.snapchat.com';">
+                    <img src="src/img/logos/instagramIcon.gif" alt="Instagram Icon" onclick="window.location.href = 'https://www.instagram.com';">
+				</div>
+				<div> <img id="arrowFooter" src="src/img/arrowTop.gif" alt="Arrow Top" onclick="window.location.href = '#';"> </div>
+            </footer>
+			
+		</div> <!-- End wrapper -->
+	</body>
+	
+</html>

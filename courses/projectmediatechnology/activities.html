@@ -1,0 +1,73 @@
+﻿<!doctype html>
+
+<html lang="en">
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Aktiviter och Utflykter">
+		<meta name="keywords" content="Aktivitet,Utflykt,Småland,Öland">
+		<meta name="author" content="Grupp 10">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Utflyktsguiden</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="src/css/style.css">
+		<link rel="stylesheet" type="text/css" href="src/css/activities.css">
+		<script type="text/javascript" src="src/js/events/Event.js"></script>
+		<script type="text/javascript" src="src/js/Ajax.js"></script>
+		<script type="text/javascript" src="src/js/Payload.js"></script>
+		<script type="text/javascript" src="src/js/Activities.js"></script>
+		<script type="text/javascript" src="src/js/database/Activity.js"></script>
+		<script type="text/javascript" src="src/js/database/ActivityLocation.js"></script>
+		<script type="text/javascript" src="src/js/database/ActivityEvent.js"></script>
+		<link rel="canonical" href="http://1me205.lnu.se/~rh222ff/courses/projectmediatechnology/activities.html" />
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			
+			<header> <img src="src/img/logos/logotype.png" alt="Logo"> </header>
+			
+			<nav>
+				<ul>
+					<li> <a href="index.html" >Hem</a> </li>
+                    <li> <a href="activities.html" id="thisPage">Utflykter</a> </li>
+                    <li> <a href="map.html">Karta</a> </li>
+					<li> <a href="aboutus.html">Om Oss</a> </li>
+				</ul>
+			</nav>
+			
+			<main>				
+				<div id="sorting">
+					Sortering efter:
+					<select id="sortingMenu">
+						<option value="alfa-asc">Alfabetiskt ordning (stigande)</option>
+						<option value="alfa-desc">Alfabetiskt ordning (fallande)</option>
+						<option value="rating-high">Betyg (högst)</option>
+						<option value="rating-low">Betyg (lägst)</option>
+					</select>
+				</div>
+                
+                <div id="location">
+					<input type="radio" name="location" value="both" checked>Småland & Öland
+                    <input type="radio" name="location" value="smaland">Småland
+                    <input type="radio" name="location" value="oland">Öland
+                </div>
+				
+				<div id="filtering"></div>
+                <div id="activitiesList"></div>
+			</main>
+			
+			<footer>
+				<div id="socialMediaIcons">
+					<img src="src/img/logos/facebookIcon.gif" alt="Facebook Icon" onclick="window.location.href = 'https://www.facebook.com';">
+					<img src="src/img/logos/twitterIcon.gif" alt="Twitter Icon" onclick="window.location.href = 'https://twitter.com';">
+					<img src="src/img/logos/snapchatIcon.gif" alt="Snapchat Icon" onclick="window.location.href = 'https://www.snapchat.com';">
+                    <img src="src/img/logos/instagramIcon.gif" alt="Instagram Icon" onclick="window.location.href = 'https://www.instagram.com';">
+				</div>
+                <div> <img id="arrowFooter" src="src/img/arrowTop.gif" alt="Arrow Top" onclick="window.location.href = '#';"> </div>
+            </footer>
+			
+		</div> <!-- End wrapper -->
+	</body>
+	
+</html>
