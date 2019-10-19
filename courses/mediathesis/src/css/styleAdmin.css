@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+form p { font-size:30px; }
+form br { display:block; margin:10px; line-height:25px; }
+
+fieldset { float:left; background-color:#EEE; margin-bottom:20px; width:25vw; margin-right:30px; padding:20px; display:block; }
+fieldset input, fieldset select { margin-bottom:10px; margin-left:35px; }
+fieldset input { display:inline; margin:5px; font-size:16px; }
+fieldset select { display:block; }
+fieldset legend { font-style:italic; font-weight:bold; font-size:20px; }
+fieldset label { display:block; line-height:2em;  }
+fieldset textarea { width:22.5vw; }
+
+fieldset input[type="color"] { display:block; width:100px; height:50px; background-color:white; border:3px outset #36C; box-shadow:5px 5px; }
+fieldset input[type="text"] { display:block; width:90%; }
+fieldset input[type="email"] { display:block; width:90%; }
+fieldset input[type="submit"] { display:block; margin-top:20px; min-width:100px; height:50px; background-color:orange; margin-right:50px; font-size:20px; font-style:italic; }
+fieldset input[name="First Name"], fieldset input[name="Last Name"], fieldset input[name="Username"], fieldset input[name="Password"], fieldset input[name="Email Address"], fieldset input[name="Timestamp"]  { display:none; }
+fieldset input[name="runTest"], fieldset input[name="resetTest"] { width:150px; }
+
+h3 input { margin-left:10px; }
+
+table, th, td { border:1px solid black; }
+table { display:block; float:left; width:100%; margin-top:3%; background-color:white; }
+tr { background-color:aqua; }
+th { width:10%; height:40px; background-color:yellow; }
+td { width:10%; text-align:center; }
+
+#system { float:right; width:25%; }
+#logout { float:left; width:25%; margin-right:0; }
+#loginSystem { float:right; }
+
+#submit { display:block; width:25vw; height:8vh; font-size:5vh; color:black; background-color:aqua; border:3px outset #36C; border-radius:25px; box-shadow:5px 5px; margin:2%; margin-bottom:60px; }
+#submit:hover { color:white; background-color:#06C; border-style:inset; }
+
+#instructions { position:relative; width:80%; font-size:4vh; top:30%; color:black; background-color:yellow; border:3px solid #666; border-radius:25px; padding:10px; margin:0 auto; margin-top:300px; }
+#instructions p, b, ul { margin:0; padding:10px; }
+#instructions p { padding-bottom:30px; }
+#instructions ul { padding-left:10%; }
+
+#runTest, #resetTest { width:22vw; height:220px; }
+#register label { padding-top:10px; padding-left:10px; }
+#register { width:40vw; }
+
+#bricksGuide { margin:3vw; position:relative; width:80%; font-size:4vh; top:30%; color:black; background-color:yellow; border:3px solid #666; border-radius:25px; padding:10px; margin:0 auto; margin-top:50px; }
+#bricksGuide p { font-size:2.5vw; margin-left:40px; color:black; }
+.bricks { width:25%; float:left; margin-top:3vw; margin-left:5%; }
+.bricks img { width:4vw; height:15vh; margin:2px; }
+.brickBack { border:3px outset #060; padding:0; cursor:pointer; }
+.brickEmpty { padding:3px; cursor:default; }
+.brickFront { border:3px outset #060; padding:0; cursor:default; }
+.brickBack:hover { transform:rotate(-5deg); }
+
+#account { position:absolute; float:left; width:80%; }
+
+
+
+/*
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+    fieldset { width:20vw; }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+    fieldset { width:20vw; }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    fieldset { width:20vw; }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1800px) {
+    fieldset { width:22.5vw; }
+}
+*/
+
+@media only screen and (max-width: 1400px) {
+    fieldset { width:22.5vw; }
+}
+
+@media only screen and (max-width: 1250px) {
+    fieldset { width:17.5vw; }
+}
+
+@media only screen and (max-width: 1150px) {
+    fieldset { width:15vw; }
+}
+

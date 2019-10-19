@@ -1,0 +1,23 @@
+Game Maker 7 (2007)
+click.wav
+
+https://freesound.org/people/SailorErick/sounds/430769/
+completeRow.wav
+
+https://freesound.org/people/JapanYoshiTheGamer/sounds/423219/
+failedSet.wav
+
+https://freesound.org/people/Mudkip2016/sounds/423930/
+goodSet.wav
+
+https://freesound.org/people/maphill/sounds/204103/
+ready.wav
+
+https://freesound.org/people/creeeeak/sounds/437322/
+refill.wav
+
+https://freesound.org/people/dersuperanton/sounds/434476/
+swap.wav
+
+https://freesound.org/people/InspectorJ/sounds/370195/
+timerOver.wav
