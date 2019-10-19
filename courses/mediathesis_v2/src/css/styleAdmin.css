@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+form p { font-size:30px; }
+form br { display:block; margin:10px; line-height:25px; }
+.presetsQuestionTitle { font-size:1em; margin:0; margin-bottom:1vh; }
+
+fieldset { float:left; background-color:#EEE; margin-bottom:20px; width:28vw; min-height:20vh; margin-left:10px; margin-right:10px; padding:20px; }
+fieldset input, fieldset select { margin-bottom:10px; margin-left:35px; }
+fieldset input { display:inline; margin:5px; font-size:16px; }
+fieldset select { display:block; }
+fieldset legend { font-style:italic; font-weight:bold; font-size:20px; }
+fieldset label { display:block; line-height:2em;  }
+fieldset textarea { width:22.5vw; }
+fieldset div { margin-bottom:2vh; }
+#surveySets { float:left; width:100%; }
+.surveySet { background-color:AliceBlue; }
+#surveyData, #surveyPresets { display:none; }
+
+
+fieldset input[type="color"] { display:block; width:100px; height:50px; background-color:white; border:3px outset #36C; box-shadow:5px 5px; }
+fieldset input[type="email"] { width:13vw; }
+fieldset input[name="runTest"], fieldset input[name="resetTest"] { width:150px; }
+.name p { font-size:1em; margin:0; margin-top:3px; float:left; }
+.name input { width:13vw; margin:0; margin-left:10px; float:right; }
+.name { display:block; margin-bottom:1vh; }
+#emailAddress { margin:0; float:right; }
+
+fieldset input[type="submit"], fieldset input[type="button"] {
+    display:block;
+    margin-top:20px;
+    width:15vw;
+    height:6vh;
+    color:black;
+    background-color:aqua;
+    border:3px solid #666;
+    border-radius:25px;
+    margin-right:50px;
+    font-size:20px;
+    font-style:italic;
+    border:3px outset #36C;
+    border-radius:25px;
+    box-shadow:5px 5px;
+}
+fieldset input[type="submit"]:hover, fieldset input[type="button"]:hover { color:white; background-color:#06C; border-style:inset; }
+
+h3 input { margin-left:10px; }
+
+table, th, td { border:1px solid black; }
+table { display:block; float:left; width:100%; margin-top:3%; background-color:white; }
+tr { background-color:aqua; }
+th { width:10%; height:40px; background-color:yellow; }
+td { width:10%; text-align:center; }
+
+#instructions { position:relative; width:80%; font-size:4vh; top:30%; color:black; background-color:yellow;  padding:10px; margin:0 auto; margin-top:300px; }
+#instructions p, b, ul { margin:0; padding:10px; }
+#instructions p { padding-bottom:30px; }
+#instructions ul { padding-left:10%; }
+#rightMouseButtonImg { float:left; max-height:15vh; margin-right:5%; }
+
+
+
+/*
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+    fieldset { width:20vw; }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+    fieldset { width:20vw; }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    fieldset { width:20vw; }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1800px) {
+    fieldset { width:22.5vw; }
+}
+*/
+
+@media only screen and (max-width: 1400px) {
+    fieldset { width:22.5vw; }
+}
+
+@media only screen and (max-width: 1250px) {
+    fieldset { width:17.5vw; }
+}
+
+@media only screen and (max-width: 1150px) {
+    fieldset { width:15vw; }
+}

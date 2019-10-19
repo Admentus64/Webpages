@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<title>Media Thesis Project - Memory Game Mash-Up</title>
+		<script type="text/javascript" src="src/jquery/jquery-3.4.0.js"></script>
+		<link rel="stylesheet" type="text/css" href="src/css/style.css">
+		<link rel="stylesheet" type="text/css" href="src/css/styleAdmin.css">
+		
+		<script type="text/javascript" src="src/jquery/jquery-3.4.0.js"></script>
+		<script type="text/javascript" src="src/js/events/Event.js"></script>
+		<script type="text/javascript" src="src/js/Cookie.js"></script>
+		
+		<script type="text/javascript" src="src/js/page/SurveyScript.js"></script>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			
+			<header>
+				<h1>1ME30E, Media Thesis Project - Memory Game Mash-Up</h1>
+			</header>
+			
+			<main>
+				<h1>Survey Page</h1>
+				
+				<form method="post" action="//www.olzzon.com/cgi-bin/p.cgi?epost=">		<!-- Include your email address, ex: "//www.olzzon.com/cgi-bin/p.cgi?epost=email@address.com" -->
+					
+					<fieldset>
+						<legend>Submit Survey</legend>
+						<input id="submitBtn" type="submit" value="Submit Survey">
+						<p>* indicates required</p>
+						<p><b>Timestamp</b><br>
+							Date: <span id="timeStampDate">1970-01-01</span>
+							<br>
+							Time: <span id="timeStampTime">00:00:00</span>
+						</p>
+					</fieldset>
+					
+					<div id="surveySets">
+						<fieldSet id="surveyData" class="surveySet">
+							<input id="timeStamp" type="text" name="Timestamp">
+							
+							<div>
+								Preset 1<br>
+								<input type="text" name="Preset">
+								<input type="text" name="Rating">
+								<input type="text" name="Points">
+								<input type="text" name="Highest Face">
+								<input type="text" name="Used Skips">
+								<input type="text" name="Max Skips">
+								<input type="text" name="Good Sets">
+								<input type="text" name="Bad Sets">
+								<input type="text" name="Field Clears">
+								<input type="text" name="Level">
+								<input type="text" name="Pauses">
+								<input type="text" name="Short Clock">
+								<input type="text" name="Long Clock">
+								<input type="text" name="Time Played">
+							</div>
+							
+							<div>
+								Preset 2<br>
+								<input type="text" name="Preset">
+								<input type="text" name="Rating">
+								<input type="text" name="Points">
+								<input type="text" name="Highest Face">
+								<input type="text" name="Used Skips">
+								<input type="text" name="Max Skips">
+								<input type="text" name="Good Sets">
+								<input type="text" name="Bad Sets">
+								<input type="text" name="Field Clears">
+								<input type="text" name="Level">
+								<input type="text" name="Pauses">
+								<input type="text" name="Short Clock">
+								<input type="text" name="Long Clock">
+								<input type="text" name="Time Played">
+							</div>
+							
+							<div>
+								Preset 3<br>
+								<input type="text" name="Preset">
+								<input type="text" name="Rating">
+								<input type="text" name="Points">
+								<input type="text" name="Highest Face">
+								<input type="text" name="Used Skips">
+								<input type="text" name="Max Skips">
+								<input type="text" name="Good Sets">
+								<input type="text" name="Bad Sets">
+								<input type="text" name="Field Clears">
+								<input type="text" name="Level">
+								<input type="text" name="Pauses">
+								<input type="text" name="Short Clock">
+								<input type="text" name="Long Clock">
+								<input type="text" name="Time Played">
+							</div>
+							
+							<div>
+								Preset 4<br>
+								<input type="text" name="Preset">
+								<input type="text" name="Rating">
+								<input type="text" name="Points">
+								<input type="text" name="Highest Face">
+								<input type="text" name="Used Skips">
+								<input type="text" name="Max Skips">
+								<input type="text" name="Good Sets">
+								<input type="text" name="Bad Sets">
+								<input type="text" name="Field Clears">
+								<input type="text" name="Level">
+								<input type="text" name="Pauses">
+								<input type="text" name="Short Clock">
+								<input type="text" name="Long Clock">
+								<input type="text" name="Time Played">
+							</div>
+							
+							<div>
+								Preset 5<br>
+								<input type="text" name="Preset">
+								<input type="text" name="Rating">
+								<input type="text" name="Points">
+								<input type="text" name="Highest Face">
+								<input type="text" name="Used Skips">
+								<input type="text" name="Max Skips">
+								<input type="text" name="Good Sets">
+								<input type="text" name="Bad Sets">
+								<input type="text" name="Field Clears">
+								<input type="text" name="Level">
+								<input type="text" name="Pauses">
+								<input type="text" name="Short Clock">
+								<input type="text" name="Long Clock">
+								<input type="text" name="Time Played">
+							</div>
+							
+							<div>
+								Preset 6<br>
+								<input type="text" name="Preset">
+								<input type="text" name="Rating">
+								<input type="text" name="Points">
+								<input type="text" name="Highest Face">
+								<input type="text" name="Used Skips">
+								<input type="text" name="Max Skips">
+								<input type="text" name="Good Sets">
+								<input type="text" name="Bad Sets">
+								<input type="text" name="Field Clears">
+								<input type="text" name="Level">
+								<input type="text" name="Pauses">
+								<input type="text" name="Short Clock">
+								<input type="text" name="Long Clock">
+								<input type="text" name="Time Played">
+							</div>
+						</fieldSet>
+						
+						<fieldset id="surveyGeneral" class="surveySet">
+						    <legend>General</legend>
+						    
+							<div>
+								*1a) Which preset did you enjoy the most?<br>
+								<input type="radio" name="1a - Which preset did you enjoy the most" value="Default" required>Default (the preset without any changes)<br>
+								<input type="radio" name="1a - Which preset did you enjoy the most" value="Easier">Easier (the preset with more time and less cards)<br>
+								<input type="radio" name="1a - Which preset did you enjoy the most" value="Harder">Harder (the preset with less time and more cards)<br>
+								<input type="radio" name="1a - Which preset did you enjoy the most" value="Choices">Choices (the preset which played linearly)<br>
+								<input type="radio" name="1a - Which preset did you enjoy the most" value="Static Time">Static Time (the preset which only had 2 minutes)<br>
+								<input type="radio" name="1a - Which preset did you enjoy the most" value="Audiovisual">Audiovisual (the preset with numbers and without sound and animation)
+							</div>
+							
+							<div>
+								1b) What made that preset better than the other presets?<br>
+								<input type="checkbox" class="1b" name="1b - What made that preset better than the other presets" value="I had the most fun playing that">I had the most fun playing that<br>
+								<input type="checkbox" class="1b" name="1b - What made that preset better than the other presets" value="It was the most innovative">It was the most innovative<br>
+								<input type="checkbox" class="1b" name="1b - What made that preset better than the other presets" value="It had the best challenge">It had the best challenge<br>
+								<input type="checkbox" class="1b" name="1b - What made that preset better than the other presets" value="It was the easiest to understand">It was the easiest to understand<br>
+								<input type="checkbox" class="1b" name="1b - What made that preset better than the other presets" value="It gave me the most freedom to play it">It gave me the most freedom to play it<br>
+								<input type="checkbox" class="1b" name="1b - What made that preset better than the other presets" value="It had the most optimal duration for me">It had the most optimal duration for me<br>
+								<input type="checkbox" class="1b" name="1b - What made that preset better than the other presets" value="The timer gave me the least problems">The timer gave me the least problems
+							</div>
+							
+							<div>
+								*2a) Which preset did you enjoy the least?<br>
+								<input type="radio" name="2a - Which preset did you enjoy the least" value="Default" required>Default (the preset without any changes)<br>
+								<input type="radio" name="2a - Which preset did you enjoy the least" value="Easier">Easier (the preset with more time and less cards)<br>
+								<input type="radio" name="2a - Which preset did you enjoy the least" value="Harder">Harder (the preset with less time and more cards)<br>
+								<input type="radio" name="2a - Which preset did you enjoy the least" value="Choices">Choices (the preset which played linearly)<br>
+								<input type="radio" name="2a - Which preset did you enjoy the least" value="Static Time">Static Time (the preset which only had 2 minutes)<br>
+								<input type="radio" name="2a - Which preset did you enjoy the least" value="Audiovisual">Audiovisual (the preset with numbers and without sound and animation)
+							</div>
+							
+							<div>
+								2b) What made that preset worser than the other presets?<br>
+								<input type="checkbox" name="2b - What made that preset worser than the other presets" value="It was tedious">It was tedious<br>
+								<input type="checkbox" name="2b - What made that preset worser than the other presets" value="It was boring">It was boring<br>
+								<input type="checkbox" name="2b - What made that preset worser than the other presets" value="I already had forgotten it">I already had forgotten it<br>
+								<input type="checkbox" name="2b - What made that preset worser than the other presets" value="It was too stressing">It was too stressing<br>
+								<input type="checkbox" name="2b - What made that preset worser than the other presets" value="It wasted my time">It wasted my time<br>
+								<input type="checkbox" name="2b - What made that preset worser than the other presets" value="The difficulty was misplaced">The difficulty was misplaced<br>
+								<input type="checkbox" name="2b - What made that preset worser than the other presets" value="The rules were too complex to understand">The rules were too complex to understand<br>
+								<input type="checkbox" name="2b - What made that preset worser than the other presets" value="It was too simple to enjoy">It was too simple to enjoy<br>
+								<input type="checkbox" name="2b - What made that preset worser than the other presets" value="It did not make any difference on how I played it">It did not make any difference on how I played it<br>
+								<input type="checkbox" name="2b - What made that preset worser than the other presets" value="I could not recognize the cards">I could not recognize the cards<br>
+								<input type="checkbox" name="2b - What made that preset worser than the other presets" value="I was confused how the game awarded extra time or points">I was confused how the game awarded extra time or points
+							</div>
+							
+							<div>
+								*3) How difficult did you feel the game was in general?<br>
+								<input type="radio" name="3 - How difficult did you feel the game was in general" value="Too easy" required>Too easy<br>
+								<input type="radio" name="3 - How difficult did you feel the game was in general" value="A little bit too easy">A little bit too easy<br>
+								<input type="radio" name="3 - How difficult did you feel the game was in general" value="The difficulty was good">The difficulty was good<br>
+								<input type="radio" name="3 - How difficult did you feel the game was in general" value="A little bit too difficult">A little bit too difficult<br>
+								<input type="radio" name="3 - How difficult did you feel the game was in general" value="Too difficult">Too difficult
+							</div>
+							
+							<div>
+								*4) What gave you the most problems?<br>
+								<input type="radio" name="4 - What gave you the most problems" value="Having too many cards" required>Having too many cards<br>
+								<input type="radio" name="4 - What gave you the most problems" value="Not having enough time">Not having enough time<br>
+								<input type="radio" name="4 - What gave you the most problems" value="Not being able to skip often enough">Not being able to skip often enough<br>
+								<input type="radio" name="4 - What gave you the most problems" value="Clearing a row or column of cards">Clearing a row or column of cards<br>
+								<input type="radio" name="4 - What gave you the most problems" value="Lack of sound, graphics, music and animation">Lack of sound, graphics, music and animation<br>
+								<input type="radio" name="4 - What gave you the most problems" value="Not being able to earn additional time">Not being able to earn additional time<br>
+							</div>
+							
+							<div>
+								*5) What gave you the fewest problems?<br>
+								<input type="radio" name="5 - What gave you the fewest problems" value="Having too many cards" required>Having too many cards<br>
+								<input type="radio" name="5 - What gave you the fewest problems" value="Not having enough time">Not having enough time<br>
+								<input type="radio" name="5 - What gave you the fewest problems" value="Not being able to skip often enough">Not being able to skip often enough<br>
+								<input type="radio" name="5 - What gave you the fewest problems" value="Clearing a row or column of cards">Clearing a row or column of cards<br>
+								<input type="radio" name="5 - What gave you the fewest problems" value="Lack of graphics, sound, music and animation">Lack of graphics, sound, music and animation<br>
+								<input type="radio" name="5 - What gave you the fewest problems" value="Not being able to earn additional time">Not being able to earn additional time<br>
+							</div>
+						</fieldset>
+						
+						<fieldset id="surveyPresets" class="surveySet">
+							<legend>Presets</legend>
+							
+							<div>
+								<p class="presetsQuestionTitle">Default - rating </p>
+								<input type="text" name="A - Default - rating " value="I had fun playing it: "><br>
+								<input type="text" name="A - Default - rating " value="It was innovative: "><br>
+								<input type="text" name="A - Default - rating " value="It had the right challenge: "><br>
+								<input type="text" name="A - Default - rating " value="It was easy to understand: "><br>
+								<input type="text" name="A - Default - rating " value="I had enough choices to make: "><br>
+								<input type="text" name="A - Default - rating " value="The play time was good: "><br>
+								<input type="text" name="A - Default - rating " value="The timer was stressful: ">
+							</div>
+							
+							<div>
+								<p class="presetsQuestionTitle">Easier - rating </p>
+								<input type="text" name="B - Easier - rating " value="I had fun playing it: "><br>
+								<input type="text" name="B - Easier - rating " value="It was innovative: "><br>
+								<input type="text" name="B - Easier - rating " value="It had the right challenge: "><br>
+								<input type="text" name="B - Easier - rating " value="It was easy to understand: "><br>
+								<input type="text" name="B - Easier - rating " value="I had enough choices to make: "><br>
+								<input type="text" name="B - Easier - rating " value="The play time was good: "><br>
+								<input type="text" name="B - Easier - rating " value="The timer was stressful: ">
+							</div>
+							
+							<div>
+								<p class="presetsQuestionTitle">Harder - rating </p>
+								<input type="text" name="C - Harder - rating " value="I had fun playing it: "><br>
+								<input type="text" name="C - Harder - rating " value="It was innovative: "><br>
+								<input type="text" name="C - Harder - rating " value="It had the right challenge: "><br>
+								<input type="text" name="C - Harder - rating " value="It was easy to understand: "><br>
+								<input type="text" name="C - Harder - rating " value="I had enough choices to make: "><br>
+								<input type="text" name="C - Harder - rating " value="The play time was good: "><br>
+								<input type="text" name="C - Harder - rating " value="The timer was stressful: ">
+							</div>
+							
+							<div>
+								<p class="presetsQuestionTitle">Choices - rating </p>
+								<input type="text" name="D - Choices - rating " value="I had fun playing it: "><br>
+								<input type="text" name="D - Choices - rating " value="It was innovative: "><br>
+								<input type="text" name="D - Choices - rating " value="It had the right challenge: "><br>
+								<input type="text" name="D - Choices - rating " value="It was easy to understand: "><br>
+								<input type="text" name="D - Choices - rating " value="I had enough choices to make: "><br>
+								<input type="text" name="D - Choices - rating " value="The play time was good: "><br>
+								<input type="text" name="D - Choices - rating " value="The timer was stressful: ">
+							</div>
+							
+							<div>
+								<p class="presetsQuestionTitle">Static Time - rating </p>
+								<input type="text" name="E - Static Time - rating " value="I had fun playing it: "><br>
+								<input type="text" name="E - Static Time - rating " value="It was innovative: "><br>
+								<input type="text" name="E - Static Time - rating " value="It had the right challenge: "><br>
+								<input type="text" name="E - Static Time - rating " value="It was easy to understand: "><br>
+								<input type="text" name="E - Static Time - rating " value="I had enough choices to make: "><br>
+								<input type="text" name="E - Static Time - rating " value="The play time was good: "><br>
+								<input type="text" name="E - Static Time - rating " value="The timer was stressful: ">
+							</div>
+							
+							<div>
+								<p class="presetsQuestionTitle">Audiovisual - rating </p>
+								<input type="text" name="F - Audiovisual - rating " value="I had fun playing it: "><br>
+								<input type="text" name="F - Audiovisual - rating " value="It was innovative: "><br>
+								<input type="text" name="F - Audiovisual - rating " value="It had the right challenge: "><br>
+								<input type="text" name="F - Audiovisual - rating " value="It was easy to understand: "><br>
+								<input type="text" name="F - Audiovisual - rating " value="I had enough choices to make: "><br>
+								<input type="text" name="F - Audiovisual - rating " value="The play time was good: "><br>
+								<input type="text" name="F - Audiovisual - rating " value="The timer was stressful: ">
+							</div>
+						</fieldset>
+						
+						<fieldset id="surveyFeedback" class="surveySet">
+							<legend>Feedback</legend>
+							
+							<div>
+								*6) Did you get stuck at any point?<br>
+								<input type="radio" name="6 - Did you get stuck at any point" value="Yes" required>Yes
+								<input type="radio" name="6 - Did you get stuck at any point" value="No">No
+							</div>
+							
+							<div>
+								*7) Did you retry the experiment? (example: made too many mistakes)<br>
+								<input type="radio" name="7 - Did you retry the experiment" value="Yes" required>Yes
+								<input type="radio" name="7 - Did you retry the experiment" value="No">No
+							</div>
+							
+							<div>
+								*8) How much fun did you have playing it?<br>
+								<input type="radio" name="8 - How much fun did you have playing it" value="1: None" required>1: None<br>
+								<input type="radio" name="8 - How much fun did you have playing it" value="2: Little">2: Little<br>
+								<input type="radio" name="8 - How much fun did you have playing it" value="3: Normal">3: Normal<br>
+								<input type="radio" name="8 - How much fun did you have playing it" value="4: Much">4: Much<br>
+								<input type="radio" name="8 - How much fun did you have playing it" value="5: Very Much">5: Very Much
+							</div>
+							
+							<div>
+								9) How did you feel about the "Skip Cards" mechanic?<br>
+								<input type="checkbox" name="9 - How did you feel about the Skip Cards mechanic" value="I used it whenever I could">I used it whenever I could<br>
+								<input type="checkbox" name="9 - How did you feel about the Skip Cards mechanic" value="I used it with strategic use">I used it with strategic use<br>
+								<input type="checkbox" name="9 - How did you feel about the Skip Cards mechanic" value="It was not worth using">It was not worth using<br>
+								<input type="checkbox" name="9 - How did you feel about the Skip Cards mechanic" value="It made the game too easy">It made the game too easy<br>
+								<input type="checkbox" name="9 - How did you feel about the Skip Cards mechanic" value="I had trouble understanding how to use it">I had trouble understanding how to use it
+							</div>
+							
+							<div>
+								10) How did you feel about the use of sound?<br>
+								<input type="checkbox" name="10 - How did you feel about the use of sound" value="It was appropriate">It was appropriate<br>
+								<input type="checkbox" name="10 - How did you feel about the use of sound" value="It made me understood the value of cards">It made me understood the value of cards<br>
+								<input type="checkbox" name="10 - How did you feel about the use of sound" value="It made me perform better">It made me perform better<br>
+								<input type="checkbox" name="10 - How did you feel about the use of sound" value="It kept me alert">It kept me alert<br>
+								<input type="checkbox" name="10 - How did you feel about the use of sound" value="There was too little variation">There was too little variation
+							</div>
+							
+							<div>
+								*11) Did you try to earn as much points as you could?<br>
+								<input type="radio" name="11 - Did you try to earn as much points as you could" value="Yes" required>Yes<br>
+								<input type="radio" name="11 - Did you try to earn as much points as you could" value="No, it was too hard">No, it was too hard<br>
+								<input type="radio" name="11 - Did you try to earn as much points as you could" value="No, I did not care">No, I did not care
+							</div>
+							
+							<div>
+								12) What would you like to see improved?<br>
+								<input type="checkbox" name="12 - What would you like to see improved" value="Improve the graphics">Improve the graphics<br>
+								<input type="checkbox" name="12 - What would you like to see improved" value="Improve the sound and music">Improve the sound and music<br>
+								<input type="checkbox" name="12 - What would you like to see improved" value="Make it more difficult">Make it more difficult<br>
+								<input type="checkbox" name="12 - What would you like to see improved" value="Make it less difficult">Make it less difficult<br>
+								<input type="checkbox" name="12 - What would you like to see improved" value="Make the game play faster">Make the game play faster<br>
+								<input type="checkbox" name="12 - What would you like to see improved" value="Make the game play slower">Make the game play slower<br>
+								<input type="checkbox" name="12 - What would you like to see improved" value="Award more points">Award more points<br>
+								<input type="checkbox" name="12 - What would you like to see improved" value="Add better instructions">Add better instructions<br>
+								<input type="checkbox" name="12 - What would you like to see improved" value="Add more choices to make">Add more choices to make<br>
+								Your own suggestion: <input type="text" name="12 - What would you like to see improved" value="">
+							</div>
+						</fieldset>
+								
+						<fieldset id="surveyAboutYou" class="surveySet">
+							<legend>About You</legend>
+							
+							<div>
+								*13) What is your name?<br>
+								<div class="name"> <p>First Name:</p> <input type="text" name="13 - First Name" value="" pattern="[A-Ža-ž]{2,30}" required title="Your first name has to be between 2 and 30 letters."> </div><br>
+								<div class="name"> <p>Last Name:</p> <input type="text" name="13 - Last Name" value="" pattern="[A-Ža-ž]{2,30}" required title="Your last name has to be between 2 and 30 letters."> </div><br>
+							</div>
+							
+							<div>
+								*14) What is your gender?<br>
+								<input type="radio" name="14 - Gender" value="Male" required>Male<br>
+								<input type="radio" name="14 - Gender" value="Female">Female
+							</div>
+							
+							<div>
+								*15) What is your age group:<br>
+								<input type="radio" name="15 - Age Group" value="-12" required>Younger than 12 years<br>
+								<input type="radio" name="15 - Age Group" value="12-17">Between 12 and 17 years<br>
+								<input type="radio" name="15 - Age Group" value="18-24">Between 18 and 24 years<br>
+								<input type="radio" name="15 - Age Group" value="25-34">Between 25 and 34 years<br>
+								<input type="radio" name="15 - Age Group" value="35-44">Between 35 and 44 years<br>
+								<input type="radio" name="15 - Age Group" value="45-54">Between 45 and 54 years<br>
+								<input type="radio" name="15 - Age Group" value="55-64">Between 55 and 64 years<br>
+								<input type="radio" name="15 - Age Group" value="65-74">Between 65 and 74 years<br>
+								<input type="radio" name="15 - Age Group" value="75+">75 years or older
+							</div>
+							
+							<div>
+								16) Any suggestions you like to add? (Optional)<br>
+								<textarea rows="4" cols="50" name="16 - Any suggestions you like to add"></textarea>
+							</div>
+							
+							<div>
+								*17) Would you like to be contacted again?<br>
+								<input type="radio" name="17 - Would you like to be contacted again" value="Yes" required>Yes
+								<div id="emailAddress" class="name">Email Address: <input type="email" name="Email Address" value="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Valid email address example: name@mail.com"></div><br>
+								<input type="radio" name="17 - Would you like to be contacted again" value="No">No
+							</div>
+						</fieldset>
+					</div>
+					
+                </form>
+                
+			</main>
+			
+		</div> <!-- End wrapper -->
+	</body>
+
+</html>

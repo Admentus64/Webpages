@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<title>Media Thesis Project - Memory Game Mash-Up</title>
+		<link rel="stylesheet" type="text/css" href="src/css/style.css">
+		<link rel="stylesheet" type="text/css" href="src/css/styleAdmin.css">
+		
+		<script type="text/javascript" src="src/jquery/jquery-3.4.0.js"></script>
+		<script type="text/javascript" src="src/js/events/Event.js"></script>
+		<script type="text/javascript" src="src/js/Cookie.js"></script>
+		
+		<script type="text/javascript" src="src/js/page/IndexScript.js"></script>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			
+			<header>
+				<h1>Media Thesis Project - Memory Game Mash-Up</h1>
+			</header>
+			
+			<main>
+				<h1>Apply for the Memory Game Mash-Up Experiment</h1>
+				
+				<form>
+					<fieldset>
+						<legend>Run Test</legend>
+						<input id="runTestBtn" type="button" value="Run Test">
+						<br>* There are 6 presets in total that will be ran.
+						<br>* Please conclude them all.
+						<br>* Google Chrome works the best.
+					</fieldset>
+				</form>
+				
+				<form>
+					<fieldset>
+						<legend>Reset Test</legend>
+						<input id ="resetTestBtn" type="button" value="Reset Test">
+						<br>* Resets your progress on the experiment test.
+						<br>* Let's you start from the first preset again.
+					</fieldset>
+				</form>
+				
+				<form>
+					<fieldset>
+						<legend>Survey</legend>
+						<input id ="surveyBtn" type="button" value="Go To Survey">
+						<br>* Let's you access the survey page if you can not find it.
+						<br>* The survey page is only available after the experiment test.
+					</fieldset>
+				</form>
+				
+				<div id="instructions">
+					<p>Welcome to the Memory Game Mash-Up experiment! Please take your time go complete all six rounds.</p>
+					<p>Each new round brings some changes to the gameplay and/or presentation.</p>
+					
+					<p>Don't remember the cards anymore?<br>Skip them by pressing on them with the Right Mouse Button.</p>
+					
+					<b>Rules</b>
+					<ul>
+						<img id="rightMouseButtonImg" src="src/img/rightMouseButton.png" alt="Right Mouse Button">
+						<li>Press the Left or Right Mouse Button on a card
+							<ul>
+								<li>Left Button: Swap a card
+								<li>Right Button: Skip two cards
+							</ul>
+						</li>
+						<li>If one card is swapped then a skip will swap it's remaining counterpart.
+						<li>If two equal bricks are swapped:
+							<ul>
+								<li>Earn points (equal to the card's value)</li>
+								<li>Gain additional time</li>
+								<li>Both cards are removed</li>
+							</ul>
+						</li>
+						<li>If you clear a row or column:
+							<ul>
+								<li>Gain more additional time than usual</li>
+								<li>All cards reset</li>
+								<li>The difficulty can increase</li>
+							</ul>
+						</li>
+						<li>A higher difficulty level means:
+							<ul>
+								<li>You played long enough to advance</li>
+								<li>More bricks are added into the field</li>
+							</ul>
+						</li>
+					</ul>
+					
+					<b>Please 'Run Test' to begin the game.</b>
+				</div>
+				
+			</main>
+			
+		</div> <!-- End wrapper -->
+	</body>
+
+</html>

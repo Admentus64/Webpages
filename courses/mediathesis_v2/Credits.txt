@@ -1,0 +1,76 @@
+--- img ---
+
+https://code.google.com/archive/p/vector-playing-cards/
+Public Domain
+brick
+
+Robert Willem Hallink (self-made)
+brick_outdated
+
+Robert Willem Hallink (self-made)
+clock
+
+
+
+--- mp3 ---
+
+http://freemusicarchive.org/music/State_Shirt/This_Is_Old/04_Computer
+Computer.mp3
+
+http://freemusicarchive.org/music/Loyalty_Freak_Music/ROBOT_DANCE_/Loyalty_Freak_Music_-_ROBOT_DANCE__-_04_It_feels_good_to_be_alive_too
+ItFeelsGoodToBeAlive.mp3
+
+http://freemusicarchive.org/music/krackatoa/krackatoa_-_Singles/Krackatoa_-_Dining_on_Backs_of_the_Brave_-_09_Mariachi_Bandits_of_Gatling_Gun_Ridge
+MariachiBanditsOfGatlingGunRidge.mp3
+
+http://freemusicarchive.org/music/Ghost_Hunter/In_The_Early_Months/03_ghost_hunter_-_old_white_eye
+OldWhiteEye.mp3
+
+http://freemusicarchive.org/music/Jahzzar/Travellers_Guide/Siesta
+Siesta.mp3
+
+
+
+--- wav ---
+
+https://freesound.org/people/JapanYoshiTheGamer/sounds/423219/
+badSet1.wav
+
+Game Maker 8 (2009)
+badSet2.wav
+
+Game Maker 8 (2009)
+badSetHighValue.wav
+
+https://freesound.org/people/phmiller42/sounds/124996/
+badSetJoker.wav
+
+Game Maker 7 (2007)
+click.wav
+
+https://freesound.org/people/SailorErick/sounds/430769/
+completeRow.wav
+
+https://freesound.org/people/Mudkip2016/sounds/423930/
+goodSet.wav
+
+Game Maker 8 (2009)
+goodSetHighValue.wav
+
+Game Maker 8 (2009)
+goodSetJoker.wav
+
+https://freesound.org/people/maphill/sounds/204103/
+ready.wav
+
+https://freesound.org/people/creeeeak/sounds/437322/
+refill.wav
+
+Game Maker 8 (2009)
+skip.wav
+
+https://freesound.org/people/dersuperanton/sounds/434476/
+swap.wav
+
+https://freesound.org/people/InspectorJ/sounds/370195/
+timerOver.wav

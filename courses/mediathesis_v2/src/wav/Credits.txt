@@ -1,0 +1,41 @@
+https://freesound.org/people/JapanYoshiTheGamer/sounds/423219/
+badSet1.wav
+
+Game Maker 8 (2009)
+badSet2.wav
+
+Game Maker 8 (2009)
+badSetHighValue.wav
+
+https://freesound.org/people/phmiller42/sounds/124996/
+badSetJoker.wav
+
+Game Maker 7 (2007)
+click.wav
+
+https://freesound.org/people/SailorErick/sounds/430769/
+completeRow.wav
+
+https://freesound.org/people/Mudkip2016/sounds/423930/
+goodSet.wav
+
+Game Maker 8 (2009)
+goodSetHighValue.wav
+
+Game Maker 8 (2009)
+goodSetJoker.wav
+
+https://freesound.org/people/maphill/sounds/204103/
+ready.wav
+
+https://freesound.org/people/creeeeak/sounds/437322/
+refill.wav
+
+Game Maker 8 (2009)
+skip.wav
+
+https://freesound.org/people/dersuperanton/sounds/434476/
+swap.wav
+
+https://freesound.org/people/InspectorJ/sounds/370195/
+timerOver.wav

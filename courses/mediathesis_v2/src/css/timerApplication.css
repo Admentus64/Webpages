@@ -1,0 +1,47 @@
+.clock-window-wrapper {
+	width:				15vh;
+	height:				7.5vh;
+	background:			url(../img/clock/clock-bg.png) no-repeat;
+	background-size:	contain;
+}
+
+.clock-digit-wrapper li {
+	width:				2.5vh;
+	height:				5vh;
+	list-style:			none;
+	float:				left;
+}
+
+.clock-digit-wrapper {
+	display:			inline-block;
+	margin-top:			7.5%;
+	margin-left: 		10%;
+}
+
+#timers p {
+	text-align:			center;
+	margin-bottom:		10px;
+	margin-top:			10px;
+}
+
+#timers	{
+	float:				right;
+	margin-right:		15%;
+	position:absolute;
+	top:50vh;
+	right:5%;
+}
+
+.clock-content-wrapper .minute				{ margin-right:			1%; }
+.clock-digit-wrapper li:first-child			{ margin-right:			1px; }
+
+.clock-digit-wrapper .clock-digit-zero		{ background: url(../img/clock/0.png) no-repeat; background-size:contain; }
+.clock-digit-wrapper .clock-digit-one		{ background: url(../img/clock/1.png) no-repeat; background-size:contain; }
+.clock-digit-wrapper .clock-digit-two		{ background: url(../img/clock/2.png) no-repeat; background-size:contain; }
+.clock-digit-wrapper .clock-digit-three		{ background: url(../img/clock/3.png) no-repeat; background-size:contain; }
+.clock-digit-wrapper .clock-digit-four		{ background: url(../img/clock/4.png) no-repeat; background-size:contain; }
+.clock-digit-wrapper .clock-digit-five		{ background: url(../img/clock/5.png) no-repeat; background-size:contain; }
+.clock-digit-wrapper .clock-digit-six		{ background: url(../img/clock/6.png) no-repeat; background-size:contain; }
+.clock-digit-wrapper .clock-digit-seven		{ background: url(../img/clock/7.png) no-repeat; background-size:contain; }
+.clock-digit-wrapper .clock-digit-eight		{ background: url(../img/clock/8.png) no-repeat; background-size:contain; }
+.clock-digit-wrapper .clock-digit-nine		{ background: url(../img/clock/9.png) no-repeat; background-size:contain; }
