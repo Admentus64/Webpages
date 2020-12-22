@@ -1,0 +1,112 @@
+<!--
+	HyperText Markup Language Document
+	Author:		Admentus
+-->
+
+<!DOCTYPE html>
+	
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Boxinator example.">
+		<title>Boxinator</title>
+        
+        <link rel="stylesheet" href="src/css/style.css" rel="stylesheet">
+		<link href="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.css" rel="stylesheet">
+		
+		<script src="src/js/main.js"></script>
+		<script src="src/js/logic.js"></script>
+        <script src="src/js/request.js"></script>
+		
+		<script src="http://chaijs.com/chai.js"></script>
+		<script src="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.js"></script>
+		
+	</head>
+    
+    <body>
+		<header>
+				<h1>Boxinator</h1>
+		</header>
+	
+			<main>
+				<div id="wrapper">
+					
+					<div id="right_side">
+						<div id="info">
+							<b>--- Info ---</b>
+							<br>
+							<p id="info_para"></p>
+						</div>
+						
+						<div>
+							<button id="reset_btn" value="reset">Reset</button>
+							<button id="listboxes_btn" value="listboxes">List Boxes</button>
+							<button id="addbox_btn" value="addbox">Add Box</button>
+							<button id="unit_tests_btn" value="unit_tests">Unit Tests</button>
+						</div>
+					</div>
+					
+					<div id="left_side">
+						<form id="addbox_form">
+							<p><b>Name</b></p>
+							<input id="name" type="text" required></input>
+							
+							<p><b>Weight</b></p>
+							<input id="weight" type="text" required></input>
+							
+							<p><b>Box colour</b> (Click to show colour picker)</p>
+							<input id="box_colour" type="color" value="#00FF00"></input>
+							
+							<p><b>Country</b></p>
+							<select id="country" required>
+								<option value="Sweden"    data-multiplier="1.3">Sweden</option>
+								<option value="China"     data-multiplier="4.0">China</option>
+								<option value="Brazil"    data-multiplier="8.6">Brazil</option>
+								<option value="Australia" data-multiplier="7.2">Australia</option>
+							</select>
+						
+							<button id="save_btn">Save</button>
+						</form>
+					
+						<div id="listboxes_div">
+							<table id="listboxes_table"></table>
+							
+							<table id="listboxes_total">
+								<tr>
+									<th>Total Weight:</th>
+									<td id="listboxes_totalWeight"></td>
+									<td>Kilograms</td>
+								</tr>
+								<tr>
+									<th>Totalt Shipping Cost:</th>
+									<td id="listboxes_totalCost"></td>
+									<td>SEK</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					
+				</div>
+				
+				<div id="mocha-wrapper" class="hide">
+					<div id="mocha-info"> <b>--- Mocha Unit Testing ---</b> </div>
+					<div id="mocha"></div>
+				</div>
+				
+            </main>
+		
+	</body>
+
+</html>
+
+
+
+<!-- Mocha Unit Tests with Chai -->
+<script>
+	var expect = chai.expect;
+	mocha.setup('bdd');
+</script>
+<script src="src/test/box.js"></script>
+<script src="src/test/box.test.js"></script>
+<script>mocha.run();</script>
